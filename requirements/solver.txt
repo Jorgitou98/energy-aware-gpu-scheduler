@@ -1,0 +1,3 @@
+# Optional: Exact, fixed-frequency, and Sequential solving require a valid license.
+numpy==2.2.5
+gurobipy==13.0.3
