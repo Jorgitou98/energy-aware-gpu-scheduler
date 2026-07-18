@@ -1,0 +1,208 @@
+{
+  "schema": "batch_validation_plan_v1",
+  "created": "2026-10-21",
+  "configurations": [
+    {
+      "id": "lr_b8_k1_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 8,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "lr_b8_k2_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 8,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "lr_b8_k4_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 8,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "lr_b32_k1_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 32,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "lr_b32_k2_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 32,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "lr_b32_k4_f1200",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 32,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "lr_b8_k4_f900",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 8,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 0
+    },
+    {
+      "id": "lr_b32_k4_f900",
+      "arch": "lraspp_mobilenet_v3_large",
+      "batch": 32,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 1
+    },
+    {
+      "id": "dl_b4_k1_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 4,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "dl_b4_k2_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 4,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "dl_b4_k4_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 4,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "dl_b16_k1_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 16,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "dl_b16_k2_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 16,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "dl_b16_k4_f1200",
+      "arch": "deeplabv3_resnet50",
+      "batch": 16,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "dl_b4_k4_f900",
+      "arch": "deeplabv3_resnet50",
+      "batch": 4,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 2
+    },
+    {
+      "id": "dl_b16_k4_f900",
+      "arch": "deeplabv3_resnet50",
+      "batch": 16,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 0
+    },
+    {
+      "id": "fr_b2_k1_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 2,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "fr_b2_k2_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 2,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "fr_b2_k4_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 2,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "fr_b8_k1_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 8,
+      "slices": 1,
+      "frequency_MHz": 1200,
+      "lane": 1
+    },
+    {
+      "id": "fr_b8_k2_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 8,
+      "slices": 2,
+      "frequency_MHz": 1200,
+      "lane": 2
+    },
+    {
+      "id": "fr_b8_k4_f1200",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 8,
+      "slices": 4,
+      "frequency_MHz": 1200,
+      "lane": 0
+    },
+    {
+      "id": "fr_b2_k4_f900",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 2,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 1
+    },
+    {
+      "id": "fr_b8_k4_f900",
+      "arch": "fasterrcnn_resnet50_fpn_v2",
+      "batch": 8,
+      "slices": 4,
+      "frequency_MHz": 900,
+      "lane": 2
+    }
+  ],
+  "rates": [
+    0.3,
+    0.6,
+    0.8
+  ],
+  "repetitions": [
+    0,
+    1
+  ],
+  "power_cap_W": 165
+}

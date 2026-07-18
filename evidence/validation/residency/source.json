@@ -1,0 +1,60 @@
+{
+  "archive": "Tabla_6_pares_de_potencia_disponibles.zip",
+  "archive_sha256": "e160c8acbf025f5ad299cffa10cd9984d3cbed23f39a22b08cf82f58e6e13085",
+  "archived_commit": "98d7a94c3794659ace5a6ac09543ad4724761643",
+  "files": {
+    "concurrent_0.json": {
+      "member": "data/residency/raw/concurrent_0.json",
+      "sha256": "a919b490d72dd7ea7d04972eaf1f36ae8f46968c7c2b0980252c50b65b7057a5"
+    },
+    "concurrent_1.json": {
+      "member": "data/residency/raw/concurrent_1.json",
+      "sha256": "95d188754c624f676446199b317c1bc8514251940bfa4efc7db9bf88773df392"
+    },
+    "summary.json": {
+      "member": "data/residency/raw/summary.json",
+      "sha256": "8474dc2735da72ee41ecdf4eb268164565d4818f474cd556955d7c79d1a61c57"
+    },
+    "protocol.json": {
+      "member": "data/residency/raw/protocol.json",
+      "sha256": "daaf3a4fb83abf75a2cce7fd346a2ee97429d66571c007141321d208f8b5c73a"
+    },
+    "base_0.json": {
+      "member": "data/residency/raw/base_0.json",
+      "sha256": "57ac33580e98caf32b1a2fc73ea76de6e0eac0b38b2b273fbf1be6b8ae27b3a4"
+    },
+    "base_1.json": {
+      "member": "data/residency/raw/base_1.json",
+      "sha256": "9462f5f8de197aee9f64481ebaea11fd67788b2981be6c2473f3f4802006913d"
+    },
+    "base_2.json": {
+      "member": "data/residency/raw/base_2.json",
+      "sha256": "eb9f085b6bdcb4f90434a1be69a139baae8e0bf88ccb44ae4632620d7a0966b2"
+    },
+    "base_3.json": {
+      "member": "data/residency/raw/base_3.json",
+      "sha256": "bc50035c94cffd7830a3c868328589807cc55aa77f3588a69387892e02d948f8"
+    },
+    "base_4.json": {
+      "member": "data/residency/raw/base_4.json",
+      "sha256": "fcb2400bd39ee91ae6aa63236500d0fdf3786cdc3d1fb42d150ecc3bea8f1fb9"
+    },
+    "loaded_c1_0.json": {
+      "member": "data/residency/raw/loaded_c1_0.json",
+      "sha256": "31a04425f57c0c7b8d76af19c0b614a944000d6ce1a97f88e497c904c06972fd"
+    },
+    "loaded_c1_3.json": {
+      "member": "data/residency/raw/loaded_c1_3.json",
+      "sha256": "4334e496c9f0c043cd53d8caae431549baac160e047ccb72c5a051b4b93ca5f8"
+    },
+    "loaded_c2_1.json": {
+      "member": "data/residency/raw/loaded_c2_1.json",
+      "sha256": "06ef6628dd3944ab66f5df9d25dfe7b523c97a89e1305d6393cfa5a38fbb1061"
+    },
+    "loaded_c2_2.json": {
+      "member": "data/residency/raw/loaded_c2_2.json",
+      "sha256": "aa810b1b442ae3d25ce68a7281122e5945fb9e1a23ecf8f1b5b882e24df59a58"
+    }
+  },
+  "scope": "Original concurrent acquisitions used in Figure 1, with calibration records for the separate archived Residency prediction."
+}

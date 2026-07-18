@@ -1,0 +1,28 @@
+{
+  "schema": "replica-power-example-v1",
+  "inputs": {
+    "baseline": 41.72584571428571,
+    "residency": [
+      0.42122820984199477,
+      0.5210366397039146
+    ],
+    "energy_per_request": [
+      0.1012526096,
+      1.27967625899
+    ],
+    "rate": [
+      86.21525094849424,
+      11.115537707215442
+    ],
+    "measured": [
+      65.02414030443416,
+      66.02999867461895
+    ]
+  },
+  "summary_source": {
+    "file": "models_example_power_breakdown_provenance.json",
+    "sha256": "514bd77f32c851293d6ade5ad4d1347836d0c9158aae8e364c2957b799acd936",
+    "protocol": "Targeted 2026-10-09 experiment, ocejon A30 GPU0, 1200 MHz; two 2g.12gb replicas, FP32, batch 1. e values average both counterbalanced single-replica repetitions relative to time-interpolated bracketing no-instance baselines. alpha uses separate single-busy stages with both replicas resident. Prediction uses the final pre-deployment no-instance baseline, not fitted to concurrent data. Measurement averages both concurrent runs."
+  },
+  "scope": "Figure calibration coefficients and concurrent-run means. The original measurements for those two means are included under evidence/validation/residency."
+}

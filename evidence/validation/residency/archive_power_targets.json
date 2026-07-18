@@ -1,0 +1,23 @@
+{
+  "schema": "published-residency-power-targets-v1",
+  "source": {
+    "original_file": "data/tables/validation_groups.json",
+    "original_sha256": "3a411f8fabb0b3159e8ebcb87ae3c3bb6026136e8dea9ddc724b53ad09e0df13",
+    "original_pointer": "/groups/Residency"
+  },
+  "targets": [
+    {
+      "target": "concurrent_0",
+      "predicted_power_W": 65.62878510049177,
+      "measured_power_W": 65.02414030443416,
+      "absolute_error_percent": 0.9298774166436475
+    },
+    {
+      "target": "concurrent_1",
+      "predicted_power_W": 65.62878510049177,
+      "measured_power_W": 66.02999867461895,
+      "absolute_error_percent": 0.6076231745880748
+    }
+  ],
+  "scope": "Archived Residency power pairs for verification against the original concurrent-run telemetry and calibration."
+}

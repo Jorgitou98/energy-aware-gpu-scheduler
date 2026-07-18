@@ -1,0 +1,127 @@
+{
+  "schema": "experiment-data-catalog-v1",
+  "datasets": [
+    {
+      "paths": [
+        "data/inputs/catalog.json"
+      ],
+      "contents": "Configuration profiles labeled measured, with load-dependent values and calibration summaries",
+      "record_scope": "Configuration-level calibration summaries, load-dependent values and source identifiers (paths and digests)."
+    },
+    {
+      "paths": [
+        "evidence/model_examples/",
+        "evidence/validation/"
+      ],
+      "contents": "Figure 1 run means and coefficients, Figure 2 nominal calibration and Batched MIG acquisition plan",
+      "record_scope": "Figure 1 inputs are run summaries. The Figure 2 nominal profile reproduces the 160 ms deadline crossings. The supplied Batched MIG plan documents the intended configuration and repetition design. The original concurrent-run telemetry and archived Residency calibration support a separate check."
+    },
+    {
+      "paths": [
+        "evidence/model_examples/figure2b/admission_example_data_1024.json",
+        "evidence/model_examples/figure2b/window_samples_9x1024.npz",
+        "evidence/model_examples/figure2b/verification.json",
+        "evidence/model_examples/figure2b/source.json"
+      ],
+      "contents": "Figure 2(b) simulation parameters, archived statistics, regenerated window means and request counts, and source provenance",
+      "record_scope": "The archived JSON includes the first 24 window means per rate. The NPZ contains 1,024 regenerated window means and request counts per rate for nine rates, using a 10 s warm-up, a 45 s observation window and seed 2026102517. The audit verifies the saved evidence numerically. The optional CPU replay compares all saved windows and counts."
+    },
+    {
+      "paths": [
+        "data/inputs/admission_grid.csv",
+        "data/inputs/admission_grid_samples.json",
+        "data/inputs/admission_grid_samples.npz",
+        "data/inputs/admission_simulation_source.npz"
+      ],
+      "contents": "Simulated window-response means, request counts, per-row seeds and parameters, nested sample prefixes, and the row-wise P95/P99 quantiles used by the admission planner",
+      "processing": "The 256/512-window arrays are exact prefixes of each 1024-window simulation row. P95/P99 use linear quantile interpolation. Audits check all 7,938 quantiles, source checksums, seeds, parameters and configuration/rate mappings. The simulation protocol is recorded in admission_grid_samples.json."
+    },
+    {
+      "paths": [
+        "data/tables/validation_errors.json",
+        "data/tables/power_holdout_original.csv",
+        "data/tables/response_group_statistics.json"
+      ],
+      "contents": "Archived response errors, Figure 4 response pairs, and author-supplied power comparisons for Table 6.",
+      "record_scope": "Paired MIG and Full GPU use archived response errors. Batched MIG uses the 69 analytical predictions and observed responses from Figure 4. All four power groups use the CSV of 166 pairs. The Paired MIG power cohort excludes one throttled run."
+    },
+    {
+      "paths": [
+        "data/tables/predicted_efficiency_pairs.json",
+        "data/tables/measured_efficiency_pairs.json"
+      ],
+      "contents": "Predicted objective pairs and measured comparison records for Table 7",
+      "record_scope": "The five Exact-relative rows use completed utility and energy through drain for two archived repetitions per workload. The two measured occupancy rows are manuscript summaries."
+    },
+    {
+      "paths": [
+        "data/tables/published_tables.json"
+      ],
+      "contents": "Publication table statistics used as comparison targets",
+      "record_scope": "Printed targets and explicitly identified summary-only cells."
+    },
+    {
+      "paths": [
+        "evidence/response_time/component_observations.json",
+        "evidence/response_time/long_components.json",
+        "evidence/response_time/simulated_window_means.npz",
+        "evidence/response_time/simulation_samples.json",
+        "evidence/response_time/publication_data.json"
+      ],
+      "contents": "Numerical inputs for Figure 4",
+      "record_scope": "Panel (a) covers 45 s and 900 s windows. Panel (b) uses linear P95 across the supplied window means. The checks cover the window metadata and agreement with the numerical reference."
+    },
+    {
+      "paths": [
+        "evidence/admission/observations.json",
+        "evidence/admission/physical_blocks_r2.json",
+        "evidence/admission/objective_observations.json",
+        "evidence/admission/preprocessing.json",
+        "evidence/admission/publication_data.json"
+      ],
+      "contents": "969 logical admission blocks from one acquisition campaign, modeled objective comparisons, shared preprocessing time and Figure 7 summaries",
+      "record_scope": "Window means and request counts cover all feasible deployments. The denominator includes all offered requests. Objective losses and elapsed preprocessing time use separate archived records."
+    },
+    {
+      "paths": [
+        "evidence/admission/raw_r2/"
+      ],
+      "contents": "Figure 7 acquisition archive in ordered parts, with a manifest for byte-for-byte restoration",
+      "record_scope": "The 969 logical blocks correspond to 797 distinct physical runs and 172 aliases. The archive contains request timestamps, NVML GPU samples, completion certificates and inventories for both acquisition lanes. The default numerical audit continues to use the compact Figure 7 inputs."
+    },
+    {
+      "paths": [
+        "results/planning/"
+      ],
+      "contents": "Per-case plans, objective values and timing records for the 112 supplied workloads.",
+      "record_scope": "Timing scopes are described in results/planning/README.md."
+    },
+    {
+      "paths": [
+        "results/occupancy/",
+        "experiments/occupancy/"
+      ],
+      "contents": "Supplied occupancy-policy outcomes and paired predicted objectives",
+      "record_scope": "The 112 seed-0 outcomes and the frozen ranking and grid reproduce Figure 6 and the predicted occupancy columns of Table 7."
+    },
+    {
+      "paths": [
+        "results/scaling/",
+        "data/inputs/scaling_cases.json"
+      ],
+      "contents": "Supplied scaling publication records for four methods and 40 workloads, descriptive statistics, workload design and frozen batch-1 workload inputs.",
+      "record_scope": "Compact per-case records contain total planning times, objective ratios and losses; the checks validate their arithmetic and workload-input consistency."
+    },
+    {
+      "paths": [
+        "figures/reference/"
+      ],
+      "contents": "Reference PDFs for the eight figure entry points",
+      "record_scope": "Figure 2 is exported from its supplied PDF; the other figure entry points render from distributed inputs."
+    }
+  ],
+  "input_identities": "provenance/input_manifest.json",
+  "distributed_file_identities": "provenance/manifest.json",
+  "scope": "Inventory of distributed datasets, record fields and processing. Checks validate file identity and arithmetic consistency.",
+  "data_guide": "docs/data.md"
+}

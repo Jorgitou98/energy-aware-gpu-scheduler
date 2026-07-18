@@ -1,0 +1,30 @@
+{
+  "host": "device_A",
+  "gpu": 0,
+  "frequency_MHz": 1200,
+  "instance": "2g.12gb",
+  "specs": [
+    [
+      "lraspp_mobilenet_v3_large",
+      1
+    ],
+    [
+      "deeplabv3_resnet50",
+      1
+    ]
+  ],
+  "rates": [
+    86.21525094849424,
+    11.115537707215442
+  ],
+  "individual_order": [
+    0,
+    1,
+    1,
+    0
+  ],
+  "idle_duration_s": 18,
+  "idle_settle_s": 8,
+  "definition": "e includes the increment from no MIG instances/model to one 2g instance with a loaded, warmed replica.",
+  "note": "No nonnegative clamping. Repeated bracketing is used to diagnose thermal/idle drift. Concurrent validation is held out from calibration."
+}
