@@ -1,0 +1,23 @@
+{
+  "source": {
+    "original_file": "data/tables/validation_groups.json",
+    "original_sha256": "3a411f8fabb0b3159e8ebcb87ae3c3bb6026136e8dea9ddc724b53ad09e0df13"
+  },
+  "scope": "Full precision summary statistics matching the published response-time row; no individual targets are implied.",
+  "groups": {
+    "Paired MIG": {
+      "n": 72,
+      "mean": 8.151728928327676,
+      "median": 5.260334075621521,
+      "p90": 14.747441039652495,
+      "maximum": 44.85725273632875
+    },
+    "Full GPU": {
+      "n": 42,
+      "mean": 8.193668472239272,
+      "median": 5.318121052913503,
+      "p90": 16.796668010702202,
+      "maximum": 38.76226072675473
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schema": "feasible-rate-nominal-example-v1",
+  "configuration": "full_f900_deeplabv3_resnet50_b4_r0",
+  "profile": {
+    "B": 4,
+    "points": [
+      [
+        16.455207051556656,
+        0.0731484883536513,
+        3.0494055838881526e-06
+      ],
+      [
+        32.91041410311331,
+        0.07302811263852622,
+        3.5203340959106905e-06
+      ],
+      [
+        43.88055213748442,
+        0.07296205542708209,
+        1.4728058144833871e-06
+      ],
+      [
+        54.850690171855526,
+        0.07292524464992862,
+        1.1197685623186283e-06
+      ]
+    ]
+  },
+  "deadline_s": 0.16,
+  "nominal_interval_requests_s": [
+    18.22713213767475,
+    47.05359893619434
+  ],
+  "summary_source": {
+    "file": "models_example_power_breakdown_provenance.json",
+    "sha256": "514bd77f32c851293d6ade5ad4d1347836d0c9158aae8e364c2957b799acd936"
+  },
+  "scope": "Nominal inputs for Figure 2(a). The simulation evidence for Figure 2(b) is in figure2b/."
+}

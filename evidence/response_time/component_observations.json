@@ -1,0 +1,2144 @@
+{
+  "schema": "response-components-v1",
+  "records": [
+    {
+      "cell_id": "lr_b8_k1_f1200__rho030",
+      "config_id": "lr_b8_k1_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.053782480476467415,
+        "batchfill": 0.07790671626054164,
+        "queue": 0.0014545979728692576,
+        "response": 0.13314379470987833
+      },
+      "measured_short_components_s": {
+        "execution": 0.053396038027153904,
+        "batchfill": 0.08024989119762477,
+        "queue": 0.000584280052234332,
+        "response": 0.134230209277013
+      },
+      "measured_long_batchfill_s": 0.07884817741043203,
+      "measured_long_response_s": 0.13244564777848564,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k1_f1200__rho060",
+      "config_id": "lr_b8_k1_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.05362575529584077,
+        "batchfill": 0.03895335813027082,
+        "queue": 0.0050760316380894545,
+        "response": 0.09765514506420105
+      },
+      "measured_short_components_s": {
+        "execution": 0.053644463527413706,
+        "batchfill": 0.03967378189700131,
+        "queue": 0.009812719597323032,
+        "response": 0.10313096502173805
+      },
+      "measured_long_batchfill_s": 0.039255013551818256,
+      "measured_long_response_s": 0.09420139589695356,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k1_f1200__rho080",
+      "config_id": "lr_b8_k1_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.053469602588539375,
+        "batchfill": 0.029215018597703115,
+        "queue": 0.013427932928010847,
+        "response": 0.09611255411425335
+      },
+      "measured_short_components_s": {
+        "execution": 0.054232667578812746,
+        "batchfill": 0.030392779800946953,
+        "queue": 0.013457892942664524,
+        "response": 0.09808334032242423
+      },
+      "measured_long_batchfill_s": 0.028973415047478576,
+      "measured_long_response_s": 0.09085587806594574,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho030",
+      "config_id": "lr_b8_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.02793812349416158,
+        "batchfill": 0.0401376242858332,
+        "queue": 0.0007646301111884281,
+        "response": 0.0688403778911832
+      },
+      "measured_short_components_s": {
+        "execution": 0.027935840752368997,
+        "batchfill": 0.04006546580723869,
+        "queue": 0.0010508295795897803,
+        "response": 0.06905213613919746
+      },
+      "measured_long_batchfill_s": 0.04022998600257726,
+      "measured_long_response_s": 0.06805126755678402,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho060",
+      "config_id": "lr_b8_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.027718702915800603,
+        "batchfill": 0.0200688121429166,
+        "queue": 0.0026455658958411442,
+        "response": 0.05043308095455835
+      },
+      "measured_short_components_s": {
+        "execution": 0.02763856651601893,
+        "batchfill": 0.01974306594434549,
+        "queue": 0.004422945046067355,
+        "response": 0.051804577506431776
+      },
+      "measured_long_batchfill_s": 0.02005060534615494,
+      "measured_long_response_s": 0.048548291243954864,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho080",
+      "config_id": "lr_b8_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.0275638358485047,
+        "batchfill": 0.01505160910718745,
+        "queue": 0.006942832286419905,
+        "response": 0.04955827724211206
+      },
+      "measured_short_components_s": {
+        "execution": 0.0275638358485047,
+        "batchfill": 0.015549550342656227,
+        "queue": 0.009535669588613363,
+        "response": 0.052649055779774294
+      },
+      "measured_long_batchfill_s": 0.015134942360693496,
+      "measured_long_response_s": 0.046925649496131254,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho030",
+      "config_id": "lr_b8_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.015497143082164166,
+        "batchfill": 0.022294025047091007,
+        "queue": 0.0004235439947293649,
+        "response": 0.03821471212398454
+      },
+      "measured_short_components_s": {
+        "execution": 0.015972287563351388,
+        "batchfill": 0.02288815148727153,
+        "queue": 0.000713945607788856,
+        "response": 0.03957438465841178
+      },
+      "measured_long_batchfill_s": 0.022229821872374107,
+      "measured_long_response_s": 0.037809229262827294,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho060",
+      "config_id": "lr_b8_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.015445380264994715,
+        "batchfill": 0.011147012523545503,
+        "queue": 0.001487017665646431,
+        "response": 0.02807941045418665
+      },
+      "measured_short_components_s": {
+        "execution": 0.015698347758695812,
+        "batchfill": 0.011338023941797162,
+        "queue": 0.002612449352565704,
+        "response": 0.029648821053058678
+      },
+      "measured_long_batchfill_s": 0.01111321132576394,
+      "measured_long_response_s": 0.02706220612420499,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho080",
+      "config_id": "lr_b8_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.015379915988370588,
+        "batchfill": 0.008360259392659128,
+        "queue": 0.003966488008046852,
+        "response": 0.02770666338907657
+      },
+      "measured_short_components_s": {
+        "execution": 0.015303320039721388,
+        "batchfill": 0.008216138284402433,
+        "queue": 0.00485054622831673,
+        "response": 0.028370004552440552
+      },
+      "measured_long_batchfill_s": 0.008359210600662153,
+      "measured_long_response_s": 0.026305089950185868,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho030",
+      "config_id": "lr_b32_k1_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.20219164319891245,
+        "batchfill": 0.3257738848373669,
+        "queue": 0.0013580456729076964,
+        "response": 0.529323573709187
+      },
+      "measured_short_components_s": {
+        "execution": 0.20106942692208862,
+        "batchfill": 0.32046484869425257,
+        "queue": 0.006616552208759917,
+        "response": 0.5281508278251011
+      },
+      "measured_long_batchfill_s": 0.32773215941310335,
+      "measured_long_response_s": 0.5293264559039376,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.725654396642414,
+          "arrival_end_s": 51.72565439664241,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.725654396642414,
+          "arrival_end_s": 906.7256543966424,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho060",
+      "config_id": "lr_b32_k1_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.2020535092033884,
+        "batchfill": 0.16288694241868346,
+        "queue": 0.004752428080533388,
+        "response": 0.3696928797026053
+      },
+      "measured_short_components_s": {
+        "execution": 0.201993917175823,
+        "batchfill": 0.15890523233270598,
+        "queue": 0.008037568972854535,
+        "response": 0.36893671848138354
+      },
+      "measured_long_batchfill_s": 0.16284997756920605,
+      "measured_long_response_s": 0.364481031003106,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho080",
+      "config_id": "lr_b32_k1_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.20195120914791853,
+        "batchfill": 0.12216520681401259,
+        "queue": 0.012679286595412917,
+        "response": 0.33679570255734403
+      },
+      "measured_short_components_s": {
+        "execution": 0.20447040774347147,
+        "batchfill": 0.1222007989256396,
+        "queue": 0.031046825141413034,
+        "response": 0.3577180318105241
+      },
+      "measured_long_batchfill_s": 0.12246319448975425,
+      "measured_long_response_s": 0.32743410911193066,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho030",
+      "config_id": "lr_b32_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.10344147893854162,
+        "batchfill": 0.16647167621783054,
+        "queue": 0.0006959549951078014,
+        "response": 0.27060911015148
+      },
+      "measured_short_components_s": {
+        "execution": 0.10352172404461923,
+        "batchfill": 0.17309419039991794,
+        "queue": 0.007888184148423454,
+        "response": 0.2845040985929606
+      },
+      "measured_long_batchfill_s": 0.16680276330215632,
+      "measured_long_response_s": 0.27005924771252143,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho060",
+      "config_id": "lr_b32_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.10340732697460969,
+        "batchfill": 0.08323583810891527,
+        "queue": 0.002441577682211015,
+        "response": 0.18908474276573597
+      },
+      "measured_short_components_s": {
+        "execution": 0.10368770229269882,
+        "batchfill": 0.08512795106633222,
+        "queue": 0.006216904612847172,
+        "response": 0.19503255797187818
+      },
+      "measured_long_batchfill_s": 0.08332295621536272,
+      "measured_long_response_s": 0.18660801072441718,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho080",
+      "config_id": "lr_b32_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.1032890901688982,
+        "batchfill": 0.06242687858168645,
+        "queue": 0.006514059482032038,
+        "response": 0.17223002823261668
+      },
+      "measured_short_components_s": {
+        "execution": 0.10247982004533862,
+        "batchfill": 0.06145283924889497,
+        "queue": 0.011996309248190468,
+        "response": 0.17592896854242404
+      },
+      "measured_long_batchfill_s": 0.06225893342293958,
+      "measured_long_response_s": 0.16704269282556652,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho030",
+      "config_id": "lr_b32_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.055416830733531354,
+        "batchfill": 0.08915730804428872,
+        "queue": 0.00037306735028399895,
+        "response": 0.14494720612810408
+      },
+      "measured_short_components_s": {
+        "execution": 0.05526611333113227,
+        "batchfill": 0.08718535443034313,
+        "queue": 0.00023381562775861395,
+        "response": 0.142685283389234
+      },
+      "measured_long_batchfill_s": 0.08993223622080396,
+      "measured_long_response_s": 0.14542329248499278,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho060",
+      "config_id": "lr_b32_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.05540936708484599,
+        "batchfill": 0.04457865402214436,
+        "queue": 0.0013100603884314008,
+        "response": 0.10129808149542174
+      },
+      "measured_short_components_s": {
+        "execution": 0.05615885099379607,
+        "batchfill": 0.0451755681182554,
+        "queue": 0.0027663398841257514,
+        "response": 0.10410075899617721
+      },
+      "measured_long_batchfill_s": 0.04474100713324856,
+      "measured_long_response_s": 0.10028909128740973,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho080",
+      "config_id": "lr_b32_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.05537896664821804,
+        "batchfill": 0.03343399051660827,
+        "queue": 0.003512241526629993,
+        "response": 0.0923251986914563
+      },
+      "measured_short_components_s": {
+        "execution": 0.055221293879941985,
+        "batchfill": 0.03324987788690575,
+        "queue": 0.0006777701573903732,
+        "response": 0.08914894192423813
+      },
+      "measured_long_batchfill_s": 0.033482049005756985,
+      "measured_long_response_s": 0.08970774244184973,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho030",
+      "config_id": "lr_b8_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.01912702038050259,
+        "batchfill": 0.027320175703183434,
+        "queue": 0.0005278609739779327,
+        "response": 0.04697505705766396
+      },
+      "measured_short_components_s": {
+        "execution": 0.019596912245160067,
+        "batchfill": 0.027444509214198193,
+        "queue": 0.0016272866946387679,
+        "response": 0.04866870815399703
+      },
+      "measured_long_batchfill_s": 0.027252579211244785,
+      "measured_long_response_s": 0.04632667323379295,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho060",
+      "config_id": "lr_b8_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.018923813341177625,
+        "batchfill": 0.013660087851591717,
+        "queue": 0.0018201417319542214,
+        "response": 0.034404042924723564
+      },
+      "measured_short_components_s": {
+        "execution": 0.018930655678078077,
+        "batchfill": 0.01348863036291703,
+        "queue": 0.0028456877147644373,
+        "response": 0.03526497375575954
+      },
+      "measured_long_batchfill_s": 0.013583376238984349,
+      "measured_long_response_s": 0.03311431235947139,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho080",
+      "config_id": "lr_b8_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.018949499087264905,
+        "batchfill": 0.010245065888693786,
+        "queue": 0.005023908586207471,
+        "response": 0.03421847356216616
+      },
+      "measured_short_components_s": {
+        "execution": 0.019184940412374923,
+        "batchfill": 0.010318973332361406,
+        "queue": 0.005432348753889809,
+        "response": 0.034936262498626136
+      },
+      "measured_long_batchfill_s": 0.010263026183285796,
+      "measured_long_response_s": 0.03216098299610252,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho030",
+      "config_id": "lr_b32_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.0671361651887795,
+        "batchfill": 0.1079058966667314,
+        "queue": 0.0004525522210800387,
+        "response": 0.17549461407659095
+      },
+      "measured_short_components_s": {
+        "execution": 0.06730608669503718,
+        "batchfill": 0.10700824292071963,
+        "queue": 0.00037366963491298344,
+        "response": 0.1746879992506698
+      },
+      "measured_long_batchfill_s": 0.10784916094549005,
+      "measured_long_response_s": 0.1744258496306191,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho060",
+      "config_id": "lr_b32_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.066972285860093,
+        "batchfill": 0.0539529483333657,
+        "queue": 0.001577998991810489,
+        "response": 0.12250323318526919
+      },
+      "measured_short_components_s": {
+        "execution": 0.06699469079083634,
+        "batchfill": 0.05371250987837668,
+        "queue": 0.0024324752834756543,
+        "response": 0.12313967595268868
+      },
+      "measured_long_batchfill_s": 0.05411988833973735,
+      "measured_long_response_s": 0.12076373320415713,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho080",
+      "config_id": "lr_b32_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.0669193211759786,
+        "batchfill": 0.040464711250024266,
+        "queue": 0.0042100915702773896,
+        "response": 0.11159412399628026
+      },
+      "measured_short_components_s": {
+        "execution": 0.06720531613215261,
+        "batchfill": 0.04183327035303027,
+        "queue": 0.004896408370713869,
+        "response": 0.11393499485589675
+      },
+      "measured_long_batchfill_s": 0.04064706264970879,
+      "measured_long_response_s": 0.10799774920956072,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho030",
+      "config_id": "dl_b4_k1_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.22036396246403456,
+        "batchfill": 0.27520223577845504,
+        "queue": 0.011820760202506494,
+        "response": 0.507386958444996
+      },
+      "measured_short_components_s": {
+        "execution": 0.22060021375438946,
+        "batchfill": 0.2806425723677248,
+        "queue": 0.011875913969570065,
+        "response": 0.5131187000916843
+      },
+      "measured_long_batchfill_s": 0.27455152884673,
+      "measured_long_response_s": 0.4962880605438414,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 7.3387262874254695,
+          "arrival_end_s": 52.33872628742547,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 7.3387262874254695,
+          "arrival_end_s": 907.3387262874255,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho060",
+      "config_id": "dl_b4_k1_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.22025735603113258,
+        "batchfill": 0.13760111788922752,
+        "queue": 0.04134325320625905,
+        "response": 0.3992017271266191
+      },
+      "measured_short_components_s": {
+        "execution": 0.22087856041405465,
+        "batchfill": 0.14498800619864907,
+        "queue": 0.06252569075763087,
+        "response": 0.42839225737033454
+      },
+      "measured_long_batchfill_s": 0.13609315424538646,
+      "measured_long_response_s": 0.3784413644238907,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho080",
+      "config_id": "dl_b4_k1_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.22021404859454682,
+        "batchfill": 0.10320083841692065,
+        "queue": 0.11023807418022431,
+        "response": 0.4336529611916918
+      },
+      "measured_short_components_s": {
+        "execution": 0.22021404859007007,
+        "batchfill": 0.10320083841692065,
+        "queue": 0.09713307512212556,
+        "response": 0.42054796212911627
+      },
+      "measured_long_batchfill_s": 0.10090120270241451,
+      "measured_long_response_s": 0.40625505732370293,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho030",
+      "config_id": "dl_b4_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.11330770938543648,
+        "batchfill": 0.14145078935016334,
+        "queue": 0.006081357672339176,
+        "response": 0.260839856407939
+      },
+      "measured_short_components_s": {
+        "execution": 0.1167590637854096,
+        "batchfill": 0.18651401086725866,
+        "queue": 0.02763155671143219,
+        "response": 0.3309046313641004
+      },
+      "measured_long_batchfill_s": 0.14020544959627207,
+      "measured_long_response_s": 0.25282078225886745,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho060",
+      "config_id": "dl_b4_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.11323443900600269,
+        "batchfill": 0.07072539467508167,
+        "queue": 0.02126618139799281,
+        "response": 0.20522601507907717
+      },
+      "measured_short_components_s": {
+        "execution": 0.1173285395268694,
+        "batchfill": 0.0714954787678202,
+        "queue": 0.03635600434111699,
+        "response": 0.2251800226358066
+      },
+      "measured_long_batchfill_s": 0.06924018056770519,
+      "measured_long_response_s": 0.19199030102492715,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho080",
+      "config_id": "dl_b4_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.11320808374923523,
+        "batchfill": 0.05304404600631124,
+        "queue": 0.05672307820410204,
+        "response": 0.22297520795964854
+      },
+      "measured_short_components_s": {
+        "execution": 0.11345127817718499,
+        "batchfill": 0.055985003316459024,
+        "queue": 0.07543104126621235,
+        "response": 0.24486732275985637
+      },
+      "measured_long_batchfill_s": 0.052786311712079204,
+      "measured_long_response_s": 0.2063545292578493,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho030",
+      "config_id": "dl_b4_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.059567052858231,
+        "batchfill": 0.07400250691447977,
+        "queue": 0.0032193912290320835,
+        "response": 0.13678895100174285
+      },
+      "measured_short_components_s": {
+        "execution": 0.05963394086843805,
+        "batchfill": 0.08205441962929635,
+        "queue": 0.0054294295976555565,
+        "response": 0.14711779009538994
+      },
+      "measured_long_batchfill_s": 0.07276965928653226,
+      "measured_long_response_s": 0.1318964558286935,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho060",
+      "config_id": "dl_b4_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.05932479265925466,
+        "batchfill": 0.03700125345723988,
+        "queue": 0.011181455973071417,
+        "response": 0.10750750208956596
+      },
+      "measured_short_components_s": {
+        "execution": 0.059374005660074745,
+        "batchfill": 0.038007158869002536,
+        "queue": 0.01719850719848059,
+        "response": 0.11457967172755787
+      },
+      "measured_long_batchfill_s": 0.03720958763325814,
+      "measured_long_response_s": 0.10144226309631893,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho080",
+      "config_id": "dl_b4_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.05924524921700916,
+        "batchfill": 0.02775094009292991,
+        "queue": 0.02973138178782066,
+        "response": 0.11672757109775973
+      },
+      "measured_short_components_s": {
+        "execution": 0.059245249214816796,
+        "batchfill": 0.02775094009292991,
+        "queue": 0.038217463726950125,
+        "response": 0.12521365303469684
+      },
+      "measured_long_batchfill_s": 0.028131744265020155,
+      "measured_long_response_s": 0.10813561585043936,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho030",
+      "config_id": "dl_b16_k1_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.8648667046161113,
+        "batchfill": 1.351373608434057,
+        "queue": 0.011585053287916773,
+        "response": 2.2278253663380854
+      },
+      "measured_short_components_s": {
+        "execution": 0.8543370500912413,
+        "batchfill": 1.439105166221312,
+        "queue": 0.013946198097214353,
+        "response": 2.307388414409768
+      },
+      "measured_long_batchfill_s": 1.3742707462100774,
+      "measured_long_response_s": 2.2386852011716143,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 28.829303646593218,
+          "arrival_end_s": 73.82930364659322,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 28.829303646593218,
+          "arrival_end_s": 928.8293036465932,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho060",
+      "config_id": "dl_b16_k1_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.8644433144848639,
+        "batchfill": 0.6756868042170285,
+        "queue": 0.040474790833514775,
+        "response": 1.580604909535407
+      },
+      "measured_short_components_s": {
+        "execution": 0.864116492150439,
+        "batchfill": 0.664291779372921,
+        "queue": 0.08286415065793709,
+        "response": 1.6112724221812968
+      },
+      "measured_long_batchfill_s": 0.6734132903915058,
+      "measured_long_response_s": 1.5410241277628227,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 14.414651823296609,
+          "arrival_end_s": 59.41465182329661,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 14.414651823296609,
+          "arrival_end_s": 914.4146518232966,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho080",
+      "config_id": "dl_b16_k1_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.8638808260416138,
+        "batchfill": 0.5067651031627713,
+        "queue": 0.10738026405579654,
+        "response": 1.4780261932601817
+      },
+      "measured_short_components_s": {
+        "execution": 0.8624216896255461,
+        "batchfill": 0.4993716251043959,
+        "queue": 0.10738026279010103,
+        "response": 1.469173577520043
+      },
+      "measured_long_batchfill_s": 0.4985096082964942,
+      "measured_long_response_s": 1.413685174173467,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 10.810988867472457,
+          "arrival_end_s": 55.81098886747246,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 10.810988867472457,
+          "arrival_end_s": 910.8109888674725,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho030",
+      "config_id": "dl_b16_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.4339756754413247,
+        "batchfill": 0.6776938720057454,
+        "queue": 0.005817050536492604,
+        "response": 1.1174865979835626
+      },
+      "measured_short_components_s": {
+        "execution": 0.43880406311663667,
+        "batchfill": 0.7015226999393521,
+        "queue": 0.017293946858868408,
+        "response": 1.1576207099148572
+      },
+      "measured_long_batchfill_s": 0.670022302048948,
+      "measured_long_response_s": 1.096990408701091,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 14.457469269455903,
+          "arrival_end_s": 59.4574692694559,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 14.457469269455903,
+          "arrival_end_s": 914.4574692694559,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho060",
+      "config_id": "dl_b16_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.4338313986798032,
+        "batchfill": 0.3388469360028727,
+        "queue": 0.020348625575229626,
+        "response": 0.7930269602579055
+      },
+      "measured_short_components_s": {
+        "execution": 0.4335066129141693,
+        "batchfill": 0.33882829632907774,
+        "queue": 0.04149082567068128,
+        "response": 0.8138257349139284
+      },
+      "measured_long_batchfill_s": 0.3345289021888398,
+      "measured_long_response_s": 0.7639264931407616,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 7.228734634727951,
+          "arrival_end_s": 52.22873463472795,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 7.228734634727951,
+          "arrival_end_s": 907.228734634728,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho080",
+      "config_id": "dl_b16_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.43379382840875125,
+        "batchfill": 0.2541352020021545,
+        "queue": 0.05426844229856926,
+        "response": 0.7421974727094751
+      },
+      "measured_short_components_s": {
+        "execution": 0.43500996770208233,
+        "batchfill": 0.2632246219590911,
+        "queue": 0.059531699512646905,
+        "response": 0.7577662891738204
+      },
+      "measured_long_batchfill_s": 0.2533904590521273,
+      "measured_long_response_s": 0.7041962231565004,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho030",
+      "config_id": "dl_b16_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.223774904252163,
+        "batchfill": 0.3501295444072673,
+        "queue": 0.002991219445226069,
+        "response": 0.5768956681046563
+      },
+      "measured_short_components_s": {
+        "execution": 0.22377445087348552,
+        "batchfill": 0.3724116492949222,
+        "queue": 0.011260243266310541,
+        "response": 0.6074463434347183
+      },
+      "measured_long_batchfill_s": 0.3521403818174711,
+      "measured_long_response_s": 0.5722510914406055,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 7.46943028068837,
+          "arrival_end_s": 52.46943028068837,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 7.46943028068837,
+          "arrival_end_s": 907.4694302806884,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho060",
+      "config_id": "dl_b16_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.22380179209867493,
+        "batchfill": 0.17506477220363365,
+        "queue": 0.010458312957083755,
+        "response": 0.4093248772593924
+      },
+      "measured_short_components_s": {
+        "execution": 0.22379129114396903,
+        "batchfill": 0.17598410396684477,
+        "queue": 0.02006601440120055,
+        "response": 0.41984140951201443
+      },
+      "measured_long_batchfill_s": 0.17462751621600087,
+      "measured_long_response_s": 0.3969264762488164,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho080",
+      "config_id": "dl_b16_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.22400872944636602,
+        "batchfill": 0.13129857915272522,
+        "queue": 0.02795740906673718,
+        "response": 0.38326471766582837
+      },
+      "measured_short_components_s": {
+        "execution": 0.22352081418115777,
+        "batchfill": 0.13052414266065684,
+        "queue": 0.016278073138337644,
+        "response": 0.3703230299801522
+      },
+      "measured_long_batchfill_s": 0.1307916062035696,
+      "measured_long_response_s": 0.3674659386395126,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho030",
+      "config_id": "dl_b4_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.0714752096122593,
+        "batchfill": 0.08911508985536074,
+        "queue": 0.0038431596057362572,
+        "response": 0.1644334590733563
+      },
+      "measured_short_components_s": {
+        "execution": 0.0729742887573365,
+        "batchfill": 0.09215378249034378,
+        "queue": 0.008067079530484326,
+        "response": 0.17319515077816464
+      },
+      "measured_long_batchfill_s": 0.08912568882536419,
+      "measured_long_response_s": 0.16128490740872897,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho060",
+      "config_id": "dl_b4_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.07143523801823903,
+        "batchfill": 0.04455754492768037,
+        "queue": 0.013461778182971201,
+        "response": 0.1294545611288906
+      },
+      "measured_short_components_s": {
+        "execution": 0.0726592630623178,
+        "batchfill": 0.04635198126137892,
+        "queue": 0.02236408759950961,
+        "response": 0.1413753319232063
+      },
+      "measured_long_batchfill_s": 0.04398260537440742,
+      "measured_long_response_s": 0.12201502697398485,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho080",
+      "config_id": "dl_b4_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.07136004698350808,
+        "batchfill": 0.03341815869576028,
+        "queue": 0.03585119163423951,
+        "response": 0.14062939731350788
+      },
+      "measured_short_components_s": {
+        "execution": 0.07151955470058446,
+        "batchfill": 0.03433649408302686,
+        "queue": 0.046669902526402095,
+        "response": 0.15252595131001342
+      },
+      "measured_long_batchfill_s": 0.033169916033867805,
+      "measured_long_response_s": 0.1331204319319631,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho030",
+      "config_id": "dl_b16_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.27152595118163747,
+        "batchfill": 0.42386038102752843,
+        "queue": 0.003641421677651409,
+        "response": 0.6990277538868173
+      },
+      "measured_short_components_s": {
+        "execution": 0.27002407657294364,
+        "batchfill": 0.431171279970732,
+        "queue": 0.008177494338335612,
+        "response": 0.7093728508820112
+      },
+      "measured_long_batchfill_s": 0.42557308822219697,
+      "measured_long_response_s": 0.6905485751209232,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 9.04235479525394,
+          "arrival_end_s": 54.04235479525394,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 9.04235479525394,
+          "arrival_end_s": 909.0423547952539,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho060",
+      "config_id": "dl_b16_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.27137087984705593,
+        "batchfill": 0.21193019051376422,
+        "queue": 0.012732304067424058,
+        "response": 0.4960333744282442
+      },
+      "measured_short_components_s": {
+        "execution": 0.27545618309824355,
+        "batchfill": 0.2210506247086172,
+        "queue": 0.02611292404501815,
+        "response": 0.5226197318518788
+      },
+      "measured_long_batchfill_s": 0.21054670795662347,
+      "measured_long_response_s": 0.47679189822316254,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho080",
+      "config_id": "dl_b16_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.2713547301572863,
+        "batchfill": 0.15894764288532315,
+        "queue": 0.0339721027917485,
+        "response": 0.46427447583435794
+      },
+      "measured_short_components_s": {
+        "execution": 0.27478516416223453,
+        "batchfill": 0.15989714047056033,
+        "queue": 0.019809359497990633,
+        "response": 0.45449166413078557
+      },
+      "measured_long_batchfill_s": 0.15785688210548934,
+      "measured_long_response_s": 0.4345719641573973,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho030",
+      "config_id": "fr_b2_k1_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.2102038628125394,
+        "batchfill": 0.17493308853657769,
+        "queue": 0.022594715943514098,
+        "response": 0.40773166729263116
+      },
+      "measured_short_components_s": {
+        "execution": 0.21066249452670688,
+        "batchfill": 0.17638064857652386,
+        "queue": 0.031812645680158784,
+        "response": 0.4188557887833895
+      },
+      "measured_long_batchfill_s": 0.18050634187191517,
+      "measured_long_response_s": 0.39770029385809513,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.997323541463108,
+          "arrival_end_s": 51.99732354146311,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.997323541463108,
+          "arrival_end_s": 906.9973235414631,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho060",
+      "config_id": "fr_b2_k1_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.20977122935613518,
+        "batchfill": 0.08746654426828884,
+        "queue": 0.07862002025152275,
+        "response": 0.3758577938759468
+      },
+      "measured_short_components_s": {
+        "execution": 0.21346950136950035,
+        "batchfill": 0.11956124402702908,
+        "queue": 0.11803636048884944,
+        "response": 0.45106710588537896
+      },
+      "measured_long_batchfill_s": 0.08076478554305005,
+      "measured_long_response_s": 0.3530116672101485,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho080",
+      "config_id": "fr_b2_k1_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.20951034056962328,
+        "batchfill": 0.06559990820121663,
+        "queue": 0.20773791297754413,
+        "response": 0.482848161748384
+      },
+      "measured_short_components_s": {
+        "execution": 0.24055321000741614,
+        "batchfill": 0.13170134045114645,
+        "queue": 0.7909439820122444,
+        "response": 1.163198532470807
+      },
+      "measured_long_batchfill_s": 0.06516142540747988,
+      "measured_long_response_s": 0.44043074569123314,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho030",
+      "config_id": "fr_b2_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.10862159059362729,
+        "batchfill": 0.09022938750415772,
+        "queue": 0.011701358244330563,
+        "response": 0.21055233634211556
+      },
+      "measured_short_components_s": {
+        "execution": 0.10865751197164744,
+        "batchfill": 0.08835662981577591,
+        "queue": 0.014051444439260529,
+        "response": 0.21106558622668387
+      },
+      "measured_long_batchfill_s": 0.0913254044114297,
+      "measured_long_response_s": 0.20632310730720313,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho060",
+      "config_id": "fr_b2_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.10855947010922473,
+        "batchfill": 0.04511469375207886,
+        "queue": 0.04101522480670343,
+        "response": 0.194689388668007
+      },
+      "measured_short_components_s": {
+        "execution": 0.10839020972832439,
+        "batchfill": 0.04777127571920353,
+        "queue": 0.053633011287250676,
+        "response": 0.20979449673477857
+      },
+      "measured_long_batchfill_s": 0.04449066518872621,
+      "measured_long_response_s": 0.1818268487260646,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho080",
+      "config_id": "fr_b2_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.10844659333759286,
+        "batchfill": 0.03383602031405914,
+        "queue": 0.10940585223955082,
+        "response": 0.25168846589120286
+      },
+      "measured_short_components_s": {
+        "execution": 0.10844659333759286,
+        "batchfill": 0.03383602031405914,
+        "queue": 0.12770357680145294,
+        "response": 0.26998619045310496
+      },
+      "measured_long_batchfill_s": 0.03371866083938094,
+      "measured_long_response_s": 0.2467931056090909,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho030",
+      "config_id": "fr_b2_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.06290606857035999,
+        "batchfill": 0.05065701481720013,
+        "queue": 0.007091169784906389,
+        "response": 0.1206542531724665
+      },
+      "measured_short_components_s": {
+        "execution": 0.06325327883041172,
+        "batchfill": 0.055818526865718227,
+        "queue": 0.012661426013044368,
+        "response": 0.1317332317091743
+      },
+      "measured_long_batchfill_s": 0.05043443130742423,
+      "measured_long_response_s": 0.11485265869085257,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho060",
+      "config_id": "fr_b2_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.06075039185950013,
+        "batchfill": 0.025328507408600064,
+        "queue": 0.022783323766923796,
+        "response": 0.10886222303502399
+      },
+      "measured_short_components_s": {
+        "execution": 0.06078440072621025,
+        "batchfill": 0.024696532452139194,
+        "queue": 0.03143417227694084,
+        "response": 0.11691510545529028
+      },
+      "measured_long_batchfill_s": 0.025281104267664885,
+      "measured_long_response_s": 0.10419176620422772,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho080",
+      "config_id": "fr_b2_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.060518079224576804,
+        "batchfill": 0.018996380556450046,
+        "queue": 0.05927885059586887,
+        "response": 0.1387933103768957
+      },
+      "measured_short_components_s": {
+        "execution": 0.06071644925818553,
+        "batchfill": 0.01973834153675604,
+        "queue": 0.06698183635262811,
+        "response": 0.14743662714756967
+      },
+      "measured_long_batchfill_s": 0.01911188065330943,
+      "measured_long_response_s": 0.13105744607442588,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho030",
+      "config_id": "fr_b8_k2_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.40586740499798285,
+        "batchfill": 0.5913830985696729,
+        "queue": 0.010884873865825335,
+        "response": 1.0081353774334811
+      },
+      "measured_short_components_s": {
+        "execution": 0.39428227508559793,
+        "batchfill": 0.6310155021984174,
+        "queue": 0.02068148118532465,
+        "response": 1.0459792584693401
+      },
+      "measured_long_batchfill_s": 0.5948422624874232,
+      "measured_long_response_s": 1.0008045927553393,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 13.517327967306807,
+          "arrival_end_s": 58.517327967306805,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 13.517327967306807,
+          "arrival_end_s": 913.5173279673068,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho060",
+      "config_id": "fr_b8_k2_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.40586135603371076,
+        "batchfill": 0.29569154928483643,
+        "queue": 0.03813010800219366,
+        "response": 0.7396830133207408
+      },
+      "measured_short_components_s": {
+        "execution": 0.4042275945982117,
+        "batchfill": 0.2704776004593001,
+        "queue": 0.06700133002091697,
+        "response": 0.7417065250784287
+      },
+      "measured_long_batchfill_s": 0.29150841322213294,
+      "measured_long_response_s": 0.7089108616096402,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.7586639836534035,
+          "arrival_end_s": 51.758663983653406,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.7586639836534035,
+          "arrival_end_s": 906.7586639836534,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho080",
+      "config_id": "fr_b8_k2_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.40588328779475497,
+        "batchfill": 0.22176866196362727,
+        "queue": 0.10192831035271135,
+        "response": 0.7295802601110936
+      },
+      "measured_short_components_s": {
+        "execution": 0.40587406986692365,
+        "batchfill": 0.23109078743937306,
+        "queue": 0.1402018720741231,
+        "response": 0.7771667293804199
+      },
+      "measured_long_batchfill_s": 0.22727628769799607,
+      "measured_long_response_s": 0.6806227486730799,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho030",
+      "config_id": "fr_b8_k4_f1200",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.21681777189703696,
+        "batchfill": 0.316844312522638,
+        "queue": 0.005792354268930674,
+        "response": 0.5394544386886057
+      },
+      "measured_short_components_s": {
+        "execution": 0.21754228169286838,
+        "batchfill": 0.3403537866097139,
+        "queue": 0.010173132476365048,
+        "response": 0.5680692007789473
+      },
+      "measured_long_batchfill_s": 0.3189630433617808,
+      "measured_long_response_s": 0.5368459720635358,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 7.242155714803156,
+          "arrival_end_s": 52.242155714803154,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 7.242155714803156,
+          "arrival_end_s": 907.2421557148032,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho060",
+      "config_id": "fr_b8_k4_f1200",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.2160457750891938,
+        "batchfill": 0.158422156261319,
+        "queue": 0.01997538654700569,
+        "response": 0.3944433178975185
+      },
+      "measured_short_components_s": {
+        "execution": 0.21968993511023371,
+        "batchfill": 0.15905228710264763,
+        "queue": 0.03751374059331618,
+        "response": 0.4162559628061976
+      },
+      "measured_long_batchfill_s": 0.1568341231308455,
+      "measured_long_response_s": 0.3812566149398424,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho080",
+      "config_id": "fr_b8_k4_f1200",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.21571914920244706,
+        "batchfill": 0.11881661719598925,
+        "queue": 0.052068014529204405,
+        "response": 0.3866037809276407
+      },
+      "measured_short_components_s": {
+        "execution": 0.21530771093451279,
+        "batchfill": 0.11881661719598925,
+        "queue": 0.08014415655216717,
+        "response": 0.4142684846826692
+      },
+      "measured_long_batchfill_s": 0.11916421612205401,
+      "measured_long_response_s": 0.3758872287952671,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho030",
+      "config_id": "fr_b2_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.07606979080235525,
+        "batchfill": 0.06357043540942235,
+        "queue": 0.008130250556316347,
+        "response": 0.14777047676809396
+      },
+      "measured_short_components_s": {
+        "execution": 0.07613350445922991,
+        "batchfill": 0.06410993696913078,
+        "queue": 0.00843474783107874,
+        "response": 0.14867818925943943
+      },
+      "measured_long_batchfill_s": 0.06102088284922552,
+      "measured_long_response_s": 0.14085011418185533,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho060",
+      "config_id": "fr_b2_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.07596454303711653,
+        "batchfill": 0.031785217704711176,
+        "queue": 0.028231107943040904,
+        "response": 0.1359808686848686
+      },
+      "measured_short_components_s": {
+        "execution": 0.07695329448859338,
+        "batchfill": 0.028007468850337273,
+        "queue": 0.05065012775137455,
+        "response": 0.1556108910903052
+      },
+      "measured_long_batchfill_s": 0.03232545150437413,
+      "measured_long_response_s": 0.12876223611532422,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho080",
+      "config_id": "fr_b2_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.07663048191877742,
+        "batchfill": 0.023838913278533384,
+        "queue": 0.07855691740064275,
+        "response": 0.17902631259795354
+      },
+      "measured_short_components_s": {
+        "execution": 0.07663048201824366,
+        "batchfill": 0.023838913278533384,
+        "queue": 0.09157211119377573,
+        "response": 0.19204150649055277
+      },
+      "measured_long_batchfill_s": 0.023811109629260804,
+      "measured_long_response_s": 0.1644213525858821,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho030",
+      "config_id": "fr_b8_k4_f900",
+      "load_fraction": 0.3,
+      "prediction_s": {
+        "execution": 0.2659222833865967,
+        "batchfill": 0.38718676227237686,
+        "queue": 0.007139268433374474,
+        "response": 0.660248314092348
+      },
+      "measured_short_components_s": {
+        "execution": 0.26024164060305294,
+        "batchfill": 0.3774397037594942,
+        "queue": 0.0007160447202175296,
+        "response": 0.6383973890827646
+      },
+      "measured_long_batchfill_s": 0.38254655480346184,
+      "measured_long_response_s": 0.649462447666528,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 8.849983137654329,
+          "arrival_end_s": 53.84998313765433,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 8.849983137654329,
+          "arrival_end_s": 908.8499831376544,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho060",
+      "config_id": "fr_b8_k4_f900",
+      "load_fraction": 0.6,
+      "prediction_s": {
+        "execution": 0.2656259459509913,
+        "batchfill": 0.19359338113618843,
+        "queue": 0.024932429820499053,
+        "response": 0.48415175690767875
+      },
+      "measured_short_components_s": {
+        "execution": 0.26468031910182843,
+        "batchfill": 0.17989743150935256,
+        "queue": 0.04244116336483969,
+        "response": 0.48701891397602065
+      },
+      "measured_long_batchfill_s": 0.1959955052343334,
+      "measured_long_response_s": 0.46909962391136467,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho080",
+      "config_id": "fr_b8_k4_f900",
+      "load_fraction": 0.8,
+      "prediction_s": {
+        "execution": 0.26562260310319097,
+        "batchfill": 0.1451950358521413,
+        "queue": 0.06656130168765054,
+        "response": 0.4773789406429828
+      },
+      "measured_short_components_s": {
+        "execution": 0.26925555331212236,
+        "batchfill": 0.14624217630065614,
+        "queue": 0.09153681322116818,
+        "response": 0.5070345428339467
+      },
+      "measured_long_batchfill_s": 0.14461111746960434,
+      "measured_long_response_s": 0.4484407885035534,
+      "source_observation_windows": {
+        "short": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 51.0,
+          "arrival_window_s": 45.0
+        },
+        "long": {
+          "arrival_start_s": 6.0,
+          "arrival_end_s": 906.0,
+          "arrival_window_s": 900.0
+        }
+      }
+    }
+  ]
+}

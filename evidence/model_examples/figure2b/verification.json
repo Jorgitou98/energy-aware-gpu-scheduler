@@ -1,0 +1,16 @@
+{
+  "simulations_per_rate": 1024,
+  "rates": 9,
+  "total_windows": 9216,
+  "seed": 2026102517,
+  "max_abs_q95_difference_s": 0.0,
+  "nominal_interval": [
+    18.227132137683583,
+    47.05359893619971
+  ],
+  "admitted_interval": [
+    18.76128495029455,
+    45.62256752679798
+  ],
+  "samples_note": "Regenerated from archived simulator, profile and seed; not a claim that all original raw samples were stored."
+}

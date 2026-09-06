@@ -1,0 +1,11 @@
+{
+  "archive": "figure2b_simulacion_1024.zip",
+  "archive_sha256": "4e2407fe2afd1ce9bf1d0371df50f4508ec3c85760bd346a9fe892b730301627",
+  "retained_member_sha256": {
+    "admission_example_data_1024.json": "20ef00aa2918ebd597bdb7aba9e8e0d9e6c6956f701e024db413ef67d2d55c9b",
+    "window_samples_9x1024.npz": "1c5f0c76688f3eb18fbba260920f5327a581458a2b93d2c21ee340d085bebc45",
+    "verification.json": "c107e2dbbaf7df16c03f62cc05dee05695300894af7e91d8b42b5e7f3bf01ad4"
+  },
+  "scope": "Figure 2(b) archived summary, reference intervals and seeded replay samples.",
+  "sample_origin": "All 9,216 window means and request counts were regenerated from the archived profile and seed."
+}

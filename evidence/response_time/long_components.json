@@ -1,0 +1,627 @@
+{
+  "schema": "long-queue-errors-v2",
+  "error_metric": "100 * abs(predicted_queue_s - observed_queue_s) / observed_response_s",
+  "records": [
+    {
+      "cell_id": "lr_b8_k1_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.5055899761501839
+    },
+    {
+      "cell_id": "lr_b8_k1_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9563096355421826
+    },
+    {
+      "cell_id": "lr_b8_k1_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.359013930782764
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.48404760996533475
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9365678596307048
+    },
+    {
+      "cell_id": "lr_b8_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.4733268978315248
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.43096900178232184
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9045130008223233
+    },
+    {
+      "cell_id": "lr_b8_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.3325870945909821
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.12063368937235894
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.3179476672599264
+    },
+    {
+      "cell_id": "lr_b32_k1_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.7008940373139706
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.11448897166604141
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.31340382880981443
+    },
+    {
+      "cell_id": "lr_b32_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.7342286049131845
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.1013642069570729
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.29559857589157634
+    },
+    {
+      "cell_id": "lr_b32_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.7418188747901532
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.46146390727570685
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9170155219795106
+    },
+    {
+      "cell_id": "lr_b8_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.551840732642443
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.1067313720549506
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.2998796537735205
+    },
+    {
+      "cell_id": "lr_b32_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.7697372164332962
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.0482733454860114
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.2720939447312838
+    },
+    {
+      "cell_id": "dl_b4_k1_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.5436221223296063
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9988529731084282
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.3108347867584615
+    },
+    {
+      "cell_id": "dl_b4_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.7801525681530104
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.0274435679682434
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.3654526000954468
+    },
+    {
+      "cell_id": "dl_b4_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.908535125935855
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.2569867918148197
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.603266440624189
+    },
+    {
+      "cell_id": "dl_b16_k1_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9987155042412426
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.261339292263339
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.5839848713187834
+    },
+    {
+      "cell_id": "dl_b16_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.0783280528514192
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.2540630552994727
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.588602735000736
+    },
+    {
+      "cell_id": "dl_b16_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.977860432192028
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9929476501304497
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.4070676843588639
+    },
+    {
+      "cell_id": "dl_b4_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.364884046346049
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.2576041343912495
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.5962423193420193
+    },
+    {
+      "cell_id": "dl_b16_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.2729840071981764
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.5324376612936732
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9217043214813102
+    },
+    {
+      "cell_id": "fr_b2_k1_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 2.216081838004438
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.282480096501422
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.6687149534337697
+    },
+    {
+      "cell_id": "fr_b2_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.4746721986645761
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.628093428889024
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.1590462020610248
+    },
+    {
+      "cell_id": "fr_b2_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.5534621666233581
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.532607376732973
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9319486593202563
+    },
+    {
+      "cell_id": "fr_b8_k2_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.9905746527467816
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.5218141169119884
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.8639856066472865
+    },
+    {
+      "cell_id": "fr_b8_k4_f1200__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.8683190522920509
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.2337860901109665
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.3212942802982441
+    },
+    {
+      "cell_id": "fr_b2_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.952998355876369
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho030",
+      "load_fraction": 0.3,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.5196459686772471
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho060",
+      "load_fraction": 0.6,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 0.9407747970723317
+    },
+    {
+      "cell_id": "fr_b8_k4_f900__rho080",
+      "load_fraction": 0.8,
+      "window_s": {
+        "short": 45,
+        "long": 900
+      },
+      "queue_error_percent": 1.5667881086145081
+    }
+  ]
+}
