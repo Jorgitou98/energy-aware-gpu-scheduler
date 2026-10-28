@@ -1,0 +1,2802 @@
+[
+  {
+    "case": "unified_000",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_001",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_002",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_003",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6340580033245078
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.527453937194887,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5928017596037941,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_004",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6602728173292677
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6145466320092029,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6157171003004828,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_005",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6685591717071965
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5415046876105861,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6259477602288224,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_006",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_007",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_008",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6663464534271024
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6211337751246986,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.632941914921424,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_009",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_010",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_011",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6466001370509745
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6175299114784253,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5671430946538227,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_012",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.634019137492323
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5278164727882082,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5836602736367428,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_013",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6335755919042149
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6196280141259545,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6300365333375261,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_014",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6516552825081849
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5963057541055246,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.599029022916007,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_015",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6966169890589524
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5738139834067696,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5885178042986319,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_016",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6279386112208702
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5883955542769558,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.579781282081259,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_017",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7776164781798078
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6046655753988929,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6197281413992756,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_018",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_019",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.757918095159127
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6949246437702536,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6882071398797672,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_020",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7947433133535325
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6216106477317463,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6189641859777795,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_021",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6256115194304395
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5405094704821984,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5797093810989143,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_022",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8002721708165617
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6694436013208725,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7709565330203662,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_023",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7502419672271855
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.615982944416372,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6707712132369363,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_024",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6792147794008427
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.656865240657574,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6432455328857366,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_025",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6272378862445421
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6216943108291527,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5949698085383422,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_026",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6940350167277417
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5486267237442174,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.54964424328883,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_027",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.629413312589053
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5847234052151008,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5515360798616114,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_028",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6975407209230855
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.581696451960085,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6044790705543134,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_029",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6943144948976439
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6502047268023352,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5426434043492868,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_030",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.693288617295213
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5670655564253189,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6467637582351574,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_031",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6074510655190427
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5827491949614623,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5186658195827729,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_032",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.822095795336736
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7651921302141897,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7738347874408694,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_033",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6993073240500646
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6319055364736683,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5994070800045105,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_034",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8559661050090623
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6269742427519901,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7982482791293396,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_035",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6663395036112951
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6772514206288711,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5077676590745723,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_036",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7419164937045449
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5887633598069779,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6666625911890274,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_037",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6491803384535328
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.540760697085041,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.4820353439527407,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_038",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7766290206050711
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6739378109962707,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.612087598980447,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_039",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7543282024683743
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5940809480069644,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5348759674284713,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_040",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7484000043039621
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.703325450523666,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5846621736313975,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_041",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.685469871508554
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6118883414787375,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.594031068237752,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_042",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.614150295832191
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.49361975074179565,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5118150938520092,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_043",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7877552774422772
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7351829844036388,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6256351926177744,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_044",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7307985415025768
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6683084589755511,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5887936054531285,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_045",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7528434662824924
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6262231400159525,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6229083637417746,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_046",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6502530064939523
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5087286942995729,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.46204310084193817,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_047",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.63209138723298
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5700797140419397,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5701469379958143,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_048",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6304801798727703
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5422384179024715,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5981096443009921,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_049",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_050",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5929238857584397
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5087660762650057,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5083051895704437,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_051",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_052",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7671362731971196
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7714367699508697,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7143250494370446,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_053",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.75479321047349
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7483246374880608,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6310454926902986,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_054",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5764427315767467
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.47245455765056954,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.47245455765056954,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_055",
+    "stratum": "cap145_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5775031310395841
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.48020962082921514,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.48020962082921514,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_056",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7336761456700958
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.631617407074288,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6961098229343144,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_057",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8046471371235406
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7576244136464079,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6731961171202524,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_058",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_059",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7383692013862009
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7355319070117022,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6760634066546315,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_060",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6112681194464541
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5896260797258802,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5069910516870031,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_061",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_062",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7374250328017351
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6898747412928585,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7048592130070641,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_063",
+    "stratum": "cap145_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8110539652405557
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7372611352570715,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7387435357213139,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_064",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6949683012951353
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5704637213416823,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5625976879503984,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_065",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5984041992740227
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.596065971531762,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.555696901992371,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_066",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6391872832256201
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6748737818333786,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6242865359143626,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_067",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.674918386366599
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5969600531940787,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6988267388489751,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_068",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.673295962327752
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.566974690269068,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.563825898223291,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_069",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_070",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7561856198549611
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6572920904352972,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6963009707968599,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_071",
+    "stratum": "cap145_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_072",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.729524802060689
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6234532481236423,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6664705297927986,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_073",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6145056796507458
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5284943881045054,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5310680959274158,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_074",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6354725729313359
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5838064176433515,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5139239709677097,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_075",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.668646393785897
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6686758404910921,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.4976800370035767,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_076",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6557056263930627
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5486606885026971,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5100800399626237,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_077",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7945469450584189
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6807744577484228,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7335897934503648,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_078",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7840623498264414
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7727114368669208,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7749967270605568,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_079",
+    "stratum": "cap145_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6407944055402138
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5224264983996316,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.524391838644787,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_080",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6462608868128116
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5947026583795972,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6034672958120191,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_081",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8268374567422782
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7058880771340151,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6434428406294835,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_082",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.637367461024327
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5158704928069469,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5046793455846541,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_083",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5294269804463914
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.49986195892711094,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.49258645570279674,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_084",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.717825468948666
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6539756436434851,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6539756436434851,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_085",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7167926895211358
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6195887353490438,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6027004395102189,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_086",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7823620936855832
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6670732217066712,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6894074937654764,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_087",
+    "stratum": "cap165_tight_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7140775313696962
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.553260779578964,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.647826156417733,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_088",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8146202822284434
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6802822039010835,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6327164656053075,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_089",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          },
+          "MostAllocated": {
+            "status": "construction_failed",
+            "ratio": null,
+            "validated": false
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_090",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7724389222572855
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7336838037669512,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6012576741097144,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_091",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8599087053093007
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6457022534106119,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7683992053952111,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_092",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8379417932039236
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7677358827212029,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.758972476689223,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_093",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7867029898025902
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6487472652287208,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.7221734593657435,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_094",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7558686816632965
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.615090880148612,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6594091299209992,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_095",
+    "stratum": "cap165_tight_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6419088466446246
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.532564579622495,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5950260431770478,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_096",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7309066594636111
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.4788470112554328,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5694893778072069,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_097",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5942650760753724
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.4917722031482525,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5779340479827141,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_098",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7449270846394298
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6537477348073883,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.651161035748278,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_099",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6992070280760877
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.574188992757171,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6184007748215845,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_100",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7498486093476889
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6915483829169184,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5860096091444602,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_101",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6432399126601072
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5450102430191673,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5188771279013463,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_102",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.688470040240735
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5372744131888646,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5468919090139487,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_103",
+    "stratum": "cap165_relaxed_moderate_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6181174356812653
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5996720620665704,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5733864261324099,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_104",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6207218496348282
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.4867296525760968,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5859462027760383,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_105",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6167370621383467
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6087233363455093,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.4983439076415668,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_106",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7548214553113295
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7029714815176907,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6068603485842697,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_107",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6616104345644
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5770652805731861,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5871364568063026,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_108",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8202098200819317
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.7117167173157373,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.6250702400125212,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_109",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7031261630190864
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5623463651673849,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.592997870686001,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_110",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6000366279243748
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.5497470285692938,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5265950264825249,
+            "validated": true
+          }
+        }
+      }
+    ]
+  },
+  {
+    "case": "unified_111",
+    "stratum": "cap165_relaxed_high",
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6174896988849964
+    },
+    "replications": [
+      {
+        "master_seed": 0,
+        "results": {
+          "LeastAllocated": {
+            "status": "feasible",
+            "ratio": 0.6174896988849964,
+            "validated": true
+          },
+          "MostAllocated": {
+            "status": "feasible",
+            "ratio": 0.5299822333977672,
+            "validated": true
+          }
+        }
+      }
+    ]
+  }
+]

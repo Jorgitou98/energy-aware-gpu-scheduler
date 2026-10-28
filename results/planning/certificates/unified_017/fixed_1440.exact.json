@@ -1,0 +1,21 @@
+{
+  "result": {
+    "status": "infeasible_in_calibrated_domain",
+    "variables": 263,
+    "history": [],
+    "time_limit_seconds": 3600.0,
+    "q_initial": 0.0,
+    "mip_start": false,
+    "warm_start_canonicalized": false,
+    "exact_strengthening": {
+      "count_upper": "min(fleet limit, per-GPU slice limit, exact rational ceil(lambda/h))",
+      "rate_count_dominance": "r >= h*(n-1), closed relaxation of strict paper inequality; no positive epsilon",
+      "strict_paper_inequality_implemented_literally": false,
+      "optimum_preserved": "nonnegative residency permits removal of surplus replicas without changing traffic/utility",
+      "frequency_capacity": "sum(k*n) <= 4*z[g,f]",
+      "symmetry": "all homogeneous GPUs ordered by 5*frequency_rank+occupied_slices, descending"
+    },
+    "sequential_frozen_membership": false
+  },
+  "attempts": 1
+}

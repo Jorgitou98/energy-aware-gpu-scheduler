@@ -1,0 +1,87 @@
+{
+  "schema": "scaling_inputs_and_statistics_v1",
+  "workloads": 40,
+  "observations": 160,
+  "cases_per_size": 10,
+  "sizes": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "seeds": [
+    317,
+    331,
+    347,
+    359,
+    373,
+    389,
+    401,
+    419,
+    433,
+    449
+  ],
+  "methods": [
+    "exact_cold",
+    "exact_initialized",
+    "greedy_beam",
+    "greedy"
+  ],
+  "inputs": {
+    "path": "data/inputs/scaling_cases.json",
+    "nested_sequences": true,
+    "logical_gpus": "number_of_services / 2",
+    "per_gpu_power_cap_W": 165,
+    "reference_profiles": {
+      "detection": "fr_b1_k2_f900",
+      "segmentation": "dl_b1_k2_f900"
+    },
+    "reference_batch_size": 1,
+    "reference_slices": 2,
+    "reference_frequency_MHz": 900,
+    "beta_distribution": {
+      "name": "uniform",
+      "minimum": 0.25,
+      "maximum": 0.55
+    },
+    "service_rate_formula": "1.2 * beta / reference_busy_latency_seconds"
+  },
+  "statistics": {
+    "time_field": "time_s",
+    "time_units": "seconds",
+    "time_aggregation": "arithmetic mean of total_with_preparation_seconds",
+    "loss_formula": "100 * (1 - ratio / exact_ratio)",
+    "loss_reference": "Exact ratio paired by workload identity",
+    "sample_standard_deviation_denominator": "n - 1",
+    "quartiles": "linear interpolation at (n - 1) * p",
+    "dispersion_band": "interquartile range across distinct workloads",
+    "observations_are": "distinct workloads, not repeated timing samples of one input"
+  },
+  "result_source": {
+    "files": {
+      "exact_cold": {
+        "path": "results/scaling/source/scalability_exact_cold_20261116.json",
+        "sha256": "253523ad8d9a5b5779c95d29a9462f66334ff42c7e1b8d2da445b873a9bab6d2"
+      },
+      "exact_initialized": {
+        "path": "results/scaling/source/scalability_exact_initialized_20261116.json",
+        "sha256": "4d28ae499f676165c5cf19d69fad7a6e71f85ed2324e2f3173edb559ea239611"
+      },
+      "greedy_beam": {
+        "path": "results/scaling/source/scalability_greedy_beam_20261116.json",
+        "sha256": "e5b2fd39515b2630e44f9584fd0b16b79b0371ced9a77cb02cb360fb721e4c2d"
+      },
+      "greedy": {
+        "path": "results/scaling/source/scalability_greedy_20261116.json",
+        "sha256": "43ed6a6678981a1b710ece4dc09e0660d2e253d9286c9ddceb7ad9af185ae899"
+      }
+    },
+    "source_case_key": "case",
+    "source_time_field": "timings_seconds.total_with_preparation_seconds",
+    "source_ratio_field": "objective.ratio",
+    "source_reference_field": "optimum_ratio",
+    "time_scope": "Archived model preparation plus the method stages; excludes process startup. The Greedy+Beam export also explicitly excludes calibration reading and final result writing.",
+    "separate_wall_clock_measurements": "Worker and controller wall-clock timings cover different stages and are not reported for every case. They are preserved in the source exports and are not plotted or used to fill missing stages.",
+    "source_cohorts": "The Exact and Greedy exports identify 12 cases as historical and 28 as additional per method. Source metadata is retained as supplied."
+  }
+}

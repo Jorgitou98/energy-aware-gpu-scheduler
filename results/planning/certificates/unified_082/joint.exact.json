@@ -1,0 +1,41 @@
+{
+  "result": {
+    "power": 183.86909364934905,
+    "utility": 117.1921773801298,
+    "ratio": 0.637367461024327,
+    "replicas": 7,
+    "active": 3,
+    "assignment_json": "[{\"s\": 2, \"g\": 1, \"rid\": 47, \"alternative_id\": \"rn_b1_k2_f900__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k2_f900\", \"catalog_id\": \"rn_b1_k2_f900\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 14.409999851035245, \"peak\": 24.97044151014915, \"slope\": 1.3222663019879992, \"intercept\": 0.09829671723183431, \"n\": 1, \"rate\": 9.195878354984664, \"rate_per_replica\": 9.195878354984664, \"response\": 0.08072469368198679, \"L\": 0.05403440022481134, \"utilization\": 0.4968937714519211}, {\"s\": 3, \"g\": 1, \"rid\": 55, \"alternative_id\": \"dl_b1_k2_f900__slo0.12__interval0\", \"physical_config_id\": \"dl_b1_k2_f900\", \"catalog_id\": \"dl_b1_k2_f900\", \"model\": \"deeplabv3_resnet50_b1\", \"arch\": \"deeplabv3_resnet50\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.664, \"u\": 1.0, \"lower\": 1.0, \"upper\": 19.235054491048043, \"peak\": 26.951240124401615, \"slope\": 1.0387290016317428, \"intercept\": 0.08392427082457132, \"n\": 1, \"rate\": 15.367944366803666, \"rate_per_replica\": 15.367944366803666, \"response\": 0.067997209463264, \"L\": 0.038951740489924246, \"utilization\": 0.5986081808393295}, {\"s\": 1, \"g\": 2, \"rid\": 24, \"alternative_id\": \"lr_b1_k1_f900__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k1_f900\", \"catalog_id\": \"lr_b1_k1_f900\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 900, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 108.03447482885973, \"peak\": 11.417466416428368, \"slope\": 0.0978853816858032, \"intercept\": 0.1720200416794917, \"n\": 1, \"rate\": 19.627915519640588, \"rate_per_replica\": 19.627915519640588, \"response\": 0.011793172736021752, \"L\": 0.010442860352875585, \"utilization\": 0.20497158078964609}, {\"s\": 4, \"g\": 2, \"rid\": 74, \"alternative_id\": \"rn_b1_k2_f900__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k2_f900\", \"catalog_id\": \"rn_b1_k2_f900\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 14.409999851035245, \"peak\": 24.97044151014915, \"slope\": 1.3222663019879992, \"intercept\": 0.09829671723183431, \"n\": 1, \"rate\": 10.399726931367619, \"rate_per_replica\": 10.399726931367619, \"response\": 0.0878637711992171, \"L\": 0.05376309281180417, \"utilization\": 0.5591214842285367}, {\"s\": 6, \"g\": 2, \"rid\": 122, \"alternative_id\": \"lr_b1_k1_f900__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k1_f900\", \"catalog_id\": \"lr_b1_k1_f900\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 900, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 110.04249112359628, \"peak\": 11.417466416428368, \"slope\": 0.0978853816858032, \"intercept\": 0.1720200416794917, \"n\": 1, \"rate\": 53.28311027001385, \"rate_per_replica\": 53.28311027001385, \"response\": 0.014211570025010185, \"L\": 0.00943198975455521, \"utilization\": 0.5025657501576061}, {\"s\": 0, \"g\": 0, \"rid\": 1, \"alternative_id\": \"fr_b1_k2_f1200__slo0.12__interval0\", \"physical_config_id\": \"fr_b1_k2_f1200\", \"catalog_id\": \"fr_b1_k2_f1200\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 10.288107179180768, \"peak\": 41.8276742547094, \"slope\": 2.4316518091618797, \"intercept\": 0.2735177502048103, \"n\": 1, \"rate\": 9.773153311929757, \"rate_per_replica\": 9.773153311929757, \"response\": 0.0993211350900908, \"L\": 0.05903121320287101, \"utilization\": 0.5769210968208704}, {\"s\": 5, \"g\": 0, \"rid\": 96, \"alternative_id\": \"lr_b1_k2_f1200__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k2_f1200\", \"catalog_id\": \"lr_b1_k2_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 235.1299085217123, \"peak\": 25.120659432374126, \"slope\": 0.10241156318784081, \"intercept\": 0.17570108153364217, \"n\": 1, \"rate\": 15.137687702027682, \"rate_per_replica\": 15.137687702027682, \"response\": 0.004666083603020091, \"L\": 0.004500745847004418, \"utilization\": 0.06813088505815094}]",
+    "status": "optimal",
+    "seconds": 0.371833554469049,
+    "variables": 850,
+    "history": [
+      {
+        "q": 0.637367461024327,
+        "ratio": 0.637367461024327,
+        "residual": 0.0,
+        "status": 2,
+        "seconds": 0.371190644800663
+      }
+    ],
+    "time_limit_seconds": 3600.0,
+    "q_initial": 0.637367461024327,
+    "mip_start": true,
+    "warm_start_canonicalized": false,
+    "first_solver_incumbent_seconds": 0.03717641904950142,
+    "time_to_first": 0.0,
+    "mip_construction_seconds": 0.03620134573429823,
+    "exact_strengthening": {
+      "count_upper": "min(fleet limit, per-GPU slice limit, exact rational ceil(lambda/h))",
+      "rate_count_dominance": "r >= h*(n-1), closed relaxation of strict paper inequality; no positive epsilon",
+      "strict_paper_inequality_implemented_literally": false,
+      "optimum_preserved": "nonnegative residency permits removal of surplus replicas without changing traffic/utility",
+      "frequency_capacity": "sum(k*n) <= 4*z[g,f]",
+      "symmetry": "all homogeneous GPUs ordered by 5*frequency_rank+occupied_slices, descending"
+    },
+    "sequential_frozen_membership": false,
+    "timing_scope": "solve entry includes MIP construction/validation; excludes option compilation and seed generation"
+  },
+  "attempts": 1,
+  "total_seconds": 0.371833554469049
+}

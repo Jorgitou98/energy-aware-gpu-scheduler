@@ -1,0 +1,4249 @@
+{
+  "source": {
+    "original_file": "data/tables/physical_efficiency.json",
+    "original_sha256": "23fbf25e317c9a87bd52a61782a4246a3eff92b97788a6d7a40dd47eb0e52a3e"
+  },
+  "scope": "Supplied modeled efficiency pairs whose values match the final Figure 5 input exactly.",
+  "pairs": [
+    {
+      "case": "unified_000",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6584425058560136,
+      "reference_modeled_utility_per_J": 0.6584425058560136,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_000",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5937823652732868,
+      "reference_modeled_utility_per_J": 0.6584425058560136,
+      "loss_percent": 9.820165011775007
+    },
+    {
+      "case": "unified_000",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6584425058560142,
+      "reference_modeled_utility_per_J": 0.6584425058560136,
+      "loss_percent": -8.881784197001252e-14
+    },
+    {
+      "case": "unified_001",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7647794206193236,
+      "reference_modeled_utility_per_J": 0.7647794206193236,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_001",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6769734331011338,
+      "reference_modeled_utility_per_J": 0.7647794206193236,
+      "loss_percent": 11.481217348537431
+    },
+    {
+      "case": "unified_001",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7539092600205854,
+      "reference_modeled_utility_per_J": 0.7647794206193236,
+      "loss_percent": 1.4213458555063396
+    },
+    {
+      "case": "unified_002",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.678995309237373,
+      "reference_modeled_utility_per_J": 0.678995309237373,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_002",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6001558246389963,
+      "reference_modeled_utility_per_J": 0.678995309237373,
+      "loss_percent": 11.61119723889209
+    },
+    {
+      "case": "unified_002",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6666179305417662,
+      "reference_modeled_utility_per_J": 0.678995309237373,
+      "loss_percent": 1.8228960535100924
+    },
+    {
+      "case": "unified_003",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6340580033245078,
+      "reference_modeled_utility_per_J": 0.6799395022390057,
+      "loss_percent": 6.74787959273031
+    },
+    {
+      "case": "unified_003",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6414628356239254,
+      "reference_modeled_utility_per_J": 0.6799395022390057,
+      "loss_percent": 5.658836777151299
+    },
+    {
+      "case": "unified_003",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6799395022390057,
+      "reference_modeled_utility_per_J": 0.6799395022390057,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_003",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6035943225598664,
+      "reference_modeled_utility_per_J": 0.6799395022390057,
+      "loss_percent": 11.228231251124331
+    },
+    {
+      "case": "unified_003",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6689744297404322,
+      "reference_modeled_utility_per_J": 0.6799395022390057,
+      "loss_percent": 1.6126541350320212
+    },
+    {
+      "case": "unified_004",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6602728173292677,
+      "reference_modeled_utility_per_J": 0.6705201109287704,
+      "loss_percent": 1.5282604402884647
+    },
+    {
+      "case": "unified_004",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6700341280845424,
+      "reference_modeled_utility_per_J": 0.6705201109287704,
+      "loss_percent": 0.07247848890837849
+    },
+    {
+      "case": "unified_004",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6705201109287704,
+      "reference_modeled_utility_per_J": 0.6705201109287704,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_004",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.590492629234163,
+      "reference_modeled_utility_per_J": 0.6705201109287704,
+      "loss_percent": 11.935135186886104
+    },
+    {
+      "case": "unified_004",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6570299912748916,
+      "reference_modeled_utility_per_J": 0.6705201109287704,
+      "loss_percent": 2.0118888955012793
+    },
+    {
+      "case": "unified_005",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6685591717071965,
+      "reference_modeled_utility_per_J": 0.6789329860480742,
+      "loss_percent": 1.5279585104947535
+    },
+    {
+      "case": "unified_005",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6783703181135602,
+      "reference_modeled_utility_per_J": 0.6789329860480742,
+      "loss_percent": 0.08287532732635938
+    },
+    {
+      "case": "unified_005",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6783703181135602,
+      "reference_modeled_utility_per_J": 0.6789329860480742,
+      "loss_percent": 0.08287532732635938
+    },
+    {
+      "case": "unified_005",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5987694952931888,
+      "reference_modeled_utility_per_J": 0.6789329860480742,
+      "loss_percent": 11.807275887639534
+    },
+    {
+      "case": "unified_005",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6670922056355921,
+      "reference_modeled_utility_per_J": 0.6789329860480742,
+      "loss_percent": 1.7440278578015111
+    },
+    {
+      "case": "unified_006",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8525059642636125,
+      "reference_modeled_utility_per_J": 0.8525059642636125,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_006",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7556852497981865,
+      "reference_modeled_utility_per_J": 0.8525059642636125,
+      "loss_percent": 11.35718910178639
+    },
+    {
+      "case": "unified_006",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8413500832527405,
+      "reference_modeled_utility_per_J": 0.8525059642636125,
+      "loss_percent": 1.308598587988563
+    },
+    {
+      "case": "unified_007",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7910149770620151,
+      "reference_modeled_utility_per_J": 0.7910149770620151,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_007",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7007535940125185,
+      "reference_modeled_utility_per_J": 0.7910149770620151,
+      "loss_percent": 11.410831105214358
+    },
+    {
+      "case": "unified_007",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7794115148919545,
+      "reference_modeled_utility_per_J": 0.7910149770620151,
+      "loss_percent": 1.4669080240627186
+    },
+    {
+      "case": "unified_008",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6663464534271024,
+      "reference_modeled_utility_per_J": 0.7180309508473472,
+      "loss_percent": 7.1980876812137495
+    },
+    {
+      "case": "unified_008",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6663464534271024,
+      "reference_modeled_utility_per_J": 0.7180309508473472,
+      "loss_percent": 7.1980876812137495
+    },
+    {
+      "case": "unified_008",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7180309508473472,
+      "reference_modeled_utility_per_J": 0.7180309508473472,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_008",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.636775803547532,
+      "reference_modeled_utility_per_J": 0.7180309508473472,
+      "loss_percent": 11.316385067235068
+    },
+    {
+      "case": "unified_008",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6616922202408615,
+      "reference_modeled_utility_per_J": 0.7180309508473472,
+      "loss_percent": 7.846281631731966
+    },
+    {
+      "case": "unified_009",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.813244074313174,
+      "reference_modeled_utility_per_J": 0.813244074313174,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_009",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7209287906484366,
+      "reference_modeled_utility_per_J": 0.813244074313174,
+      "loss_percent": 11.351485560187125
+    },
+    {
+      "case": "unified_009",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8024605905308443,
+      "reference_modeled_utility_per_J": 0.813244074313174,
+      "loss_percent": 1.3259836896367116
+    },
+    {
+      "case": "unified_010",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6694788084859814,
+      "reference_modeled_utility_per_J": 0.6694788084859814,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_010",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6030105435116399,
+      "reference_modeled_utility_per_J": 0.6694788084859814,
+      "loss_percent": 9.928359812412701
+    },
+    {
+      "case": "unified_010",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6694788084859818,
+      "reference_modeled_utility_per_J": 0.6694788084859814,
+      "loss_percent": -6.661338147750939e-14
+    },
+    {
+      "case": "unified_011",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6466001370509745,
+      "reference_modeled_utility_per_J": 0.6963036964788297,
+      "loss_percent": 7.138201287628288
+    },
+    {
+      "case": "unified_011",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6466001370509745,
+      "reference_modeled_utility_per_J": 0.6963036964788297,
+      "loss_percent": 7.138201287628288
+    },
+    {
+      "case": "unified_011",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6963036964788297,
+      "reference_modeled_utility_per_J": 0.6963036964788297,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_011",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6177475734198448,
+      "reference_modeled_utility_per_J": 0.6963036964788297,
+      "loss_percent": 11.281876493868847
+    },
+    {
+      "case": "unified_011",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6415908309642171,
+      "reference_modeled_utility_per_J": 0.6963036964788297,
+      "loss_percent": 7.857615260595718
+    },
+    {
+      "case": "unified_012",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.634019137492323,
+      "reference_modeled_utility_per_J": 0.6827840552834974,
+      "loss_percent": 7.142070382842613
+    },
+    {
+      "case": "unified_012",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.642401771977987,
+      "reference_modeled_utility_per_J": 0.6827840552834974,
+      "loss_percent": 5.91435652209883
+    },
+    {
+      "case": "unified_012",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6827840552834974,
+      "reference_modeled_utility_per_J": 0.6827840552834974,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_012",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6050351956755313,
+      "reference_modeled_utility_per_J": 0.6827840552834974,
+      "loss_percent": 11.387035037847237
+    },
+    {
+      "case": "unified_012",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6702905287873775,
+      "reference_modeled_utility_per_J": 0.6827840552834974,
+      "loss_percent": 1.8297917766888272
+    },
+    {
+      "case": "unified_013",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6335755919042149,
+      "reference_modeled_utility_per_J": 0.6852767016208016,
+      "loss_percent": 7.544559678492546
+    },
+    {
+      "case": "unified_013",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6335755919042149,
+      "reference_modeled_utility_per_J": 0.6852767016208016,
+      "loss_percent": 7.544559678492546
+    },
+    {
+      "case": "unified_013",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6852767016208016,
+      "reference_modeled_utility_per_J": 0.6852767016208016,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_013",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6022876662101543,
+      "reference_modeled_utility_per_J": 0.6852767016208016,
+      "loss_percent": 12.110295770214197
+    },
+    {
+      "case": "unified_013",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6261526221031356,
+      "reference_modeled_utility_per_J": 0.6852767016208016,
+      "loss_percent": 8.627767349718296
+    },
+    {
+      "case": "unified_014",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6516552825081849,
+      "reference_modeled_utility_per_J": 0.7029735422138037,
+      "loss_percent": 7.300169440802473
+    },
+    {
+      "case": "unified_014",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6516552825081849,
+      "reference_modeled_utility_per_J": 0.7029735422138037,
+      "loss_percent": 7.300169440802473
+    },
+    {
+      "case": "unified_014",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7029735422138037,
+      "reference_modeled_utility_per_J": 0.7029735422138037,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_014",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.620102447633931,
+      "reference_modeled_utility_per_J": 0.7029735422138037,
+      "loss_percent": 11.78865058262295
+    },
+    {
+      "case": "unified_014",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.64436441039446,
+      "reference_modeled_utility_per_J": 0.7029735422138037,
+      "loss_percent": 8.337316883189072
+    },
+    {
+      "case": "unified_015",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6966169890589524,
+      "reference_modeled_utility_per_J": 0.7160157811446185,
+      "loss_percent": 2.709268789391106
+    },
+    {
+      "case": "unified_015",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.708912037392666,
+      "reference_modeled_utility_per_J": 0.7160157811446185,
+      "loss_percent": 0.992121115067679
+    },
+    {
+      "case": "unified_015",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.708912037392666,
+      "reference_modeled_utility_per_J": 0.7160157811446185,
+      "loss_percent": 0.992121115067679
+    },
+    {
+      "case": "unified_015",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6251594792199456,
+      "reference_modeled_utility_per_J": 0.7160157811446185,
+      "loss_percent": 12.689147965346592
+    },
+    {
+      "case": "unified_015",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6498020779130907,
+      "reference_modeled_utility_per_J": 0.7160157811446185,
+      "loss_percent": 9.247520093157569
+    },
+    {
+      "case": "unified_016",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6279386112208702,
+      "reference_modeled_utility_per_J": 0.6775331187990954,
+      "loss_percent": 7.3198646977035935
+    },
+    {
+      "case": "unified_016",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6279386112208702,
+      "reference_modeled_utility_per_J": 0.6775331187990954,
+      "loss_percent": 7.3198646977035935
+    },
+    {
+      "case": "unified_016",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6775331187990954,
+      "reference_modeled_utility_per_J": 0.6775331187990954,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_016",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5981951292514257,
+      "reference_modeled_utility_per_J": 0.6775331187990954,
+      "loss_percent": 11.709831939771975
+    },
+    {
+      "case": "unified_016",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6202187762638461,
+      "reference_modeled_utility_per_J": 0.6775331187990954,
+      "loss_percent": 8.459268033544543
+    },
+    {
+      "case": "unified_017",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7776164781798078,
+      "reference_modeled_utility_per_J": 0.7837627507227986,
+      "loss_percent": 0.7842006445601735
+    },
+    {
+      "case": "unified_017",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7776164781798078,
+      "reference_modeled_utility_per_J": 0.7837627507227986,
+      "loss_percent": 0.7842006445601735
+    },
+    {
+      "case": "unified_017",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7837627507227986,
+      "reference_modeled_utility_per_J": 0.7837627507227986,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_017",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6859272248067873,
+      "reference_modeled_utility_per_J": 0.7837627507227986,
+      "loss_percent": 12.482798630808345
+    },
+    {
+      "case": "unified_017",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7129700371939757,
+      "reference_modeled_utility_per_J": 0.7837627507227986,
+      "loss_percent": 9.032416182516545
+    },
+    {
+      "case": "unified_018",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7694213161963633,
+      "reference_modeled_utility_per_J": 0.7694213161963633,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_018",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6782352726780898,
+      "reference_modeled_utility_per_J": 0.7694213161963633,
+      "loss_percent": 11.851249971738763
+    },
+    {
+      "case": "unified_018",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.761515026818147,
+      "reference_modeled_utility_per_J": 0.7694213161963633,
+      "loss_percent": 1.0275630804331137
+    },
+    {
+      "case": "unified_019",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.757918095159127,
+      "reference_modeled_utility_per_J": 0.8079110065798606,
+      "loss_percent": 6.187923052610611
+    },
+    {
+      "case": "unified_019",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.757918095159127,
+      "reference_modeled_utility_per_J": 0.8079110065798606,
+      "loss_percent": 6.187923052610611
+    },
+    {
+      "case": "unified_019",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8079110065798606,
+      "reference_modeled_utility_per_J": 0.8079110065798606,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_019",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7161500587918733,
+      "reference_modeled_utility_per_J": 0.8079110065798606,
+      "loss_percent": 11.357803896797991
+    },
+    {
+      "case": "unified_019",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7939576984794536,
+      "reference_modeled_utility_per_J": 0.8079110065798606,
+      "loss_percent": 1.727084788642208
+    },
+    {
+      "case": "unified_020",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7947433133535325,
+      "reference_modeled_utility_per_J": 0.797923138714934,
+      "loss_percent": 0.3985127397762467
+    },
+    {
+      "case": "unified_020",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7947433133535325,
+      "reference_modeled_utility_per_J": 0.797923138714934,
+      "loss_percent": 0.3985127397762467
+    },
+    {
+      "case": "unified_020",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7956298376368328,
+      "reference_modeled_utility_per_J": 0.797923138714934,
+      "loss_percent": 0.287408769946762
+    },
+    {
+      "case": "unified_020",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7028511780540355,
+      "reference_modeled_utility_per_J": 0.797923138714934,
+      "loss_percent": 11.914927146242826
+    },
+    {
+      "case": "unified_020",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7306357317641766,
+      "reference_modeled_utility_per_J": 0.797923138714934,
+      "loss_percent": 8.43281811066724
+    },
+    {
+      "case": "unified_021",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6256115194304395,
+      "reference_modeled_utility_per_J": 0.6766590828964958,
+      "loss_percent": 7.544059446825568
+    },
+    {
+      "case": "unified_021",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6256115194304395,
+      "reference_modeled_utility_per_J": 0.6766590828964958,
+      "loss_percent": 7.544059446825568
+    },
+    {
+      "case": "unified_021",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6766590828964958,
+      "reference_modeled_utility_per_J": 0.6766590828964958,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_021",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5966168894638461,
+      "reference_modeled_utility_per_J": 0.6766590828964958,
+      "loss_percent": 11.829028155511113
+    },
+    {
+      "case": "unified_021",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6600090203328216,
+      "reference_modeled_utility_per_J": 0.6766590828964958,
+      "loss_percent": 2.4606279564595823
+    },
+    {
+      "case": "unified_022",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8002721708165617,
+      "reference_modeled_utility_per_J": 0.8520722093848261,
+      "loss_percent": 6.079301495546097
+    },
+    {
+      "case": "unified_022",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8002721708165617,
+      "reference_modeled_utility_per_J": 0.8520722093848261,
+      "loss_percent": 6.079301495546097
+    },
+    {
+      "case": "unified_022",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8520722093848261,
+      "reference_modeled_utility_per_J": 0.8520722093848261,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_022",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.757072842274037,
+      "reference_modeled_utility_per_J": 0.8520722093848261,
+      "loss_percent": 11.149215531788803
+    },
+    {
+      "case": "unified_022",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8387741206178609,
+      "reference_modeled_utility_per_J": 0.8520722093848261,
+      "loss_percent": 1.5606762690413278
+    },
+    {
+      "case": "unified_023",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7502419672271855,
+      "reference_modeled_utility_per_J": 0.8007216508707083,
+      "loss_percent": 6.304273599774779
+    },
+    {
+      "case": "unified_023",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7502419672271855,
+      "reference_modeled_utility_per_J": 0.8007216508707083,
+      "loss_percent": 6.304273599774779
+    },
+    {
+      "case": "unified_023",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8007216508707083,
+      "reference_modeled_utility_per_J": 0.8007216508707083,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_023",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7078028258860242,
+      "reference_modeled_utility_per_J": 0.8007216508707083,
+      "loss_percent": 11.604385229704206
+    },
+    {
+      "case": "unified_023",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7864027817358613,
+      "reference_modeled_utility_per_J": 0.8007216508707083,
+      "loss_percent": 1.7882455306755585
+    },
+    {
+      "case": "unified_024",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6792147794008427,
+      "reference_modeled_utility_per_J": 0.7325755106146596,
+      "loss_percent": 7.283990583993882
+    },
+    {
+      "case": "unified_024",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6865828271444913,
+      "reference_modeled_utility_per_J": 0.7325755106146596,
+      "loss_percent": 6.278217440217015
+    },
+    {
+      "case": "unified_024",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7325755106146596,
+      "reference_modeled_utility_per_J": 0.7325755106146596,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_024",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6488289835258483,
+      "reference_modeled_utility_per_J": 0.7325755106146596,
+      "loss_percent": 11.431794521570172
+    },
+    {
+      "case": "unified_024",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.674055640940249,
+      "reference_modeled_utility_per_J": 0.7325755106146596,
+      "loss_percent": 7.988237229676187
+    },
+    {
+      "case": "unified_025",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6272378862445421,
+      "reference_modeled_utility_per_J": 0.6745572054372542,
+      "loss_percent": 7.014871209038409
+    },
+    {
+      "case": "unified_025",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6272378862445421,
+      "reference_modeled_utility_per_J": 0.6745572054372542,
+      "loss_percent": 7.014871209038409
+    },
+    {
+      "case": "unified_025",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6745572054372542,
+      "reference_modeled_utility_per_J": 0.6745572054372542,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_025",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5984921363540577,
+      "reference_modeled_utility_per_J": 0.6745572054372542,
+      "loss_percent": 11.276296282965415
+    },
+    {
+      "case": "unified_025",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6219947870818585,
+      "reference_modeled_utility_per_J": 0.6745572054372542,
+      "loss_percent": 7.792136520330284
+    },
+    {
+      "case": "unified_026",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6940350167277417,
+      "reference_modeled_utility_per_J": 0.6946480327640381,
+      "loss_percent": 0.08824843768104884
+    },
+    {
+      "case": "unified_026",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6940350167277417,
+      "reference_modeled_utility_per_J": 0.6946480327640381,
+      "loss_percent": 0.08824843768104884
+    },
+    {
+      "case": "unified_026",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6946480327640381,
+      "reference_modeled_utility_per_J": 0.6946480327640381,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_026",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6125956859079726,
+      "reference_modeled_utility_per_J": 0.6946480327640381,
+      "loss_percent": 11.812075034543057
+    },
+    {
+      "case": "unified_026",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.683252769945649,
+      "reference_modeled_utility_per_J": 0.6946480327640381,
+      "loss_percent": 1.6404369235808236
+    },
+    {
+      "case": "unified_027",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.629413312589053,
+      "reference_modeled_utility_per_J": 0.6796087682940883,
+      "loss_percent": 7.385934091320346
+    },
+    {
+      "case": "unified_027",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6361790078967146,
+      "reference_modeled_utility_per_J": 0.6796087682940883,
+      "loss_percent": 6.39040613121995
+    },
+    {
+      "case": "unified_027",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6796087682940883,
+      "reference_modeled_utility_per_J": 0.6796087682940883,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_027",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6004180027107934,
+      "reference_modeled_utility_per_J": 0.6796087682940883,
+      "loss_percent": 11.652404924391234
+    },
+    {
+      "case": "unified_027",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6239433479308573,
+      "reference_modeled_utility_per_J": 0.6796087682940883,
+      "loss_percent": 8.190803733000529
+    },
+    {
+      "case": "unified_028",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6975407209230855,
+      "reference_modeled_utility_per_J": 0.7437918336176875,
+      "loss_percent": 6.218287241692854
+    },
+    {
+      "case": "unified_028",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6975407209230855,
+      "reference_modeled_utility_per_J": 0.7437918336176875,
+      "loss_percent": 6.218287241692854
+    },
+    {
+      "case": "unified_028",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7437918336176875,
+      "reference_modeled_utility_per_J": 0.7437918336176875,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_028",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6601438321262448,
+      "reference_modeled_utility_per_J": 0.7437918336176875,
+      "loss_percent": 11.246157555211633
+    },
+    {
+      "case": "unified_028",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7313820012018314,
+      "reference_modeled_utility_per_J": 0.7437918336176875,
+      "loss_percent": 1.6684550508569873
+    },
+    {
+      "case": "unified_029",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6943144948976439,
+      "reference_modeled_utility_per_J": 0.6947618885440765,
+      "loss_percent": 0.0643952487621613
+    },
+    {
+      "case": "unified_029",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6943144948976439,
+      "reference_modeled_utility_per_J": 0.6947618885440765,
+      "loss_percent": 0.0643952487621613
+    },
+    {
+      "case": "unified_029",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6947618885440765,
+      "reference_modeled_utility_per_J": 0.6947618885440765,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_029",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6104817881174472,
+      "reference_modeled_utility_per_J": 0.6947618885440765,
+      "loss_percent": 12.13078924108003
+    },
+    {
+      "case": "unified_029",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.680380613006236,
+      "reference_modeled_utility_per_J": 0.6947618885440765,
+      "loss_percent": 2.069957459522931
+    },
+    {
+      "case": "unified_030",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.693288617295213,
+      "reference_modeled_utility_per_J": 0.7065253263509732,
+      "loss_percent": 1.873493923299896
+    },
+    {
+      "case": "unified_030",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.693288617295213,
+      "reference_modeled_utility_per_J": 0.7065253263509732,
+      "loss_percent": 1.873493923299896
+    },
+    {
+      "case": "unified_030",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7065253263509732,
+      "reference_modeled_utility_per_J": 0.7065253263509732,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_030",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6276076318712545,
+      "reference_modeled_utility_per_J": 0.7065253263509732,
+      "loss_percent": 11.169832352268095
+    },
+    {
+      "case": "unified_030",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6517491373611999,
+      "reference_modeled_utility_per_J": 0.7065253263509732,
+      "loss_percent": 7.752898154787835
+    },
+    {
+      "case": "unified_031",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6074510655190427,
+      "reference_modeled_utility_per_J": 0.751906838492115,
+      "loss_percent": 19.211924347272337
+    },
+    {
+      "case": "unified_031",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6134647045328072,
+      "reference_modeled_utility_per_J": 0.751906838492115,
+      "loss_percent": 18.412139226841152
+    },
+    {
+      "case": "unified_031",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.751906838492115,
+      "reference_modeled_utility_per_J": 0.751906838492115,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_031",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6669988371483482,
+      "reference_modeled_utility_per_J": 0.751906838492115,
+      "loss_percent": 11.292356578913765
+    },
+    {
+      "case": "unified_031",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7409519842352125,
+      "reference_modeled_utility_per_J": 0.751906838492115,
+      "loss_percent": 1.4569430275260697
+    },
+    {
+      "case": "unified_032",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.822095795336736,
+      "reference_modeled_utility_per_J": 0.8230259233248404,
+      "loss_percent": 0.11301320672219006
+    },
+    {
+      "case": "unified_032",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.822095795336736,
+      "reference_modeled_utility_per_J": 0.8230259233248404,
+      "loss_percent": 0.11301320672219006
+    },
+    {
+      "case": "unified_032",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8230259233248404,
+      "reference_modeled_utility_per_J": 0.8230259233248404,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_032",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7234086589822106,
+      "reference_modeled_utility_per_J": 0.8230259233248404,
+      "loss_percent": 12.10378209476055
+    },
+    {
+      "case": "unified_032",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8090117139155525,
+      "reference_modeled_utility_per_J": 0.8230259233248404,
+      "loss_percent": 1.7027664636216633
+    },
+    {
+      "case": "unified_033",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6993073240500646,
+      "reference_modeled_utility_per_J": 0.6993073240500646,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_033",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6993073240500646,
+      "reference_modeled_utility_per_J": 0.6993073240500646,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_033",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6993073240500646,
+      "reference_modeled_utility_per_J": 0.6993073240500646,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_033",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6144184087450644,
+      "reference_modeled_utility_per_J": 0.6993073240500646,
+      "loss_percent": 12.138999891115521
+    },
+    {
+      "case": "unified_033",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6866122929779035,
+      "reference_modeled_utility_per_J": 0.6993073240500646,
+      "loss_percent": 1.815372245586866
+    },
+    {
+      "case": "unified_034",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8559661050090623,
+      "reference_modeled_utility_per_J": 0.8559661050090623,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_034",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8559661050090623,
+      "reference_modeled_utility_per_J": 0.8559661050090623,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_034",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8559661050090623,
+      "reference_modeled_utility_per_J": 0.8559661050090623,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_034",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7536786343159679,
+      "reference_modeled_utility_per_J": 0.8559661050090623,
+      "loss_percent": 11.949944056723073
+    },
+    {
+      "case": "unified_034",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8397420157077389,
+      "reference_modeled_utility_per_J": 0.8559661050090623,
+      "loss_percent": 1.895412587762657
+    },
+    {
+      "case": "unified_035",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6663395036112951,
+      "reference_modeled_utility_per_J": 0.7175180283074659,
+      "loss_percent": 7.1327162074093735
+    },
+    {
+      "case": "unified_035",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6747870735588012,
+      "reference_modeled_utility_per_J": 0.7175180283074659,
+      "loss_percent": 5.95538412455805
+    },
+    {
+      "case": "unified_035",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7175180283074659,
+      "reference_modeled_utility_per_J": 0.7175180283074659,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_035",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6367195318694432,
+      "reference_modeled_utility_per_J": 0.7175180283074659,
+      "loss_percent": 11.260831540165771
+    },
+    {
+      "case": "unified_035",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7058796154907796,
+      "reference_modeled_utility_per_J": 0.7175180283074659,
+      "loss_percent": 1.6220376851212914
+    },
+    {
+      "case": "unified_036",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7419164937045449,
+      "reference_modeled_utility_per_J": 0.7419889528727553,
+      "loss_percent": 0.009765531943550787
+    },
+    {
+      "case": "unified_036",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7419164937045449,
+      "reference_modeled_utility_per_J": 0.7419889528727553,
+      "loss_percent": 0.009765531943550787
+    },
+    {
+      "case": "unified_036",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7419889528727553,
+      "reference_modeled_utility_per_J": 0.7419889528727553,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_036",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6545240021308875,
+      "reference_modeled_utility_per_J": 0.7419889528727553,
+      "loss_percent": 11.787904712493392
+    },
+    {
+      "case": "unified_036",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7297044285854224,
+      "reference_modeled_utility_per_J": 0.7419889528727553,
+      "loss_percent": 1.6556209145393574
+    },
+    {
+      "case": "unified_037",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6491803384535328,
+      "reference_modeled_utility_per_J": 0.7014182842341493,
+      "loss_percent": 7.447474204019788
+    },
+    {
+      "case": "unified_037",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6491803384535328,
+      "reference_modeled_utility_per_J": 0.7014182842341493,
+      "loss_percent": 7.447474204019788
+    },
+    {
+      "case": "unified_037",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7014182842341493,
+      "reference_modeled_utility_per_J": 0.7014182842341493,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_037",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6172245390371629,
+      "reference_modeled_utility_per_J": 0.7014182842341493,
+      "loss_percent": 12.003357638290568
+    },
+    {
+      "case": "unified_037",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6414954536762006,
+      "reference_modeled_utility_per_J": 0.7014182842341493,
+      "loss_percent": 8.543095026867743
+    },
+    {
+      "case": "unified_038",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7766290206050711,
+      "reference_modeled_utility_per_J": 0.7948801290220147,
+      "loss_percent": 2.296083113739289
+    },
+    {
+      "case": "unified_038",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7766290206050711,
+      "reference_modeled_utility_per_J": 0.7948801290220147,
+      "loss_percent": 2.296083113739289
+    },
+    {
+      "case": "unified_038",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7948801290220147,
+      "reference_modeled_utility_per_J": 0.7948801290220147,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_038",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6977719627418691,
+      "reference_modeled_utility_per_J": 0.7948801290220147,
+      "loss_percent": 12.216705731419285
+    },
+    {
+      "case": "unified_038",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7249924247134163,
+      "reference_modeled_utility_per_J": 0.7948801290220147,
+      "loss_percent": 8.792231904776015
+    },
+    {
+      "case": "unified_039",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7543282024683743,
+      "reference_modeled_utility_per_J": 0.7671525669153896,
+      "loss_percent": 1.6716837041398702
+    },
+    {
+      "case": "unified_039",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7543282024683743,
+      "reference_modeled_utility_per_J": 0.7671525669153896,
+      "loss_percent": 1.6716837041398702
+    },
+    {
+      "case": "unified_039",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7644167988471612,
+      "reference_modeled_utility_per_J": 0.7671525669153896,
+      "loss_percent": 0.3566132978252923
+    },
+    {
+      "case": "unified_039",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6773866368272207,
+      "reference_modeled_utility_per_J": 0.7671525669153896,
+      "loss_percent": 11.701183566276107
+    },
+    {
+      "case": "unified_039",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7043412794805695,
+      "reference_modeled_utility_per_J": 0.7671525669153896,
+      "loss_percent": 8.187587468731971
+    },
+    {
+      "case": "unified_040",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7484000043039621,
+      "reference_modeled_utility_per_J": 0.7624528989155447,
+      "loss_percent": 1.8431164248401855
+    },
+    {
+      "case": "unified_040",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7484000043039621,
+      "reference_modeled_utility_per_J": 0.7624528989155447,
+      "loss_percent": 1.8431164248401855
+    },
+    {
+      "case": "unified_040",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7603819155269542,
+      "reference_modeled_utility_per_J": 0.7624528989155447,
+      "loss_percent": 0.27162115739032267
+    },
+    {
+      "case": "unified_040",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6715664423998451,
+      "reference_modeled_utility_per_J": 0.7624528989155447,
+      "loss_percent": 11.920271618741252
+    },
+    {
+      "case": "unified_040",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6986526495234061,
+      "reference_modeled_utility_per_J": 0.7624528989155447,
+      "loss_percent": 8.367762714638927
+    },
+    {
+      "case": "unified_041",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.685469871508554,
+      "reference_modeled_utility_per_J": 0.7029463266295477,
+      "loss_percent": 2.48617205310524
+    },
+    {
+      "case": "unified_041",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6956414074567889,
+      "reference_modeled_utility_per_J": 0.7029463266295477,
+      "loss_percent": 1.0391859087996114
+    },
+    {
+      "case": "unified_041",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7029463266295477,
+      "reference_modeled_utility_per_J": 0.7029463266295477,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_041",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6138599197840027,
+      "reference_modeled_utility_per_J": 0.7029463266295477,
+      "loss_percent": 12.673287201412965
+    },
+    {
+      "case": "unified_041",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6382781765682063,
+      "reference_modeled_utility_per_J": 0.7029463266295477,
+      "loss_percent": 9.199585745245875
+    },
+    {
+      "case": "unified_042",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.614150295832191,
+      "reference_modeled_utility_per_J": 0.6565052393793888,
+      "loss_percent": 6.451577383790097
+    },
+    {
+      "case": "unified_042",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.614150295832191,
+      "reference_modeled_utility_per_J": 0.6565052393793888,
+      "loss_percent": 6.451577383790097
+    },
+    {
+      "case": "unified_042",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6565052393793888,
+      "reference_modeled_utility_per_J": 0.6565052393793888,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_042",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5824705848496307,
+      "reference_modeled_utility_per_J": 0.6565052393793888,
+      "loss_percent": 11.277085099845507
+    },
+    {
+      "case": "unified_042",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6043446585827179,
+      "reference_modeled_utility_per_J": 0.6565052393793888,
+      "loss_percent": 7.945188807019965
+    },
+    {
+      "case": "unified_043",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7877552774422772,
+      "reference_modeled_utility_per_J": 0.8028975734661997,
+      "loss_percent": 1.8859561324306218
+    },
+    {
+      "case": "unified_043",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7877552774422772,
+      "reference_modeled_utility_per_J": 0.8028975734661997,
+      "loss_percent": 1.8859561324306218
+    },
+    {
+      "case": "unified_043",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8028975734661997,
+      "reference_modeled_utility_per_J": 0.8028975734661997,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_043",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7091611275757221,
+      "reference_modeled_utility_per_J": 0.8028975734661997,
+      "loss_percent": 11.674770106205045
+    },
+    {
+      "case": "unified_043",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7359078047561401,
+      "reference_modeled_utility_per_J": 0.8028975734661997,
+      "loss_percent": 8.34350120412709
+    },
+    {
+      "case": "unified_044",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7307985415025768,
+      "reference_modeled_utility_per_J": 0.7426974379420562,
+      "loss_percent": 1.6021189560650795
+    },
+    {
+      "case": "unified_044",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7422261884849075,
+      "reference_modeled_utility_per_J": 0.7426974379420562,
+      "loss_percent": 0.0634510681031153
+    },
+    {
+      "case": "unified_044",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7426974379420562,
+      "reference_modeled_utility_per_J": 0.7426974379420562,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_044",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6543578481189125,
+      "reference_modeled_utility_per_J": 0.7426974379420562,
+      "loss_percent": 11.894425012145494
+    },
+    {
+      "case": "unified_044",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7271888560610014,
+      "reference_modeled_utility_per_J": 0.7426974379420562,
+      "loss_percent": 2.0881426390843116
+    },
+    {
+      "case": "unified_045",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7528434662824924,
+      "reference_modeled_utility_per_J": 0.763549439748986,
+      "loss_percent": 1.4021323190300694
+    },
+    {
+      "case": "unified_045",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7528434662824924,
+      "reference_modeled_utility_per_J": 0.763549439748986,
+      "loss_percent": 1.4021323190300694
+    },
+    {
+      "case": "unified_045",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.763549439748986,
+      "reference_modeled_utility_per_J": 0.763549439748986,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_045",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6761101058483334,
+      "reference_modeled_utility_per_J": 0.763549439748986,
+      "loss_percent": 11.451692496742316
+    },
+    {
+      "case": "unified_045",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7020756357927205,
+      "reference_modeled_utility_per_J": 0.763549439748986,
+      "loss_percent": 8.051057437285902
+    },
+    {
+      "case": "unified_046",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6502530064939523,
+      "reference_modeled_utility_per_J": 0.6599686745637247,
+      "loss_percent": 1.4721407915602835
+    },
+    {
+      "case": "unified_046",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6599112132099803,
+      "reference_modeled_utility_per_J": 0.6599686745637247,
+      "loss_percent": 0.008706678962056014
+    },
+    {
+      "case": "unified_046",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6599686745637247,
+      "reference_modeled_utility_per_J": 0.6599686745637247,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_046",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5820879994280838,
+      "reference_modeled_utility_per_J": 0.6599686745637247,
+      "loss_percent": 11.800662385547966
+    },
+    {
+      "case": "unified_046",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6466053093816819,
+      "reference_modeled_utility_per_J": 0.6599686745637247,
+      "loss_percent": 2.024848405248425
+    },
+    {
+      "case": "unified_047",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.63209138723298,
+      "reference_modeled_utility_per_J": 0.7717974688016047,
+      "loss_percent": 18.101391519921794
+    },
+    {
+      "case": "unified_047",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.63209138723298,
+      "reference_modeled_utility_per_J": 0.7717974688016047,
+      "loss_percent": 18.101391519921794
+    },
+    {
+      "case": "unified_047",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7717974688016047,
+      "reference_modeled_utility_per_J": 0.7717974688016047,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_047",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.680594982655193,
+      "reference_modeled_utility_per_J": 0.7717974688016047,
+      "loss_percent": 11.81689365838745
+    },
+    {
+      "case": "unified_047",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7641410494916309,
+      "reference_modeled_utility_per_J": 0.7717974688016047,
+      "loss_percent": 0.9920244130707245
+    },
+    {
+      "case": "unified_048",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6304801798727703,
+      "reference_modeled_utility_per_J": 0.6762209308027003,
+      "loss_percent": 6.764172601938534
+    },
+    {
+      "case": "unified_048",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6304801798727703,
+      "reference_modeled_utility_per_J": 0.6762209308027003,
+      "loss_percent": 6.764172601938534
+    },
+    {
+      "case": "unified_048",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6762209308027003,
+      "reference_modeled_utility_per_J": 0.6762209308027003,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_048",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6009401304923468,
+      "reference_modeled_utility_per_J": 0.6762209308027003,
+      "loss_percent": 11.132574707646548
+    },
+    {
+      "case": "unified_048",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6241024861923666,
+      "reference_modeled_utility_per_J": 0.6762209308027003,
+      "loss_percent": 7.707310175753812
+    },
+    {
+      "case": "unified_049",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7053153652656603,
+      "reference_modeled_utility_per_J": 0.7053153652656603,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_049",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6265876649103834,
+      "reference_modeled_utility_per_J": 0.7053153652656603,
+      "loss_percent": 11.162056610750815
+    },
+    {
+      "case": "unified_049",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6955801635267705,
+      "reference_modeled_utility_per_J": 0.7053153652656603,
+      "loss_percent": 1.380262251230402
+    },
+    {
+      "case": "unified_050",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5929238857584397,
+      "reference_modeled_utility_per_J": 0.6295380095532939,
+      "loss_percent": 5.81603068269615
+    },
+    {
+      "case": "unified_050",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5929238857584397,
+      "reference_modeled_utility_per_J": 0.6295380095532939,
+      "loss_percent": 5.81603068269615
+    },
+    {
+      "case": "unified_050",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6295380095532939,
+      "reference_modeled_utility_per_J": 0.6295380095532939,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_050",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.556057630588811,
+      "reference_modeled_utility_per_J": 0.6295380095532939,
+      "loss_percent": 11.672111588087098
+    },
+    {
+      "case": "unified_050",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6181867030660634,
+      "reference_modeled_utility_per_J": 0.6295380095532939,
+      "loss_percent": 1.8031169389255974
+    },
+    {
+      "case": "unified_051",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6564622837220401,
+      "reference_modeled_utility_per_J": 0.6564622837220401,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_051",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5827165256077911,
+      "reference_modeled_utility_per_J": 0.6564622837220401,
+      "loss_percent": 11.233814941525944
+    },
+    {
+      "case": "unified_051",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6471405852503131,
+      "reference_modeled_utility_per_J": 0.6564622837220401,
+      "loss_percent": 1.4199899526404325
+    },
+    {
+      "case": "unified_052",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7671362731971196,
+      "reference_modeled_utility_per_J": 0.7793128808992085,
+      "loss_percent": 1.562479974415265
+    },
+    {
+      "case": "unified_052",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7793128808992085,
+      "reference_modeled_utility_per_J": 0.7793128808992085,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_052",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7793128808992085,
+      "reference_modeled_utility_per_J": 0.7793128808992085,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_052",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6867218602620182,
+      "reference_modeled_utility_per_J": 0.7793128808992085,
+      "loss_percent": 11.88111000171771
+    },
+    {
+      "case": "unified_052",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7641588308871283,
+      "reference_modeled_utility_per_J": 0.7793128808992085,
+      "loss_percent": 1.944539912466825
+    },
+    {
+      "case": "unified_053",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.75479321047349,
+      "reference_modeled_utility_per_J": 0.7667382480738464,
+      "loss_percent": 1.557902925850374
+    },
+    {
+      "case": "unified_053",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7667382480738464,
+      "reference_modeled_utility_per_J": 0.7667382480738464,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_053",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7667382480738464,
+      "reference_modeled_utility_per_J": 0.7667382480738464,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_053",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6765917322923403,
+      "reference_modeled_utility_per_J": 0.7667382480738464,
+      "loss_percent": 11.757143459057474
+    },
+    {
+      "case": "unified_053",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7530512312251144,
+      "reference_modeled_utility_per_J": 0.7667382480738464,
+      "loss_percent": 1.785096398036179
+    },
+    {
+      "case": "unified_054",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5764427315767467,
+      "reference_modeled_utility_per_J": 0.6148202982254676,
+      "loss_percent": 6.242078662576455
+    },
+    {
+      "case": "unified_054",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5764427315767467,
+      "reference_modeled_utility_per_J": 0.6148202982254676,
+      "loss_percent": 6.242078662576455
+    },
+    {
+      "case": "unified_054",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6148202982254676,
+      "reference_modeled_utility_per_J": 0.6148202982254676,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_054",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5462496734317599,
+      "reference_modeled_utility_per_J": 0.6148202982254676,
+      "loss_percent": 11.152953959330958
+    },
+    {
+      "case": "unified_054",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.56734962905554,
+      "reference_modeled_utility_per_J": 0.6148202982254676,
+      "loss_percent": 7.721064074647566
+    },
+    {
+      "case": "unified_055",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5775031310395841,
+      "reference_modeled_utility_per_J": 0.6183161476673513,
+      "loss_percent": 6.600671320284568
+    },
+    {
+      "case": "unified_055",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5775031310395841,
+      "reference_modeled_utility_per_J": 0.6183161476673513,
+      "loss_percent": 6.600671320284568
+    },
+    {
+      "case": "unified_055",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6183161476673513,
+      "reference_modeled_utility_per_J": 0.6183161476673513,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_055",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5483860991158223,
+      "reference_modeled_utility_per_J": 0.6183161476673513,
+      "loss_percent": 11.309756152309125
+    },
+    {
+      "case": "unified_055",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5702114550484956,
+      "reference_modeled_utility_per_J": 0.6183161476673513,
+      "loss_percent": 7.779950887638087
+    },
+    {
+      "case": "unified_056",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7336761456700958,
+      "reference_modeled_utility_per_J": 0.7452508406993319,
+      "loss_percent": 1.5531274031673203
+    },
+    {
+      "case": "unified_056",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7452508406993319,
+      "reference_modeled_utility_per_J": 0.7452508406993319,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_056",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7452508406993319,
+      "reference_modeled_utility_per_J": 0.7452508406993319,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_056",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6572042490205493,
+      "reference_modeled_utility_per_J": 0.7452508406993319,
+      "loss_percent": 11.814356572367101
+    },
+    {
+      "case": "unified_056",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7319413566392955,
+      "reference_modeled_utility_per_J": 0.7452508406993319,
+      "loss_percent": 1.785906614683852
+    },
+    {
+      "case": "unified_057",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8046471371235406,
+      "reference_modeled_utility_per_J": 0.8568463103942925,
+      "loss_percent": 6.092011208723247
+    },
+    {
+      "case": "unified_057",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8046471371235406,
+      "reference_modeled_utility_per_J": 0.8568463103942925,
+      "loss_percent": 6.092011208723247
+    },
+    {
+      "case": "unified_057",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8568463103942925,
+      "reference_modeled_utility_per_J": 0.8568463103942925,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_057",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7615310214603145,
+      "reference_modeled_utility_per_J": 0.8568463103942925,
+      "loss_percent": 11.123965614103781
+    },
+    {
+      "case": "unified_057",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.844811748035939,
+      "reference_modeled_utility_per_J": 0.8568463103942925,
+      "loss_percent": 1.4045181979969845
+    },
+    {
+      "case": "unified_058",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.875539454446381,
+      "reference_modeled_utility_per_J": 0.875539454446381,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_058",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7759634929742794,
+      "reference_modeled_utility_per_J": 0.875539454446381,
+      "loss_percent": 11.373098147252003
+    },
+    {
+      "case": "unified_058",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8642574076737611,
+      "reference_modeled_utility_per_J": 0.875539454446381,
+      "loss_percent": 1.2885823380459516
+    },
+    {
+      "case": "unified_059",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7383692013862009,
+      "reference_modeled_utility_per_J": 0.7389262112085037,
+      "loss_percent": 0.07538098038122332
+    },
+    {
+      "case": "unified_059",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7383692013862009,
+      "reference_modeled_utility_per_J": 0.7389262112085037,
+      "loss_percent": 0.07538098038122332
+    },
+    {
+      "case": "unified_059",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7389262112085037,
+      "reference_modeled_utility_per_J": 0.7389262112085037,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_059",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6497012873980437,
+      "reference_modeled_utility_per_J": 0.7389262112085037,
+      "loss_percent": 12.074943675977313
+    },
+    {
+      "case": "unified_059",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7249159576833643,
+      "reference_modeled_utility_per_J": 0.7389262112085037,
+      "loss_percent": 1.896028766150526
+    },
+    {
+      "case": "unified_060",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6112681194464541,
+      "reference_modeled_utility_per_J": 0.6485094501314825,
+      "loss_percent": 5.742604163667608
+    },
+    {
+      "case": "unified_060",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6112681194464541,
+      "reference_modeled_utility_per_J": 0.6485094501314825,
+      "loss_percent": 5.742604163667608
+    },
+    {
+      "case": "unified_060",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6485094501314825,
+      "reference_modeled_utility_per_J": 0.6485094501314825,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_060",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5732152411853012,
+      "reference_modeled_utility_per_J": 0.6485094501314825,
+      "loss_percent": 11.610348766839984
+    },
+    {
+      "case": "unified_060",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.636954846068677,
+      "reference_modeled_utility_per_J": 0.6485094501314825,
+      "loss_percent": 1.7817171454421965
+    },
+    {
+      "case": "unified_061",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6772570242564896,
+      "reference_modeled_utility_per_J": 0.6772570242564896,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_061",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6110543785135469,
+      "reference_modeled_utility_per_J": 0.6772570242564896,
+      "loss_percent": 9.775113933387647
+    },
+    {
+      "case": "unified_061",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6772570242564901,
+      "reference_modeled_utility_per_J": 0.6772570242564896,
+      "loss_percent": -8.881784197001252e-14
+    },
+    {
+      "case": "unified_062",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7374250328017351,
+      "reference_modeled_utility_per_J": 0.7868906320005224,
+      "loss_percent": 6.28621020344724
+    },
+    {
+      "case": "unified_062",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7374250328017351,
+      "reference_modeled_utility_per_J": 0.7868906320005224,
+      "loss_percent": 6.28621020344724
+    },
+    {
+      "case": "unified_062",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7868906320005224,
+      "reference_modeled_utility_per_J": 0.7868906320005224,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_062",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6955468661745342,
+      "reference_modeled_utility_per_J": 0.7868906320005224,
+      "loss_percent": 11.608190784247075
+    },
+    {
+      "case": "unified_062",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7735848099025912,
+      "reference_modeled_utility_per_J": 0.7868906320005224,
+      "loss_percent": 1.6909366507647627
+    },
+    {
+      "case": "unified_063",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8110539652405557,
+      "reference_modeled_utility_per_J": 0.873345169305524,
+      "loss_percent": 7.132483954139424
+    },
+    {
+      "case": "unified_063",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8230857360376219,
+      "reference_modeled_utility_per_J": 0.873345169305524,
+      "loss_percent": 5.754818946083818
+    },
+    {
+      "case": "unified_063",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.873345169305524,
+      "reference_modeled_utility_per_J": 0.873345169305524,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_063",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7765643059932502,
+      "reference_modeled_utility_per_J": 0.873345169305524,
+      "loss_percent": 11.081628056548709
+    },
+    {
+      "case": "unified_063",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8611917448860729,
+      "reference_modeled_utility_per_J": 0.873345169305524,
+      "loss_percent": 1.3915946233624243
+    },
+    {
+      "case": "unified_064",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6949683012951353,
+      "reference_modeled_utility_per_J": 0.7067118534772641,
+      "loss_percent": 1.6617171658217522
+    },
+    {
+      "case": "unified_064",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7038739042344834,
+      "reference_modeled_utility_per_J": 0.7067118534772641,
+      "loss_percent": 0.4015709130697376
+    },
+    {
+      "case": "unified_064",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7067118534772641,
+      "reference_modeled_utility_per_J": 0.7067118534772641,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_064",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6219368247657547,
+      "reference_modeled_utility_per_J": 0.7067118534772641,
+      "loss_percent": 11.995699278905136
+    },
+    {
+      "case": "unified_064",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6457546420586033,
+      "reference_modeled_utility_per_J": 0.7067118534772641,
+      "loss_percent": 8.625468940237868
+    },
+    {
+      "case": "unified_065",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5984041992740227,
+      "reference_modeled_utility_per_J": 0.6457589126806608,
+      "loss_percent": 7.3331877387584505
+    },
+    {
+      "case": "unified_065",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5984041992740227,
+      "reference_modeled_utility_per_J": 0.6457589126806608,
+      "loss_percent": 7.3331877387584505
+    },
+    {
+      "case": "unified_065",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6454474545743987,
+      "reference_modeled_utility_per_J": 0.6457589126806608,
+      "loss_percent": 0.0482313290836589
+    },
+    {
+      "case": "unified_065",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5697692842808049,
+      "reference_modeled_utility_per_J": 0.6457589126806608,
+      "loss_percent": 11.767492001683621
+    },
+    {
+      "case": "unified_065",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6287727675889395,
+      "reference_modeled_utility_per_J": 0.6457589126806608,
+      "loss_percent": 2.630415896423133
+    },
+    {
+      "case": "unified_066",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6391872832256201,
+      "reference_modeled_utility_per_J": 0.6913912622124502,
+      "loss_percent": 7.550569675957064
+    },
+    {
+      "case": "unified_066",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6391872832256201,
+      "reference_modeled_utility_per_J": 0.6913912622124502,
+      "loss_percent": 7.550569675957064
+    },
+    {
+      "case": "unified_066",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6913912622124502,
+      "reference_modeled_utility_per_J": 0.6913912622124502,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_066",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6077419933879158,
+      "reference_modeled_utility_per_J": 0.6913912622124502,
+      "loss_percent": 12.098687587814883
+    },
+    {
+      "case": "unified_066",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6318008357796707,
+      "reference_modeled_utility_per_J": 0.6913912622124502,
+      "loss_percent": 8.618915177216769
+    },
+    {
+      "case": "unified_067",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.674918386366599,
+      "reference_modeled_utility_per_J": 0.7281546107166876,
+      "loss_percent": 7.311115464570195
+    },
+    {
+      "case": "unified_067",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.674918386366599,
+      "reference_modeled_utility_per_J": 0.7281546107166876,
+      "loss_percent": 7.311115464570195
+    },
+    {
+      "case": "unified_067",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7265825407538009,
+      "reference_modeled_utility_per_J": 0.7281546107166876,
+      "loss_percent": 0.21589782441113758
+    },
+    {
+      "case": "unified_067",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6418562138017491,
+      "reference_modeled_utility_per_J": 0.7281546107166876,
+      "loss_percent": 11.85165837650869
+    },
+    {
+      "case": "unified_067",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6677230221809072,
+      "reference_modeled_utility_per_J": 0.7281546107166876,
+      "loss_percent": 8.299279802170112
+    },
+    {
+      "case": "unified_068",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.673295962327752,
+      "reference_modeled_utility_per_J": 0.7270339513063148,
+      "loss_percent": 7.391400206552634
+    },
+    {
+      "case": "unified_068",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6830615021661456,
+      "reference_modeled_utility_per_J": 0.7270339513063148,
+      "loss_percent": 6.048197482546813
+    },
+    {
+      "case": "unified_068",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7270339513063148,
+      "reference_modeled_utility_per_J": 0.7270339513063148,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_068",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6449174703670936,
+      "reference_modeled_utility_per_J": 0.7270339513063148,
+      "loss_percent": 11.294724378645116
+    },
+    {
+      "case": "unified_068",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7140356219681117,
+      "reference_modeled_utility_per_J": 0.7270339513063148,
+      "loss_percent": 1.7878572678549642
+    },
+    {
+      "case": "unified_069",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7252662711501866,
+      "reference_modeled_utility_per_J": 0.7252662711501866,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_069",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.639298843435419,
+      "reference_modeled_utility_per_J": 0.7252662711501866,
+      "loss_percent": 11.853222896803606
+    },
+    {
+      "case": "unified_069",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.717399947111942,
+      "reference_modeled_utility_per_J": 0.7252662711501866,
+      "loss_percent": 1.084611866172891
+    },
+    {
+      "case": "unified_070",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7561856198549611,
+      "reference_modeled_utility_per_J": 0.7714608266888356,
+      "loss_percent": 1.98003661435886
+    },
+    {
+      "case": "unified_070",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7561856198549611,
+      "reference_modeled_utility_per_J": 0.7714608266888356,
+      "loss_percent": 1.98003661435886
+    },
+    {
+      "case": "unified_070",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7714608266888356,
+      "reference_modeled_utility_per_J": 0.7714608266888356,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_070",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6792543389489811,
+      "reference_modeled_utility_per_J": 0.7714608266888356,
+      "loss_percent": 11.9521931055931
+    },
+    {
+      "case": "unified_070",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7053195398360899,
+      "reference_modeled_utility_per_J": 0.7714608266888356,
+      "loss_percent": 8.573512039053089
+    },
+    {
+      "case": "unified_071",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6542584555714192,
+      "reference_modeled_utility_per_J": 0.6542584555714192,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_071",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5766372133630872,
+      "reference_modeled_utility_per_J": 0.6542584555714192,
+      "loss_percent": 11.864002910063853
+    },
+    {
+      "case": "unified_071",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6405033283227305,
+      "reference_modeled_utility_per_J": 0.6542584555714192,
+      "loss_percent": 2.1023996146408486
+    },
+    {
+      "case": "unified_072",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.729524802060689,
+      "reference_modeled_utility_per_J": 0.7485034912853213,
+      "loss_percent": 2.5355511958992105
+    },
+    {
+      "case": "unified_072",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7422491456613719,
+      "reference_modeled_utility_per_J": 0.7485034912853213,
+      "loss_percent": 0.8355800202360486
+    },
+    {
+      "case": "unified_072",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7485034912853213,
+      "reference_modeled_utility_per_J": 0.7485034912853213,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_072",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.653959458674939,
+      "reference_modeled_utility_per_J": 0.7485034912853213,
+      "loss_percent": 12.631074365202021
+    },
+    {
+      "case": "unified_072",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.728836185304885,
+      "reference_modeled_utility_per_J": 0.7485034912853213,
+      "loss_percent": 2.6275503333543337
+    },
+    {
+      "case": "unified_073",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6145056796507458,
+      "reference_modeled_utility_per_J": 0.6233664499700308,
+      "loss_percent": 1.421438436366118
+    },
+    {
+      "case": "unified_073",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6233664499700308,
+      "reference_modeled_utility_per_J": 0.6233664499700308,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_073",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6233664499700308,
+      "reference_modeled_utility_per_J": 0.6233664499700308,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_073",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.549430799207664,
+      "reference_modeled_utility_per_J": 0.6233664499700308,
+      "loss_percent": 11.860704207921568
+    },
+    {
+      "case": "unified_073",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6101126500528231,
+      "reference_modeled_utility_per_J": 0.6233664499700308,
+      "loss_percent": 2.12616510205913
+    },
+    {
+      "case": "unified_074",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6354725729313359,
+      "reference_modeled_utility_per_J": 0.6879848392154816,
+      "loss_percent": 7.632765039419498
+    },
+    {
+      "case": "unified_074",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6354725729313359,
+      "reference_modeled_utility_per_J": 0.6879848392154816,
+      "loss_percent": 7.632765039419498
+    },
+    {
+      "case": "unified_074",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6875420529408748,
+      "reference_modeled_utility_per_J": 0.6879848392154816,
+      "loss_percent": 0.06435988838238149
+    },
+    {
+      "case": "unified_074",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.605833492098384,
+      "reference_modeled_utility_per_J": 0.6879848392154816,
+      "loss_percent": 11.940865907855747
+    },
+    {
+      "case": "unified_074",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.670272618408803,
+      "reference_modeled_utility_per_J": 0.6879848392154816,
+      "loss_percent": 2.574507430552686
+    },
+    {
+      "case": "unified_075",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.668646393785897,
+      "reference_modeled_utility_per_J": 0.6797818324290494,
+      "loss_percent": 1.6380900624193617
+    },
+    {
+      "case": "unified_075",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6776841159834337,
+      "reference_modeled_utility_per_J": 0.6797818324290494,
+      "loss_percent": 0.30858671790624514
+    },
+    {
+      "case": "unified_075",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6797818324290494,
+      "reference_modeled_utility_per_J": 0.6797818324290494,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_075",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5976505847782074,
+      "reference_modeled_utility_per_J": 0.6797818324290494,
+      "loss_percent": 12.082000979250097
+    },
+    {
+      "case": "unified_075",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6635468379308125,
+      "reference_modeled_utility_per_J": 0.6797818324290494,
+      "loss_percent": 2.3882654292517347
+    },
+    {
+      "case": "unified_076",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6557056263930627,
+      "reference_modeled_utility_per_J": 0.6557693558567105,
+      "loss_percent": 0.009718274127723525
+    },
+    {
+      "case": "unified_076",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6557056263930627,
+      "reference_modeled_utility_per_J": 0.6557693558567105,
+      "loss_percent": 0.009718274127723525
+    },
+    {
+      "case": "unified_076",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6557693558567105,
+      "reference_modeled_utility_per_J": 0.6557693558567105,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_076",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5767027083535526,
+      "reference_modeled_utility_per_J": 0.6557693558567105,
+      "loss_percent": 12.057081776848744
+    },
+    {
+      "case": "unified_076",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6414747432815683,
+      "reference_modeled_utility_per_J": 0.6557693558567105,
+      "loss_percent": 2.179823202697151
+    },
+    {
+      "case": "unified_077",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7945469450584189,
+      "reference_modeled_utility_per_J": 0.8620839112844425,
+      "loss_percent": 7.8341522608162855
+    },
+    {
+      "case": "unified_077",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7945469450584189,
+      "reference_modeled_utility_per_J": 0.8620839112844425,
+      "loss_percent": 7.8341522608162855
+    },
+    {
+      "case": "unified_077",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8620839112844425,
+      "reference_modeled_utility_per_J": 0.8620839112844425,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_077",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7612749559041426,
+      "reference_modeled_utility_per_J": 0.8620839112844425,
+      "loss_percent": 11.693636090494008
+    },
+    {
+      "case": "unified_077",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7905073178685036,
+      "reference_modeled_utility_per_J": 0.8620839112844425,
+      "loss_percent": 8.302740890883232
+    },
+    {
+      "case": "unified_078",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7840623498264414,
+      "reference_modeled_utility_per_J": 0.8455096975782196,
+      "loss_percent": 7.267491777773916
+    },
+    {
+      "case": "unified_078",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7840623498264414,
+      "reference_modeled_utility_per_J": 0.8455096975782196,
+      "loss_percent": 7.267491777773916
+    },
+    {
+      "case": "unified_078",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8455096975782196,
+      "reference_modeled_utility_per_J": 0.8455096975782196,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_078",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7478602004337561,
+      "reference_modeled_utility_per_J": 0.8455096975782196,
+      "loss_percent": 11.54918712631675
+    },
+    {
+      "case": "unified_078",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7779307723825472,
+      "reference_modeled_utility_per_J": 0.8455096975782196,
+      "loss_percent": 7.992684813579043
+    },
+    {
+      "case": "unified_079",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6407944055402138,
+      "reference_modeled_utility_per_J": 0.6835477396129596,
+      "loss_percent": 6.254622990481051
+    },
+    {
+      "case": "unified_079",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6407944055402138,
+      "reference_modeled_utility_per_J": 0.6835477396129596,
+      "loss_percent": 6.254622990481051
+    },
+    {
+      "case": "unified_079",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6835477396129596,
+      "reference_modeled_utility_per_J": 0.6835477396129596,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_079",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6074871776972116,
+      "reference_modeled_utility_per_J": 0.6835477396129596,
+      "loss_percent": 11.127322571326935
+    },
+    {
+      "case": "unified_079",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6307861564688333,
+      "reference_modeled_utility_per_J": 0.6835477396129596,
+      "loss_percent": 7.718785402465245
+    },
+    {
+      "case": "unified_080",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6462608868128116,
+      "reference_modeled_utility_per_J": 0.6466220071499262,
+      "loss_percent": 0.0558472079702832
+    },
+    {
+      "case": "unified_080",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6462608868128116,
+      "reference_modeled_utility_per_J": 0.6466220071499262,
+      "loss_percent": 0.0558472079702832
+    },
+    {
+      "case": "unified_080",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6466220071499262,
+      "reference_modeled_utility_per_J": 0.6466220071499262,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_080",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5691434550150695,
+      "reference_modeled_utility_per_J": 0.6466220071499262,
+      "loss_percent": 11.982046895736499
+    },
+    {
+      "case": "unified_080",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6343361116269746,
+      "reference_modeled_utility_per_J": 0.6466220071499262,
+      "loss_percent": 1.9000119679043137
+    },
+    {
+      "case": "unified_081",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8268374567422782,
+      "reference_modeled_utility_per_J": 0.8389585410945954,
+      "loss_percent": 1.4447775138569763
+    },
+    {
+      "case": "unified_081",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8389585410945954,
+      "reference_modeled_utility_per_J": 0.8389585410945954,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_081",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8389585410945954,
+      "reference_modeled_utility_per_J": 0.8389585410945954,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_081",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7397201189116811,
+      "reference_modeled_utility_per_J": 0.8389585410945954,
+      "loss_percent": 11.828763558856824
+    },
+    {
+      "case": "unified_081",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7696578341431494,
+      "reference_modeled_utility_per_J": 0.8389585410945954,
+      "loss_percent": 8.26032557711719
+    },
+    {
+      "case": "unified_082",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.637367461024327,
+      "reference_modeled_utility_per_J": 0.637367461024327,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_082",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.637367461024327,
+      "reference_modeled_utility_per_J": 0.637367461024327,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_082",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.637367461024327,
+      "reference_modeled_utility_per_J": 0.637367461024327,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_082",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5622303048562782,
+      "reference_modeled_utility_per_J": 0.637367461024327,
+      "loss_percent": 11.788671490586323
+    },
+    {
+      "case": "unified_082",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6264296451323221,
+      "reference_modeled_utility_per_J": 0.637367461024327,
+      "loss_percent": 1.7160926091875472
+    },
+    {
+      "case": "unified_083",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5294269804463914,
+      "reference_modeled_utility_per_J": 0.6462942981347378,
+      "loss_percent": 18.082678127539697
+    },
+    {
+      "case": "unified_083",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5294269804463914,
+      "reference_modeled_utility_per_J": 0.6462942981347378,
+      "loss_percent": 18.082678127539697
+    },
+    {
+      "case": "unified_083",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6462942981347378,
+      "reference_modeled_utility_per_J": 0.6462942981347378,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_083",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5724293470284952,
+      "reference_modeled_utility_per_J": 0.6462942981347378,
+      "loss_percent": 11.42899625130893
+    },
+    {
+      "case": "unified_083",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6367278554190212,
+      "reference_modeled_utility_per_J": 0.6462942981347378,
+      "loss_percent": 1.480199151273065
+    },
+    {
+      "case": "unified_084",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.717825468948666,
+      "reference_modeled_utility_per_J": 0.7687297996453648,
+      "loss_percent": 6.621875556298507
+    },
+    {
+      "case": "unified_084",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.717825468948666,
+      "reference_modeled_utility_per_J": 0.7687297996453648,
+      "loss_percent": 6.621875556298507
+    },
+    {
+      "case": "unified_084",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7687297996453648,
+      "reference_modeled_utility_per_J": 0.7687297996453648,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_084",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6817814456958966,
+      "reference_modeled_utility_per_J": 0.7687297996453648,
+      "loss_percent": 11.310652193993231
+    },
+    {
+      "case": "unified_084",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7089478677834855,
+      "reference_modeled_utility_per_J": 0.7687297996453648,
+      "loss_percent": 7.776715809567714
+    },
+    {
+      "case": "unified_085",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7167926895211358,
+      "reference_modeled_utility_per_J": 0.7750221196684215,
+      "loss_percent": 7.513260417934653
+    },
+    {
+      "case": "unified_085",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7167926895211358,
+      "reference_modeled_utility_per_J": 0.7750221196684215,
+      "loss_percent": 7.513260417934653
+    },
+    {
+      "case": "unified_085",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7750221196684215,
+      "reference_modeled_utility_per_J": 0.7750221196684215,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_085",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6869981307025026,
+      "reference_modeled_utility_per_J": 0.7750221196684215,
+      "loss_percent": 11.357609896808917
+    },
+    {
+      "case": "unified_085",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7616342490405338,
+      "reference_modeled_utility_per_J": 0.7750221196684215,
+      "loss_percent": 1.7274178746814917
+    },
+    {
+      "case": "unified_086",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7823620936855832,
+      "reference_modeled_utility_per_J": 0.7823620936855832,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_086",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7823620936855832,
+      "reference_modeled_utility_per_J": 0.7823620936855832,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_086",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7823620936855832,
+      "reference_modeled_utility_per_J": 0.7823620936855832,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_086",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6894074937654764,
+      "reference_modeled_utility_per_J": 0.7823620936855832,
+      "loss_percent": 11.881276031947364
+    },
+    {
+      "case": "unified_086",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7686598057820472,
+      "reference_modeled_utility_per_J": 0.7823620936855832,
+      "loss_percent": 1.751399769253481
+    },
+    {
+      "case": "unified_087",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7140775313696962,
+      "reference_modeled_utility_per_J": 0.7259129862888749,
+      "loss_percent": 1.6304233624040432
+    },
+    {
+      "case": "unified_087",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7252615815406345,
+      "reference_modeled_utility_per_J": 0.7259129862888749,
+      "loss_percent": 0.08973592710754819
+    },
+    {
+      "case": "unified_087",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7258856857345523,
+      "reference_modeled_utility_per_J": 0.7259129862888749,
+      "loss_percent": 0.0037608576838099594
+    },
+    {
+      "case": "unified_087",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.640899066148354,
+      "reference_modeled_utility_per_J": 0.7259129862888749,
+      "loss_percent": 11.711309998067708
+    },
+    {
+      "case": "unified_087",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6665130187627831,
+      "reference_modeled_utility_per_J": 0.7259129862888749,
+      "loss_percent": 8.182794446172604
+    },
+    {
+      "case": "unified_088",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8146202822284434,
+      "reference_modeled_utility_per_J": 0.8146202822284434,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_088",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8146202822284434,
+      "reference_modeled_utility_per_J": 0.8146202822284434,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_088",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8146202822284434,
+      "reference_modeled_utility_per_J": 0.8146202822284434,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_088",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7184822833120512,
+      "reference_modeled_utility_per_J": 0.8146202822284434,
+      "loss_percent": 11.80157197331263
+    },
+    {
+      "case": "unified_088",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8010392899455946,
+      "reference_modeled_utility_per_J": 0.8146202822284434,
+      "loss_percent": 1.6671561682330305
+    },
+    {
+      "case": "unified_089",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8097666717251503,
+      "reference_modeled_utility_per_J": 0.8097666717251503,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_089",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7279540222779088,
+      "reference_modeled_utility_per_J": 0.8097666717251503,
+      "loss_percent": 10.10323742676954
+    },
+    {
+      "case": "unified_089",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8097666717251507,
+      "reference_modeled_utility_per_J": 0.8097666717251503,
+      "loss_percent": -4.440892098500626e-14
+    },
+    {
+      "case": "unified_090",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7724389222572855,
+      "reference_modeled_utility_per_J": 0.8358661149441137,
+      "loss_percent": 7.588200018261171
+    },
+    {
+      "case": "unified_090",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7831267873988975,
+      "reference_modeled_utility_per_J": 0.8358661149441137,
+      "loss_percent": 6.309542473646312
+    },
+    {
+      "case": "unified_090",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8358661149441137,
+      "reference_modeled_utility_per_J": 0.8358661149441137,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_090",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7426437053307212,
+      "reference_modeled_utility_per_J": 0.8358661149441137,
+      "loss_percent": 11.152792049672378
+    },
+    {
+      "case": "unified_090",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8231915358613942,
+      "reference_modeled_utility_per_J": 0.8358661149441137,
+      "loss_percent": 1.516340817759665
+    },
+    {
+      "case": "unified_091",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8599087053093007,
+      "reference_modeled_utility_per_J": 0.8599672484938594,
+      "loss_percent": 0.0068076062967770135
+    },
+    {
+      "case": "unified_091",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8599087053093007,
+      "reference_modeled_utility_per_J": 0.8599672484938594,
+      "loss_percent": 0.0068076062967770135
+    },
+    {
+      "case": "unified_091",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8599672484938594,
+      "reference_modeled_utility_per_J": 0.8599672484938594,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_091",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7584555731008017,
+      "reference_modeled_utility_per_J": 0.8599672484938594,
+      "loss_percent": 11.804132723757165
+    },
+    {
+      "case": "unified_091",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.846404549079418,
+      "reference_modeled_utility_per_J": 0.8599672484938594,
+      "loss_percent": 1.5771181330678674
+    },
+    {
+      "case": "unified_092",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8379417932039236,
+      "reference_modeled_utility_per_J": 0.8521398733195671,
+      "loss_percent": 1.6661677924228457
+    },
+    {
+      "case": "unified_092",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8521398733195671,
+      "reference_modeled_utility_per_J": 0.8521398733195671,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_092",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8521398733195671,
+      "reference_modeled_utility_per_J": 0.8521398733195671,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_092",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7506191065947995,
+      "reference_modeled_utility_per_J": 0.8521398733195671,
+      "loss_percent": 11.91362708205248
+    },
+    {
+      "case": "unified_092",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.836299580488477,
+      "reference_modeled_utility_per_J": 0.8521398733195671,
+      "loss_percent": 1.8588841253705413
+    },
+    {
+      "case": "unified_093",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7867029898025902,
+      "reference_modeled_utility_per_J": 0.7867029898025902,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_093",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7867029898025902,
+      "reference_modeled_utility_per_J": 0.7867029898025902,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_093",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7867029898025902,
+      "reference_modeled_utility_per_J": 0.7867029898025902,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_093",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6927636884918182,
+      "reference_modeled_utility_per_J": 0.7867029898025902,
+      "loss_percent": 11.940885255100465
+    },
+    {
+      "case": "unified_093",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7717784605422608,
+      "reference_modeled_utility_per_J": 0.7867029898025902,
+      "loss_percent": 1.8970983272955988
+    },
+    {
+      "case": "unified_094",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7558686816632965,
+      "reference_modeled_utility_per_J": 0.7558686816632965,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_094",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7558686816632965,
+      "reference_modeled_utility_per_J": 0.7558686816632965,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_094",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7558686816632965,
+      "reference_modeled_utility_per_J": 0.7558686816632965,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_094",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6651872917369667,
+      "reference_modeled_utility_per_J": 0.7558686816632965,
+      "loss_percent": 11.996976740296272
+    },
+    {
+      "case": "unified_094",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7410776919283423,
+      "reference_modeled_utility_per_J": 0.7558686816632965,
+      "loss_percent": 1.9568200262519708
+    },
+    {
+      "case": "unified_095",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6419088466446246,
+      "reference_modeled_utility_per_J": 0.779536439221012,
+      "loss_percent": 17.655055703863987
+    },
+    {
+      "case": "unified_095",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6419088466446246,
+      "reference_modeled_utility_per_J": 0.779536439221012,
+      "loss_percent": 17.655055703863987
+    },
+    {
+      "case": "unified_095",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.779536439221012,
+      "reference_modeled_utility_per_J": 0.779536439221012,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_095",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6904771088533544,
+      "reference_modeled_utility_per_J": 0.779536439221012,
+      "loss_percent": 11.424652638002941
+    },
+    {
+      "case": "unified_095",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7678421946238482,
+      "reference_modeled_utility_per_J": 0.779536439221012,
+      "loss_percent": 1.5001536822127126
+    },
+    {
+      "case": "unified_096",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7309066594636111,
+      "reference_modeled_utility_per_J": 0.7394484409266965,
+      "loss_percent": 1.1551557877896967
+    },
+    {
+      "case": "unified_096",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7309066594636111,
+      "reference_modeled_utility_per_J": 0.7394484409266965,
+      "loss_percent": 1.1551557877896967
+    },
+    {
+      "case": "unified_096",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7394484409266965,
+      "reference_modeled_utility_per_J": 0.7394484409266965,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_096",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6552789794312933,
+      "reference_modeled_utility_per_J": 0.7394484409266965,
+      "loss_percent": 11.382735676596967
+    },
+    {
+      "case": "unified_096",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6803988324023434,
+      "reference_modeled_utility_per_J": 0.7394484409266965,
+      "loss_percent": 7.985628916919552
+    },
+    {
+      "case": "unified_097",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5942650760753724,
+      "reference_modeled_utility_per_J": 0.6354507197948988,
+      "loss_percent": 6.481327731097641
+    },
+    {
+      "case": "unified_097",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5942650760753724,
+      "reference_modeled_utility_per_J": 0.6354507197948988,
+      "loss_percent": 6.481327731097641
+    },
+    {
+      "case": "unified_097",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6345792141703234,
+      "reference_modeled_utility_per_J": 0.6354507197948988,
+      "loss_percent": 0.13714763355003878
+    },
+    {
+      "case": "unified_097",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5644814958827835,
+      "reference_modeled_utility_per_J": 0.6354507197948988,
+      "loss_percent": 11.168328510985337
+    },
+    {
+      "case": "unified_097",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.622416496134379,
+      "reference_modeled_utility_per_J": 0.6354507197948988,
+      "loss_percent": 2.0511777317250846
+    },
+    {
+      "case": "unified_098",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7449270846394298,
+      "reference_modeled_utility_per_J": 0.7479539745296739,
+      "loss_percent": 0.40468932492102594
+    },
+    {
+      "case": "unified_098",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7449270846394298,
+      "reference_modeled_utility_per_J": 0.7479539745296739,
+      "loss_percent": 0.40468932492102594
+    },
+    {
+      "case": "unified_098",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7459844846150387,
+      "reference_modeled_utility_per_J": 0.7479539745296739,
+      "loss_percent": 0.26331699298390854
+    },
+    {
+      "case": "unified_098",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6588895099378388,
+      "reference_modeled_utility_per_J": 0.7479539745296739,
+      "loss_percent": 11.907746682921283
+    },
+    {
+      "case": "unified_098",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6851664961007765,
+      "reference_modeled_utility_per_J": 0.7479539745296739,
+      "loss_percent": 8.394564447415265
+    },
+    {
+      "case": "unified_099",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6992070280760877,
+      "reference_modeled_utility_per_J": 0.7157199925768495,
+      "loss_percent": 2.307182232161653
+    },
+    {
+      "case": "unified_099",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7091723418900683,
+      "reference_modeled_utility_per_J": 0.7157199925768495,
+      "loss_percent": 0.914834118746255
+    },
+    {
+      "case": "unified_099",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7091723418900683,
+      "reference_modeled_utility_per_J": 0.7157199925768495,
+      "loss_percent": 0.914834118746255
+    },
+    {
+      "case": "unified_099",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6268942962721867,
+      "reference_modeled_utility_per_J": 0.7157199925768495,
+      "loss_percent": 12.410676972269318
+    },
+    {
+      "case": "unified_099",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6517893105677001,
+      "reference_modeled_utility_per_J": 0.7157199925768495,
+      "loss_percent": 8.932359396441614
+    },
+    {
+      "case": "unified_100",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7498486093476889,
+      "reference_modeled_utility_per_J": 0.8120786258312406,
+      "loss_percent": 7.6630531212237285
+    },
+    {
+      "case": "unified_100",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7498486093476889,
+      "reference_modeled_utility_per_J": 0.8120786258312406,
+      "loss_percent": 7.6630531212237285
+    },
+    {
+      "case": "unified_100",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8120786258312406,
+      "reference_modeled_utility_per_J": 0.8120786258312406,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_100",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7169436039680185,
+      "reference_modeled_utility_per_J": 0.8120786258312406,
+      "loss_percent": 11.715001335719466
+    },
+    {
+      "case": "unified_100",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7446205547204481,
+      "reference_modeled_utility_per_J": 0.8120786258312406,
+      "loss_percent": 8.306839875479133
+    },
+    {
+      "case": "unified_101",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6432399126601072,
+      "reference_modeled_utility_per_J": 0.6921185939411391,
+      "loss_percent": 7.062182942189354
+    },
+    {
+      "case": "unified_101",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6432399126601072,
+      "reference_modeled_utility_per_J": 0.6921185939411391,
+      "loss_percent": 7.062182942189354
+    },
+    {
+      "case": "unified_101",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6921185939411391,
+      "reference_modeled_utility_per_J": 0.6921185939411391,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_101",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6100876157841747,
+      "reference_modeled_utility_per_J": 0.6921185939411391,
+      "loss_percent": 11.852156389825385
+    },
+    {
+      "case": "unified_101",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6331075379353792,
+      "reference_modeled_utility_per_J": 0.6921185939411391,
+      "loss_percent": 8.526148050687743
+    },
+    {
+      "case": "unified_102",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.688470040240735,
+      "reference_modeled_utility_per_J": 0.7049521856808836,
+      "loss_percent": 2.3380515409324065
+    },
+    {
+      "case": "unified_102",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6975519089620041,
+      "reference_modeled_utility_per_J": 0.7049521856808836,
+      "loss_percent": 1.0497558372319693
+    },
+    {
+      "case": "unified_102",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6975519089620041,
+      "reference_modeled_utility_per_J": 0.7049521856808836,
+      "loss_percent": 1.0497558372319693
+    },
+    {
+      "case": "unified_102",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6149169981416155,
+      "reference_modeled_utility_per_J": 0.7049521856808836,
+      "loss_percent": 12.771814793695102
+    },
+    {
+      "case": "unified_102",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6392435873247567,
+      "reference_modeled_utility_per_J": 0.7049521856808836,
+      "loss_percent": 9.321000727540362
+    },
+    {
+      "case": "unified_103",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6181174356812653,
+      "reference_modeled_utility_per_J": 0.6281877762025763,
+      "loss_percent": 1.6030780767793074
+    },
+    {
+      "case": "unified_103",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6256361769452107,
+      "reference_modeled_utility_per_J": 0.6281877762025763,
+      "loss_percent": 0.4061841624474316
+    },
+    {
+      "case": "unified_103",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6281877762025763,
+      "reference_modeled_utility_per_J": 0.6281877762025763,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_103",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5522981424750304,
+      "reference_modeled_utility_per_J": 0.6281877762025763,
+      "loss_percent": 12.080724363390537
+    },
+    {
+      "case": "unified_103",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5733864261324099,
+      "reference_modeled_utility_per_J": 0.6281877762025763,
+      "loss_percent": 8.723721177996024
+    },
+    {
+      "case": "unified_104",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6207218496348282,
+      "reference_modeled_utility_per_J": 0.6691757303533646,
+      "loss_percent": 7.240830550287569
+    },
+    {
+      "case": "unified_104",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.628068073971268,
+      "reference_modeled_utility_per_J": 0.6691757303533646,
+      "loss_percent": 6.143028582400822
+    },
+    {
+      "case": "unified_104",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6691757303533646,
+      "reference_modeled_utility_per_J": 0.6691757303533646,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_104",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5913565486729396,
+      "reference_modeled_utility_per_J": 0.6691757303533646,
+      "loss_percent": 11.629109985703135
+    },
+    {
+      "case": "unified_104",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6131430046762958,
+      "reference_modeled_utility_per_J": 0.6691757303533646,
+      "loss_percent": 8.373394780393518
+    },
+    {
+      "case": "unified_105",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6167370621383467,
+      "reference_modeled_utility_per_J": 0.6596384855440394,
+      "loss_percent": 6.503778106626024
+    },
+    {
+      "case": "unified_105",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6167370621383467,
+      "reference_modeled_utility_per_J": 0.6596384855440394,
+      "loss_percent": 6.503778106626024
+    },
+    {
+      "case": "unified_105",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6596384855440394,
+      "reference_modeled_utility_per_J": 0.6596384855440394,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_105",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5854794901186317,
+      "reference_modeled_utility_per_J": 0.6596384855440394,
+      "loss_percent": 11.242369426678433
+    },
+    {
+      "case": "unified_105",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.607616945057795,
+      "reference_modeled_utility_per_J": 0.6596384855440394,
+      "loss_percent": 7.886371342226861
+    },
+    {
+      "case": "unified_106",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7548214553113295,
+      "reference_modeled_utility_per_J": 0.7656244741049439,
+      "loss_percent": 1.4110075055063676
+    },
+    {
+      "case": "unified_106",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7548214553113295,
+      "reference_modeled_utility_per_J": 0.7656244741049439,
+      "loss_percent": 1.4110075055063676
+    },
+    {
+      "case": "unified_106",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7656244741049439,
+      "reference_modeled_utility_per_J": 0.7656244741049439,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_106",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6791269932338121,
+      "reference_modeled_utility_per_J": 0.7656244741049439,
+      "loss_percent": 11.297637914756065
+    },
+    {
+      "case": "unified_106",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7046727833477943,
+      "reference_modeled_utility_per_J": 0.7656244741049439,
+      "loss_percent": 7.961042628425052
+    },
+    {
+      "case": "unified_107",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6616104345644,
+      "reference_modeled_utility_per_J": 0.661752703313996,
+      "loss_percent": 0.02149877875580186
+    },
+    {
+      "case": "unified_107",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6616104345644,
+      "reference_modeled_utility_per_J": 0.661752703313996,
+      "loss_percent": 0.02149877875580186
+    },
+    {
+      "case": "unified_107",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.661752703313996,
+      "reference_modeled_utility_per_J": 0.661752703313996,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_107",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.5827907788764172,
+      "reference_modeled_utility_per_J": 0.661752703313996,
+      "loss_percent": 11.932240554839424
+    },
+    {
+      "case": "unified_107",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.649963643858871,
+      "reference_modeled_utility_per_J": 0.661752703313996,
+      "loss_percent": 1.7814901844883435
+    },
+    {
+      "case": "unified_108",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8202098200819317,
+      "reference_modeled_utility_per_J": 0.8300843847153714,
+      "loss_percent": 1.1895856391547
+    },
+    {
+      "case": "unified_108",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8202098200819317,
+      "reference_modeled_utility_per_J": 0.8300843847153714,
+      "loss_percent": 1.1895856391547
+    },
+    {
+      "case": "unified_108",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.8300843847153714,
+      "reference_modeled_utility_per_J": 0.8300843847153714,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_108",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7373510964822326,
+      "reference_modeled_utility_per_J": 0.8300843847153714,
+      "loss_percent": 11.171549536489135
+    },
+    {
+      "case": "unified_108",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7669211108594695,
+      "reference_modeled_utility_per_J": 0.8300843847153714,
+      "loss_percent": 7.609259373980404
+    },
+    {
+      "case": "unified_109",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7031261630190864,
+      "reference_modeled_utility_per_J": 0.7141682097466618,
+      "loss_percent": 1.546140891862502
+    },
+    {
+      "case": "unified_109",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7141478877221689,
+      "reference_modeled_utility_per_J": 0.7141682097466618,
+      "loss_percent": 0.0028455515403313925
+    },
+    {
+      "case": "unified_109",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7141478877221689,
+      "reference_modeled_utility_per_J": 0.7141682097466618,
+      "loss_percent": 0.0028455515403313925
+    },
+    {
+      "case": "unified_109",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6306805910551738,
+      "reference_modeled_utility_per_J": 0.7141682097466618,
+      "loss_percent": 11.6901897273058
+    },
+    {
+      "case": "unified_109",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7010780558694947,
+      "reference_modeled_utility_per_J": 0.7141682097466618,
+      "loss_percent": 1.8329230702960997
+    },
+    {
+      "case": "unified_110",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6000366279243748,
+      "reference_modeled_utility_per_J": 0.7382646911628052,
+      "loss_percent": 18.723374542091943
+    },
+    {
+      "case": "unified_110",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6062797586306652,
+      "reference_modeled_utility_per_J": 0.7382646911628052,
+      "loss_percent": 17.877725172560666
+    },
+    {
+      "case": "unified_110",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7382646911628052,
+      "reference_modeled_utility_per_J": 0.7382646911628052,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_110",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6512529095004393,
+      "reference_modeled_utility_per_J": 0.7382646911628052,
+      "loss_percent": 11.78598715391871
+    },
+    {
+      "case": "unified_110",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7278748613713317,
+      "reference_modeled_utility_per_J": 0.7382646911628052,
+      "loss_percent": 1.4073312615166533
+    },
+    {
+      "case": "unified_111",
+      "method": "greedy_construction",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6174896988849964,
+      "reference_modeled_utility_per_J": 0.7535324261944357,
+      "loss_percent": 18.053997755145833
+    },
+    {
+      "case": "unified_111",
+      "method": "greedy",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.6174896988849964,
+      "reference_modeled_utility_per_J": 0.7535324261944357,
+      "loss_percent": 18.053997755145833
+    },
+    {
+      "case": "unified_111",
+      "method": "full",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7535324261944357,
+      "reference_modeled_utility_per_J": 0.7535324261944357,
+      "loss_percent": 0.0
+    },
+    {
+      "case": "unified_111",
+      "method": "fixed_frequency",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.664465777445558,
+      "reference_modeled_utility_per_J": 0.7535324261944357,
+      "loss_percent": 11.819882682247783
+    },
+    {
+      "case": "unified_111",
+      "method": "sequential",
+      "reference": "Exact",
+      "modeled_utility_per_J": 0.7386797206115301,
+      "reference_modeled_utility_per_J": 0.7535324261944357,
+      "loss_percent": 1.9710771649093073
+    }
+  ]
+}

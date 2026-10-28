@@ -1,0 +1,49 @@
+{
+  "power": 219.70597101356523,
+  "utility": 164.91549967574525,
+  "ratio": 0.7506191065947995,
+  "replicas": 7,
+  "active": 3,
+  "assignment_json": "[{\"s\": 0, \"g\": 0, \"rid\": 1, \"alternative_id\": \"fr_b1_k2_f1200__slo0.12__interval0\", \"physical_config_id\": \"fr_b1_k2_f1200\", \"catalog_id\": \"fr_b1_k2_f1200\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 10.288107179180768, \"peak\": 41.8276742547094, \"slope\": 2.4316518091618797, \"intercept\": 0.2735177502048103, \"n\": 1, \"rate\": 9.691758214885184, \"rate_per_replica\": 9.691758214885184, \"response\": 0.09861299390871903, \"L\": 0.05905476102973733, \"utilization\": 0.5723444653380382}, {\"s\": 3, \"g\": 0, \"rid\": 53, \"alternative_id\": \"dl_b1_k2_f1200__slo0.12__interval0\", \"physical_config_id\": \"dl_b1_k2_f1200\", \"catalog_id\": \"dl_b1_k2_f1200\", \"model\": \"deeplabv3_resnet50_b1\", \"arch\": \"deeplabv3_resnet50\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.664, \"u\": 1.0, \"lower\": 1.0, \"upper\": 25.261876234473156, \"peak\": 40.41667066004152, \"slope\": 1.2751649850724063, \"intercept\": 0.1678271587950455, \"n\": 1, \"rate\": 18.56569651416199, \"rate_per_replica\": 18.56569651416199, \"response\": 0.05485839697864998, \"L\": 0.03184032045176177, \"utilization\": 0.5911377264210742}, {\"s\": 2, \"g\": 1, \"rid\": 45, \"alternative_id\": \"rn_b1_k2_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k2_f1200\", \"catalog_id\": \"rn_b1_k2_f1200\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 18.793691598588858, \"peak\": 37.48482144975905, \"slope\": 1.6122210907171102, \"intercept\": 0.30176157108571644, \"n\": 1, \"rate\": 8.798150159896418, \"rate_per_replica\": 8.798150159896418, \"response\": 0.05946033337853164, \"L\": 0.044843778130613784, \"utilization\": 0.39454229373021915}, {\"s\": 4, \"g\": 1, \"rid\": 72, \"alternative_id\": \"rn_b1_k2_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k2_f1200\", \"catalog_id\": \"rn_b1_k2_f1200\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 18.793691598588858, \"peak\": 37.48482144975905, \"slope\": 1.6122210907171102, \"intercept\": 0.30176157108571644, \"n\": 1, \"rate\": 12.02192901643616, \"rate_per_replica\": 12.02192901643616, \"response\": 0.06920119139013782, \"L\": 0.044175067405314156, \"utilization\": 0.5310695246429694}, {\"s\": 1, \"g\": 2, \"rid\": 22, \"alternative_id\": \"lr_b1_k1_f1200__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 136.86123666439974, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 19.321528753555103, \"rate_per_replica\": 19.321528753555103, \"response\": 0.011578736141674312, \"L\": 0.010296246056557752, \"utilization\": 0.19893921423545893}, {\"s\": 5, \"g\": 2, \"rid\": 94, \"alternative_id\": \"lr_b1_k1_f1200__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 136.86123666439974, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 30.987265292014897, \"rate_per_replica\": 30.987265292014897, \"response\": 0.012211021899474954, \"L\": 0.009967850953902038, \"utilization\": 0.30887644189982616}, {\"s\": 6, \"g\": 2, \"rid\": 124, \"alternative_id\": \"lr_b1_k2_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k2_f1200\", \"catalog_id\": \"lr_b1_k2_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 237.747504086569, \"peak\": 25.120659432374126, \"slope\": 0.10241156318784081, \"intercept\": 0.17570108153364217, \"n\": 1, \"rate\": 87.8008832938169, \"rate_per_replica\": 87.8008832938169, \"response\": 0.005839091872727244, \"L\": 0.004363514779272512, \"utilization\": 0.383120451885751}]",
+  "status": "optimal",
+  "variables": 335,
+  "history": [
+    {
+      "q": 0.7506191065947995,
+      "ratio": 0.7506191065947995,
+      "residual": 0.0,
+      "status": 2
+    }
+  ],
+  "time_limit_seconds": 3600.0,
+  "q_initial": 0.7506191065947995,
+  "mip_start": true,
+  "warm_start_canonicalized": false,
+  "exact_strengthening": {
+    "count_upper": "min(fleet limit, per-GPU slice limit, exact rational ceil(lambda/h))",
+    "rate_count_dominance": "r >= h*(n-1), closed relaxation of strict paper inequality; no positive epsilon",
+    "strict_paper_inequality_implemented_literally": false,
+    "optimum_preserved": "nonnegative residency permits removal of surplus replicas without changing traffic/utility",
+    "frequency_capacity": "sum(k*n) <= 4*z[g,f]",
+    "symmetry": "all homogeneous GPUs ordered by 5*frequency_rank+occupied_slices, descending"
+  },
+  "sequential_frozen_membership": false,
+  "fixed_frequency_MHz": 1200,
+  "trial_summaries": [
+    {
+      "fixed_frequency_MHz": 900,
+      "status": "infeasible_in_calibrated_domain",
+      "ratio": null
+    },
+    {
+      "fixed_frequency_MHz": 1200,
+      "status": "optimal",
+      "ratio": 0.7506191065947995
+    },
+    {
+      "fixed_frequency_MHz": 1440,
+      "status": "infeasible_in_calibrated_domain",
+      "ratio": null
+    }
+  ]
+}

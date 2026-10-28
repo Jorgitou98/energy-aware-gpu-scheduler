@@ -1,0 +1,20 @@
+{
+  "source": {
+    "fixed_frequency_and_sequential": "results/planning/full_timing/timing_summary.json",
+    "other_methods": {
+      "stage": "results/planning/stage_timing_audit.json",
+      "exact": "results/planning/exact_timing_observations.json"
+    }
+  },
+  "figure": 5,
+  "attempts_per_method": 112,
+  "mean_planning_seconds": {
+    "fixed_frequency": 3.889549093354227,
+    "sequential": 3.927745122246311,
+    "greedy": 1.9793930087637688,
+    "full": 3.9677144247689284,
+    "greedy_construction": 1.9784148974078042,
+    "exact": 4.715617468430927
+  },
+  "scope": "Fixed-frequency and Sequential means are computed from the archived end-to-end run. Other method timings are sums of components from an earlier acquisition on the same host."
+}

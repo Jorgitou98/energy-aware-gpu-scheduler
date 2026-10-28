@@ -1,0 +1,79 @@
+{
+  "schema": "publication-admission-r2-v1",
+  "denominator": 112,
+  "repetition": 2,
+  "event": "Every replica window-mean response <= its service SLO in repetition r2",
+  "request_denominator": 819508,
+  "request_denominator_definition": "All offered requests, including those in infeasible workloads",
+  "policies": [
+    {
+      "key": "nominal_full",
+      "counts": {
+        "slo_met": 47,
+        "slo_not_met": 65,
+        "infeasible": 0
+      },
+      "requests": {
+        "offered": 819508,
+        "served": 819508,
+        "within_slo": 756864,
+        "above_slo": 62644,
+        "unserved": 0,
+        "within_percent": 92.35590134568545,
+        "above_percent": 7.64409865431454,
+        "unserved_percent": 0.0
+      }
+    },
+    {
+      "key": "p95_full",
+      "counts": {
+        "slo_met": 92,
+        "slo_not_met": 20,
+        "infeasible": 0
+      },
+      "requests": {
+        "offered": 819508,
+        "served": 819508,
+        "within_slo": 772208,
+        "above_slo": 47300,
+        "unserved": 0,
+        "within_percent": 94.22824426363135,
+        "above_percent": 5.77175573636865,
+        "unserved_percent": 0.0
+      },
+      "loss": {
+        "n": 112,
+        "min": 0.0,
+        "max": 6.39780395103614,
+        "mean": 1.3769792775900034,
+        "median": 0.523025685903844
+      }
+    },
+    {
+      "key": "p99_full",
+      "counts": {
+        "slo_met": 95,
+        "slo_not_met": 4,
+        "infeasible": 13
+      },
+      "requests": {
+        "offered": 819508,
+        "served": 718587,
+        "within_slo": 683649,
+        "above_slo": 34938,
+        "unserved": 100921,
+        "within_percent": 83.42188239773132,
+        "above_percent": 4.263289681125749,
+        "unserved_percent": 12.31482792114293
+      },
+      "loss": {
+        "n": 99,
+        "min": 0.0,
+        "max": 17.034388639687403,
+        "mean": 3.6024881412125382,
+        "median": 1.304437938166958
+      }
+    }
+  ],
+  "shared_mc_wall_seconds": 140.39887195685878
+}

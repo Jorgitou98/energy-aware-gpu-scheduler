@@ -109,8 +109,8 @@
         "results/scaling/",
         "data/inputs/scaling_cases.json"
       ],
-      "contents": "Supplied scaling publication records for four methods and 40 workloads, descriptive statistics, workload design and frozen batch-1 workload inputs.",
-      "record_scope": "Compact per-case records contain total planning times, objective ratios and losses; the checks validate their arithmetic and workload-input consistency."
+      "contents": "Four method exports in results/scaling/source/, 160 publication observations, descriptive statistics and 40 frozen batch-1 workload inputs.",
+      "record_scope": "Each export contains planning timings, objectives and selected plans. The scaling audit checks the export SHA-256 and matches the per-case service counts, planning times, ratios and losses against the publication records."
     },
     {
       "paths": [

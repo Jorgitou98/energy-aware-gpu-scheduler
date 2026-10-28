@@ -1,0 +1,102 @@
+{
+  "status": "feasible",
+  "power": 294.2552749753535,
+  "utility": 134.57495469362388,
+  "ratio": 0.4573408402105816,
+  "replicas": 7,
+  "active": 3,
+  "assignment_json": "[{\"s\": 2, \"g\": 0, \"rid\": 12, \"alternative_id\": \"rn_b1_k1_f1440__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k1_f1440\", \"catalog_id\": \"rn_b1_k1_f1440\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 1, \"f\": 1440, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 9.64996286191809, \"peak\": 34.637150071756444, \"slope\": 2.41865459941087, \"intercept\": 0.525189253846829, \"n\": 1, \"rate\": 8.885380688166734, \"rate_per_replica\": 8.885380688166734, \"response\": 0.13160659304479547, \"L\": 0.07098457401736132, \"utilization\": 0.6307249631316043}, {\"s\": 3, \"g\": 0, \"rid\": 15, \"alternative_id\": \"dl_b1_k2_f1440__slo0.12__interval0\", \"physical_config_id\": \"dl_b1_k2_f1440\", \"catalog_id\": \"dl_b1_k2_f1440\", \"model\": \"deeplabv3_resnet50_b1\", \"arch\": \"deeplabv3_resnet50\", \"k\": 2, \"f\": 1440, \"B\": 1, \"quality\": 0.664, \"u\": 1.0, \"lower\": 1.0, \"upper\": 29.604258679588607, \"peak\": 66.90449660429181, \"slope\": 1.8412221722154087, \"intercept\": 0.6599056740206422, \"n\": 1, \"rate\": 18.402444458337833, \"rate_per_replica\": 18.402444458337833, \"response\": 0.043071559304629775, \"L\": 0.028071657881387966, \"utilization\": 0.5165871250157035}, {\"s\": 0, \"g\": 1, \"rid\": 1, \"alternative_id\": \"fr_b1_k2_f1440__slo0.12__interval0\", \"physical_config_id\": \"fr_b1_k2_f1440\", \"catalog_id\": \"fr_b1_k2_f1440\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 1440, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 13.136921519388933, \"peak\": 68.30252715816027, \"slope\": 3.4413914523281726, \"intercept\": 0.6689639621608521, \"n\": 1, \"rate\": 10.005448091704329, \"rate_per_replica\": 10.005448091704329, \"response\": 0.077696207688389, \"L\": 0.05103944359900485, \"utilization\": 0.5106725035593138}, {\"s\": 4, \"g\": 1, \"rid\": 19, \"alternative_id\": \"rn_b1_k1_f1440__slo0.17999999999999999__interval0\", \"physical_config_id\": \"rn_b1_k1_f1440\", \"catalog_id\": \"rn_b1_k1_f1440\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 1, \"f\": 1440, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 9.64996286191809, \"peak\": 34.637150071756444, \"slope\": 2.41865459941087, \"intercept\": 0.525189253846829, \"n\": 1, \"rate\": 7.623618534936285, \"rate_per_replica\": 7.623618534936285, \"response\": 0.11295086336368719, \"L\": 0.07102136584864983, \"utilization\": 0.5414398010602578}, {\"s\": 1, \"g\": 2, \"rid\": 6, \"alternative_id\": \"lr_b1_k1_f1440__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k1_f1440\", \"catalog_id\": \"lr_b1_k1_f1440\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1440, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 158.81225576999134, \"peak\": 28.78008459133639, \"slope\": 0.17074238465648114, \"intercept\": 0.3177962661139304, \"n\": 1, \"rate\": 27.628711495158484, \"rate_per_replica\": 27.628711495158484, \"response\": 0.0068516380486963666, \"L\": 0.006208305952183432, \"utilization\": 0.1715274940265512}, {\"s\": 5, \"g\": 2, \"rid\": 25, \"alternative_id\": \"lr_b1_k1_f1440__slo0.12__interval0\", \"physical_config_id\": \"lr_b1_k1_f1440\", \"catalog_id\": \"lr_b1_k1_f1440\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1440, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 158.81225576999134, \"peak\": 28.78008459133639, \"slope\": 0.17074238465648114, \"intercept\": 0.3177962661139304, \"n\": 1, \"rate\": 21.289744658207084, \"rate_per_replica\": 21.289744658207084, \"response\": 0.006692577258612053, \"L\": 0.006217772270055742, \"utilization\": 0.13237478397236738}, {\"s\": 6, \"g\": 2, \"rid\": 33, \"alternative_id\": \"lr_b1_k2_f1440__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k2_f1440\", \"catalog_id\": \"lr_b1_k2_f1440\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 2, \"f\": 1440, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 271.1137440533103, \"peak\": 43.68669827277027, \"slope\": 0.153758505723041, \"intercept\": 0.6919105092506506, \"n\": 1, \"rate\": 58.077556649302636, \"rate_per_replica\": 58.077556649302636, \"response\": 0.012971223967776193, \"L\": 0.008145515092955328, \"utilization\": 0.4730716142488627}]",
+  "beam_finished": true,
+  "algorithm": "manuscript_beam",
+  "beam_expanded": 2804,
+  "beam_width": 512,
+  "per_signature": 2,
+  "beam_levels": [
+    {
+      "event": "level_complete",
+      "level": 1,
+      "service": 3,
+      "candidates": 9,
+      "retained": 9,
+      "peak_retained_state_slots": 16,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 9,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 2,
+      "service": 0,
+      "candidates": 135,
+      "retained": 105,
+      "peak_retained_state_slots": 125,
+      "exact_duplicate_hits_while_retained": 30,
+      "expanded": 144,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 3,
+      "service": 2,
+      "candidates": 906,
+      "retained": 512,
+      "peak_retained_state_slots": 530,
+      "exact_duplicate_hits_while_retained": 65,
+      "expanded": 1050,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 4,
+      "service": 4,
+      "candidates": 1167,
+      "retained": 512,
+      "peak_retained_state_slots": 526,
+      "exact_duplicate_hits_while_retained": 80,
+      "expanded": 2217,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 5,
+      "service": 1,
+      "candidates": 334,
+      "retained": 310,
+      "peak_retained_state_slots": 322,
+      "exact_duplicate_hits_while_retained": 24,
+      "expanded": 2551,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 6,
+      "service": 5,
+      "candidates": 178,
+      "retained": 166,
+      "peak_retained_state_slots": 174,
+      "exact_duplicate_hits_while_retained": 12,
+      "expanded": 2729,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 7,
+      "service": 6,
+      "candidates": 75,
+      "retained": 75,
+      "peak_retained_state_slots": 79,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 2804,
+      "best_ratio": 0.4573408402105816,
+      "beam_finished": true
+    }
+  ],
+  "beam_timed_out": false,
+  "time_limit_seconds": 10.0
+}

@@ -1,0 +1,2029 @@
+{
+  "schema": "planning-timings-v1",
+  "units": "seconds",
+  "scope": "Full planning times from the archived Montblanc remeasurement. Search time is the measured total minus measured preparation.",
+  "source": "results/planning/full_timing/timing_summary.json",
+  "attempts_per_method": 112,
+  "target_mean_seconds": {
+    "fixed_frequency": 3.889549093354227,
+    "sequential": 3.927745122246311
+  },
+  "rows": [
+    {
+      "case": "unified_000",
+      "method": "fixed_frequency",
+      "time_s": 3.882475910708308,
+      "preprocessing_seconds": 2.063681909814477,
+      "search_seconds": 1.8187940008938313,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_000",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_000"
+    },
+    {
+      "case": "unified_000",
+      "method": "sequential",
+      "time_s": 3.9142554700374603,
+      "preprocessing_seconds": 2.063681909814477,
+      "search_seconds": 1.8505735602229834,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_000",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_000"
+    },
+    {
+      "case": "unified_001",
+      "method": "fixed_frequency",
+      "time_s": 3.4716063048690557,
+      "preprocessing_seconds": 1.9136851970106363,
+      "search_seconds": 1.5579211078584194,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_001",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_001"
+    },
+    {
+      "case": "unified_001",
+      "method": "sequential",
+      "time_s": 3.5031744726002216,
+      "preprocessing_seconds": 1.9136851970106363,
+      "search_seconds": 1.5894892755895853,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_001",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_001"
+    },
+    {
+      "case": "unified_002",
+      "method": "fixed_frequency",
+      "time_s": 3.4788181874901056,
+      "preprocessing_seconds": 1.9123572204262018,
+      "search_seconds": 1.5664609670639038,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_002",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_002"
+    },
+    {
+      "case": "unified_002",
+      "method": "sequential",
+      "time_s": 3.510437712073326,
+      "preprocessing_seconds": 1.9123572204262018,
+      "search_seconds": 1.5980804916471243,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_002",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_002"
+    },
+    {
+      "case": "unified_003",
+      "method": "fixed_frequency",
+      "time_s": 3.4592407271265984,
+      "preprocessing_seconds": 1.9043238312005997,
+      "search_seconds": 1.5549168959259987,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_003",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_003"
+    },
+    {
+      "case": "unified_003",
+      "method": "sequential",
+      "time_s": 3.4907368402928114,
+      "preprocessing_seconds": 1.9043238312005997,
+      "search_seconds": 1.5864130090922117,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_003",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_003"
+    },
+    {
+      "case": "unified_004",
+      "method": "fixed_frequency",
+      "time_s": 3.6294247563928366,
+      "preprocessing_seconds": 1.9122396372258663,
+      "search_seconds": 1.7171851191669703,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_004",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_004"
+    },
+    {
+      "case": "unified_004",
+      "method": "sequential",
+      "time_s": 3.6601049825549126,
+      "preprocessing_seconds": 1.9122396372258663,
+      "search_seconds": 1.7478653453290462,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_004",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_004"
+    },
+    {
+      "case": "unified_005",
+      "method": "fixed_frequency",
+      "time_s": 3.725123554468155,
+      "preprocessing_seconds": 1.908054055646062,
+      "search_seconds": 1.817069498822093,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_005",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_005"
+    },
+    {
+      "case": "unified_005",
+      "method": "sequential",
+      "time_s": 3.756066922098398,
+      "preprocessing_seconds": 1.908054055646062,
+      "search_seconds": 1.8480128664523363,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_005",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_005"
+    },
+    {
+      "case": "unified_006",
+      "method": "fixed_frequency",
+      "time_s": 3.4386061765253544,
+      "preprocessing_seconds": 1.8935929872095585,
+      "search_seconds": 1.545013189315796,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_006",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_006"
+    },
+    {
+      "case": "unified_006",
+      "method": "sequential",
+      "time_s": 3.4702043030411005,
+      "preprocessing_seconds": 1.8935929872095585,
+      "search_seconds": 1.576611315831542,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_006",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_006"
+    },
+    {
+      "case": "unified_007",
+      "method": "fixed_frequency",
+      "time_s": 3.4913783967494965,
+      "preprocessing_seconds": 1.9296941310167313,
+      "search_seconds": 1.5616842657327652,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_007",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_007"
+    },
+    {
+      "case": "unified_007",
+      "method": "sequential",
+      "time_s": 3.5231486465781927,
+      "preprocessing_seconds": 1.9296941310167313,
+      "search_seconds": 1.5934545155614614,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_007",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_007"
+    },
+    {
+      "case": "unified_008",
+      "method": "fixed_frequency",
+      "time_s": 3.7355396542698145,
+      "preprocessing_seconds": 1.9244480859488249,
+      "search_seconds": 1.8110915683209896,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_008",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_008"
+    },
+    {
+      "case": "unified_008",
+      "method": "sequential",
+      "time_s": 3.7667586151510477,
+      "preprocessing_seconds": 1.9244480859488249,
+      "search_seconds": 1.8423105292022228,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_008",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_008"
+    },
+    {
+      "case": "unified_009",
+      "method": "fixed_frequency",
+      "time_s": 3.426663961261511,
+      "preprocessing_seconds": 1.896394845098257,
+      "search_seconds": 1.5302691161632538,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_009",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_009"
+    },
+    {
+      "case": "unified_009",
+      "method": "sequential",
+      "time_s": 3.458285056054592,
+      "preprocessing_seconds": 1.896394845098257,
+      "search_seconds": 1.561890210956335,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_009",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_009"
+    },
+    {
+      "case": "unified_010",
+      "method": "fixed_frequency",
+      "time_s": 3.5291134044528008,
+      "preprocessing_seconds": 1.9489458445459604,
+      "search_seconds": 1.5801675599068403,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_010",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_010"
+    },
+    {
+      "case": "unified_010",
+      "method": "sequential",
+      "time_s": 3.5611682292073965,
+      "preprocessing_seconds": 1.9489458445459604,
+      "search_seconds": 1.612222384661436,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_010",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_010"
+    },
+    {
+      "case": "unified_011",
+      "method": "fixed_frequency",
+      "time_s": 3.661134412512183,
+      "preprocessing_seconds": 1.9010352529585361,
+      "search_seconds": 1.760099159553647,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_011",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_011"
+    },
+    {
+      "case": "unified_011",
+      "method": "sequential",
+      "time_s": 3.69218410551548,
+      "preprocessing_seconds": 1.9010352529585361,
+      "search_seconds": 1.791148852556944,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_011",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_011"
+    },
+    {
+      "case": "unified_012",
+      "method": "fixed_frequency",
+      "time_s": 3.8053140249103308,
+      "preprocessing_seconds": 2.0381063483655453,
+      "search_seconds": 1.7672076765447855,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_012",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_012"
+    },
+    {
+      "case": "unified_012",
+      "method": "sequential",
+      "time_s": 3.840324169024825,
+      "preprocessing_seconds": 2.0381063483655453,
+      "search_seconds": 1.8022178206592798,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_012",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_012"
+    },
+    {
+      "case": "unified_013",
+      "method": "fixed_frequency",
+      "time_s": 3.855109201744199,
+      "preprocessing_seconds": 2.0393919814378023,
+      "search_seconds": 1.8157172203063965,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_013",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_013"
+    },
+    {
+      "case": "unified_013",
+      "method": "sequential",
+      "time_s": 3.8908313773572445,
+      "preprocessing_seconds": 2.0393919814378023,
+      "search_seconds": 1.8514393959194422,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_013",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_013"
+    },
+    {
+      "case": "unified_014",
+      "method": "fixed_frequency",
+      "time_s": 3.9816511757671833,
+      "preprocessing_seconds": 2.0603519827127457,
+      "search_seconds": 1.9212991930544376,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_014",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_014"
+    },
+    {
+      "case": "unified_014",
+      "method": "sequential",
+      "time_s": 4.01609219238162,
+      "preprocessing_seconds": 2.0603519827127457,
+      "search_seconds": 1.9557402096688747,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_014",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_014"
+    },
+    {
+      "case": "unified_015",
+      "method": "fixed_frequency",
+      "time_s": 4.1325819585472345,
+      "preprocessing_seconds": 2.0375488363206387,
+      "search_seconds": 2.095033122226596,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_015",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_015"
+    },
+    {
+      "case": "unified_015",
+      "method": "sequential",
+      "time_s": 4.166741577908397,
+      "preprocessing_seconds": 2.0375488363206387,
+      "search_seconds": 2.129192741587758,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_015",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_015"
+    },
+    {
+      "case": "unified_016",
+      "method": "fixed_frequency",
+      "time_s": 4.032799227163196,
+      "preprocessing_seconds": 2.037183966487646,
+      "search_seconds": 1.9956152606755495,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_016",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_016"
+    },
+    {
+      "case": "unified_016",
+      "method": "sequential",
+      "time_s": 4.072786519303918,
+      "preprocessing_seconds": 2.037183966487646,
+      "search_seconds": 2.035602552816272,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_016",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_016"
+    },
+    {
+      "case": "unified_017",
+      "method": "fixed_frequency",
+      "time_s": 4.186804607510567,
+      "preprocessing_seconds": 2.0291561521589756,
+      "search_seconds": 2.157648455351591,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_017",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_017"
+    },
+    {
+      "case": "unified_017",
+      "method": "sequential",
+      "time_s": 4.22122623026371,
+      "preprocessing_seconds": 2.0291561521589756,
+      "search_seconds": 2.1920700781047344,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_017",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_017"
+    },
+    {
+      "case": "unified_018",
+      "method": "fixed_frequency",
+      "time_s": 3.7307869624346495,
+      "preprocessing_seconds": 2.0299465637654066,
+      "search_seconds": 1.7008403986692429,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_018",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_018"
+    },
+    {
+      "case": "unified_018",
+      "method": "sequential",
+      "time_s": 3.7657157089561224,
+      "preprocessing_seconds": 2.0299465637654066,
+      "search_seconds": 1.7357691451907158,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_018",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_018"
+    },
+    {
+      "case": "unified_019",
+      "method": "fixed_frequency",
+      "time_s": 3.792848875746131,
+      "preprocessing_seconds": 2.0400146581232548,
+      "search_seconds": 1.7528342176228762,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_019",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_019"
+    },
+    {
+      "case": "unified_019",
+      "method": "sequential",
+      "time_s": 3.8273828867822886,
+      "preprocessing_seconds": 2.0400146581232548,
+      "search_seconds": 1.7873682286590338,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_019",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_019"
+    },
+    {
+      "case": "unified_020",
+      "method": "fixed_frequency",
+      "time_s": 4.32119076885283,
+      "preprocessing_seconds": 2.142184007912874,
+      "search_seconds": 2.1790067609399557,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_020",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_020"
+    },
+    {
+      "case": "unified_020",
+      "method": "sequential",
+      "time_s": 4.356072075664997,
+      "preprocessing_seconds": 2.142184007912874,
+      "search_seconds": 2.213888067752123,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_020",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_020"
+    },
+    {
+      "case": "unified_021",
+      "method": "fixed_frequency",
+      "time_s": 3.985403645783663,
+      "preprocessing_seconds": 2.0197978150099516,
+      "search_seconds": 1.9656058307737112,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_021",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_021"
+    },
+    {
+      "case": "unified_021",
+      "method": "sequential",
+      "time_s": 4.024579256772995,
+      "preprocessing_seconds": 2.0197978150099516,
+      "search_seconds": 2.0047814417630434,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_021",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_021"
+    },
+    {
+      "case": "unified_022",
+      "method": "fixed_frequency",
+      "time_s": 3.8421932253986597,
+      "preprocessing_seconds": 2.0270764771848917,
+      "search_seconds": 1.815116748213768,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_022",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_022"
+    },
+    {
+      "case": "unified_022",
+      "method": "sequential",
+      "time_s": 3.8775704503059387,
+      "preprocessing_seconds": 2.0270764771848917,
+      "search_seconds": 1.850493973121047,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_022",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_022"
+    },
+    {
+      "case": "unified_023",
+      "method": "fixed_frequency",
+      "time_s": 3.930323066189885,
+      "preprocessing_seconds": 2.0430788341909647,
+      "search_seconds": 1.8872442319989204,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_023",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_023"
+    },
+    {
+      "case": "unified_023",
+      "method": "sequential",
+      "time_s": 3.9644356667995453,
+      "preprocessing_seconds": 2.0430788341909647,
+      "search_seconds": 1.9213568326085806,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_023",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_023"
+    },
+    {
+      "case": "unified_024",
+      "method": "fixed_frequency",
+      "time_s": 3.8850523065775633,
+      "preprocessing_seconds": 1.9125063456594944,
+      "search_seconds": 1.9725459609180689,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_024",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_024"
+    },
+    {
+      "case": "unified_024",
+      "method": "sequential",
+      "time_s": 3.916054794564843,
+      "preprocessing_seconds": 1.9125063456594944,
+      "search_seconds": 2.0035484489053488,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_024",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_024"
+    },
+    {
+      "case": "unified_025",
+      "method": "fixed_frequency",
+      "time_s": 4.030272897332907,
+      "preprocessing_seconds": 2.0013360399752855,
+      "search_seconds": 2.028936857357621,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_025",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_025"
+    },
+    {
+      "case": "unified_025",
+      "method": "sequential",
+      "time_s": 4.091423697769642,
+      "preprocessing_seconds": 2.0013360399752855,
+      "search_seconds": 2.0900876577943563,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_025",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_025"
+    },
+    {
+      "case": "unified_026",
+      "method": "fixed_frequency",
+      "time_s": 3.741387188434601,
+      "preprocessing_seconds": 1.8973558153957129,
+      "search_seconds": 1.844031373038888,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_026",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_026"
+    },
+    {
+      "case": "unified_026",
+      "method": "sequential",
+      "time_s": 3.7721632588654757,
+      "preprocessing_seconds": 1.8973558153957129,
+      "search_seconds": 1.8748074434697628,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_026",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_026"
+    },
+    {
+      "case": "unified_027",
+      "method": "fixed_frequency",
+      "time_s": 3.9646639302372932,
+      "preprocessing_seconds": 1.9045967292040586,
+      "search_seconds": 2.0600672010332346,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_027",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_027"
+    },
+    {
+      "case": "unified_027",
+      "method": "sequential",
+      "time_s": 3.9960313383489847,
+      "preprocessing_seconds": 1.9045967292040586,
+      "search_seconds": 2.091434609144926,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_027",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_027"
+    },
+    {
+      "case": "unified_028",
+      "method": "fixed_frequency",
+      "time_s": 3.728140374645591,
+      "preprocessing_seconds": 1.9495680592954159,
+      "search_seconds": 1.778572315350175,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_028",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_028"
+    },
+    {
+      "case": "unified_028",
+      "method": "sequential",
+      "time_s": 3.759309956803918,
+      "preprocessing_seconds": 1.9495680592954159,
+      "search_seconds": 1.809741897508502,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_028",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_028"
+    },
+    {
+      "case": "unified_029",
+      "method": "fixed_frequency",
+      "time_s": 3.681478723883629,
+      "preprocessing_seconds": 1.9057814199477434,
+      "search_seconds": 1.7756973039358854,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_029",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_029"
+    },
+    {
+      "case": "unified_029",
+      "method": "sequential",
+      "time_s": 3.7128861490637064,
+      "preprocessing_seconds": 1.9057814199477434,
+      "search_seconds": 1.807104729115963,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_029",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_029"
+    },
+    {
+      "case": "unified_030",
+      "method": "fixed_frequency",
+      "time_s": 3.9263861160725355,
+      "preprocessing_seconds": 1.9049805868417025,
+      "search_seconds": 2.021405529230833,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_030",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_030"
+    },
+    {
+      "case": "unified_030",
+      "method": "sequential",
+      "time_s": 3.9873527847230434,
+      "preprocessing_seconds": 1.9049805868417025,
+      "search_seconds": 2.082372197881341,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_030",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_030"
+    },
+    {
+      "case": "unified_031",
+      "method": "fixed_frequency",
+      "time_s": 3.6192362885922194,
+      "preprocessing_seconds": 1.91347998380661,
+      "search_seconds": 1.7057563047856092,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_031",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_031"
+    },
+    {
+      "case": "unified_031",
+      "method": "sequential",
+      "time_s": 3.6521699521690607,
+      "preprocessing_seconds": 1.91347998380661,
+      "search_seconds": 1.7386899683624506,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_031",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_031"
+    },
+    {
+      "case": "unified_032",
+      "method": "fixed_frequency",
+      "time_s": 3.6794278640300035,
+      "preprocessing_seconds": 1.9264026768505573,
+      "search_seconds": 1.7530251871794462,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_032",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_032"
+    },
+    {
+      "case": "unified_032",
+      "method": "sequential",
+      "time_s": 3.7107626870274544,
+      "preprocessing_seconds": 1.9264026768505573,
+      "search_seconds": 1.784360010176897,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_032",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_032"
+    },
+    {
+      "case": "unified_033",
+      "method": "fixed_frequency",
+      "time_s": 3.7042408231645823,
+      "preprocessing_seconds": 1.9696064852178097,
+      "search_seconds": 1.7346343379467726,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_033",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_033"
+    },
+    {
+      "case": "unified_033",
+      "method": "sequential",
+      "time_s": 3.7356993667781353,
+      "preprocessing_seconds": 1.9696064852178097,
+      "search_seconds": 1.7660928815603256,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_033",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_033"
+    },
+    {
+      "case": "unified_034",
+      "method": "fixed_frequency",
+      "time_s": 3.747200148180127,
+      "preprocessing_seconds": 1.9232884347438812,
+      "search_seconds": 1.823911713436246,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_034",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_034"
+    },
+    {
+      "case": "unified_034",
+      "method": "sequential",
+      "time_s": 3.7787191960960627,
+      "preprocessing_seconds": 1.9232884347438812,
+      "search_seconds": 1.8554307613521814,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_034",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_034"
+    },
+    {
+      "case": "unified_035",
+      "method": "fixed_frequency",
+      "time_s": 3.6488208137452602,
+      "preprocessing_seconds": 1.9147046096622944,
+      "search_seconds": 1.7341162040829659,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_035",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_035"
+    },
+    {
+      "case": "unified_035",
+      "method": "sequential",
+      "time_s": 3.6861316971480846,
+      "preprocessing_seconds": 1.9147046096622944,
+      "search_seconds": 1.7714270874857903,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_035",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_035"
+    },
+    {
+      "case": "unified_036",
+      "method": "fixed_frequency",
+      "time_s": 4.094494307413697,
+      "preprocessing_seconds": 2.024558337405324,
+      "search_seconds": 2.0699359700083733,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_036",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_036"
+    },
+    {
+      "case": "unified_036",
+      "method": "sequential",
+      "time_s": 4.129187632352114,
+      "preprocessing_seconds": 2.024558337405324,
+      "search_seconds": 2.1046292949467897,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_036",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_036"
+    },
+    {
+      "case": "unified_037",
+      "method": "fixed_frequency",
+      "time_s": 4.275453375652432,
+      "preprocessing_seconds": 2.0279812160879374,
+      "search_seconds": 2.247472159564495,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_037",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_037"
+    },
+    {
+      "case": "unified_037",
+      "method": "sequential",
+      "time_s": 4.310324331745505,
+      "preprocessing_seconds": 2.0279812160879374,
+      "search_seconds": 2.282343115657568,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_037",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_037"
+    },
+    {
+      "case": "unified_038",
+      "method": "fixed_frequency",
+      "time_s": 4.383016837760806,
+      "preprocessing_seconds": 2.0316779781132936,
+      "search_seconds": 2.3513388596475124,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_038",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_038"
+    },
+    {
+      "case": "unified_038",
+      "method": "sequential",
+      "time_s": 4.418967541307211,
+      "preprocessing_seconds": 2.0316779781132936,
+      "search_seconds": 2.3872895631939173,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_038",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_038"
+    },
+    {
+      "case": "unified_039",
+      "method": "fixed_frequency",
+      "time_s": 4.334793021902442,
+      "preprocessing_seconds": 2.02079008705914,
+      "search_seconds": 2.3140029348433018,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_039",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_039"
+    },
+    {
+      "case": "unified_039",
+      "method": "sequential",
+      "time_s": 4.404180228710175,
+      "preprocessing_seconds": 2.02079008705914,
+      "search_seconds": 2.3833901416510344,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_039",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_039"
+    },
+    {
+      "case": "unified_040",
+      "method": "fixed_frequency",
+      "time_s": 4.436409404501319,
+      "preprocessing_seconds": 2.0386463403701782,
+      "search_seconds": 2.3977630641311407,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_040",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_040"
+    },
+    {
+      "case": "unified_040",
+      "method": "sequential",
+      "time_s": 4.5054195038974285,
+      "preprocessing_seconds": 2.0386463403701782,
+      "search_seconds": 2.4667731635272503,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_040",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_040"
+    },
+    {
+      "case": "unified_041",
+      "method": "fixed_frequency",
+      "time_s": 4.348488237708807,
+      "preprocessing_seconds": 2.059342769905925,
+      "search_seconds": 2.289145467802882,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_041",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_041"
+    },
+    {
+      "case": "unified_041",
+      "method": "sequential",
+      "time_s": 4.3836339339613914,
+      "preprocessing_seconds": 2.059342769905925,
+      "search_seconds": 2.3242911640554667,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_041",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_041"
+    },
+    {
+      "case": "unified_042",
+      "method": "fixed_frequency",
+      "time_s": 4.085804494097829,
+      "preprocessing_seconds": 2.0287186428904533,
+      "search_seconds": 2.0570858512073755,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_042",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_042"
+    },
+    {
+      "case": "unified_042",
+      "method": "sequential",
+      "time_s": 4.152605516836047,
+      "preprocessing_seconds": 2.0287186428904533,
+      "search_seconds": 2.123886873945594,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_042",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_042"
+    },
+    {
+      "case": "unified_043",
+      "method": "fixed_frequency",
+      "time_s": 4.1560647059232,
+      "preprocessing_seconds": 2.047008015215397,
+      "search_seconds": 2.1090566907078028,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_043",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_043"
+    },
+    {
+      "case": "unified_043",
+      "method": "sequential",
+      "time_s": 4.191558199003339,
+      "preprocessing_seconds": 2.047008015215397,
+      "search_seconds": 2.144550183787942,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_043",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_043"
+    },
+    {
+      "case": "unified_044",
+      "method": "fixed_frequency",
+      "time_s": 4.358389254659414,
+      "preprocessing_seconds": 2.0342978294938803,
+      "search_seconds": 2.324091425165534,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_044",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_044"
+    },
+    {
+      "case": "unified_044",
+      "method": "sequential",
+      "time_s": 4.393584690988064,
+      "preprocessing_seconds": 2.0342978294938803,
+      "search_seconds": 2.3592868614941835,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_044",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_044"
+    },
+    {
+      "case": "unified_045",
+      "method": "fixed_frequency",
+      "time_s": 4.586587959900498,
+      "preprocessing_seconds": 2.040115898475051,
+      "search_seconds": 2.5464720614254475,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_045",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_045"
+    },
+    {
+      "case": "unified_045",
+      "method": "sequential",
+      "time_s": 4.656373908743262,
+      "preprocessing_seconds": 2.040115898475051,
+      "search_seconds": 2.6162580102682114,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_045",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_045"
+    },
+    {
+      "case": "unified_046",
+      "method": "fixed_frequency",
+      "time_s": 4.246740754693747,
+      "preprocessing_seconds": 2.029666507616639,
+      "search_seconds": 2.2170742470771074,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_046",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_046"
+    },
+    {
+      "case": "unified_046",
+      "method": "sequential",
+      "time_s": 4.314352633431554,
+      "preprocessing_seconds": 2.029666507616639,
+      "search_seconds": 2.2846861258149147,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_046",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_046"
+    },
+    {
+      "case": "unified_047",
+      "method": "fixed_frequency",
+      "time_s": 3.9749093409627676,
+      "preprocessing_seconds": 2.0633762553334236,
+      "search_seconds": 1.911533085629344,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_047",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_047"
+    },
+    {
+      "case": "unified_047",
+      "method": "sequential",
+      "time_s": 4.009723162278533,
+      "preprocessing_seconds": 2.0633762553334236,
+      "search_seconds": 1.9463469069451094,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_047",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_047"
+    },
+    {
+      "case": "unified_048",
+      "method": "fixed_frequency",
+      "time_s": 3.737451158463955,
+      "preprocessing_seconds": 1.961058309301734,
+      "search_seconds": 1.776392849162221,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_048",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_048"
+    },
+    {
+      "case": "unified_048",
+      "method": "sequential",
+      "time_s": 3.7684040423482656,
+      "preprocessing_seconds": 1.961058309301734,
+      "search_seconds": 1.8073457330465317,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_048",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_048"
+    },
+    {
+      "case": "unified_049",
+      "method": "fixed_frequency",
+      "time_s": 3.4842181522399187,
+      "preprocessing_seconds": 1.9138691630214453,
+      "search_seconds": 1.5703489892184734,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_049",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_049"
+    },
+    {
+      "case": "unified_049",
+      "method": "sequential",
+      "time_s": 3.5161971263587475,
+      "preprocessing_seconds": 1.9138691630214453,
+      "search_seconds": 1.6023279633373022,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_049",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_049"
+    },
+    {
+      "case": "unified_050",
+      "method": "fixed_frequency",
+      "time_s": 3.5106051601469517,
+      "preprocessing_seconds": 1.9291140399873257,
+      "search_seconds": 1.581491120159626,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_050",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_050"
+    },
+    {
+      "case": "unified_050",
+      "method": "sequential",
+      "time_s": 3.54159327223897,
+      "preprocessing_seconds": 1.9291140399873257,
+      "search_seconds": 1.6124792322516441,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_050",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_050"
+    },
+    {
+      "case": "unified_051",
+      "method": "fixed_frequency",
+      "time_s": 3.5248057674616575,
+      "preprocessing_seconds": 1.9313569590449333,
+      "search_seconds": 1.5934488084167242,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_051",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_051"
+    },
+    {
+      "case": "unified_051",
+      "method": "sequential",
+      "time_s": 3.5567863155156374,
+      "preprocessing_seconds": 1.9313569590449333,
+      "search_seconds": 1.625429356470704,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_051",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_051"
+    },
+    {
+      "case": "unified_052",
+      "method": "fixed_frequency",
+      "time_s": 3.726434040814638,
+      "preprocessing_seconds": 2.006679145619273,
+      "search_seconds": 1.719754895195365,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_052",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_052"
+    },
+    {
+      "case": "unified_052",
+      "method": "sequential",
+      "time_s": 3.7577481418848038,
+      "preprocessing_seconds": 2.006679145619273,
+      "search_seconds": 1.7510689962655306,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_052",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_052"
+    },
+    {
+      "case": "unified_053",
+      "method": "fixed_frequency",
+      "time_s": 3.5846254974603653,
+      "preprocessing_seconds": 1.8981286715716124,
+      "search_seconds": 1.686496825888753,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_053",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_053"
+    },
+    {
+      "case": "unified_053",
+      "method": "sequential",
+      "time_s": 3.61532692424953,
+      "preprocessing_seconds": 1.8981286715716124,
+      "search_seconds": 1.7171982526779175,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_053",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_053"
+    },
+    {
+      "case": "unified_054",
+      "method": "fixed_frequency",
+      "time_s": 3.651212304830551,
+      "preprocessing_seconds": 1.9688464719802141,
+      "search_seconds": 1.682365832850337,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_054",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_054"
+    },
+    {
+      "case": "unified_054",
+      "method": "sequential",
+      "time_s": 3.6829227693378925,
+      "preprocessing_seconds": 1.9688464719802141,
+      "search_seconds": 1.7140762973576784,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_054",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_054"
+    },
+    {
+      "case": "unified_055",
+      "method": "fixed_frequency",
+      "time_s": 3.531071212142706,
+      "preprocessing_seconds": 1.8946935255080462,
+      "search_seconds": 1.6363776866346598,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_055",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_055"
+    },
+    {
+      "case": "unified_055",
+      "method": "sequential",
+      "time_s": 3.5624620001763105,
+      "preprocessing_seconds": 1.8946935255080462,
+      "search_seconds": 1.6677684746682644,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_055",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_055"
+    },
+    {
+      "case": "unified_056",
+      "method": "fixed_frequency",
+      "time_s": 3.612675851210952,
+      "preprocessing_seconds": 1.9438855834305286,
+      "search_seconds": 1.6687902677804232,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_056",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_056"
+    },
+    {
+      "case": "unified_056",
+      "method": "sequential",
+      "time_s": 3.6436957381665707,
+      "preprocessing_seconds": 1.9438855834305286,
+      "search_seconds": 1.699810154736042,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_056",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_056"
+    },
+    {
+      "case": "unified_057",
+      "method": "fixed_frequency",
+      "time_s": 3.4507519118487835,
+      "preprocessing_seconds": 1.9042617678642273,
+      "search_seconds": 1.5464901439845562,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_057",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_057"
+    },
+    {
+      "case": "unified_057",
+      "method": "sequential",
+      "time_s": 3.481817552819848,
+      "preprocessing_seconds": 1.9042617678642273,
+      "search_seconds": 1.5775557849556208,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_057",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_057"
+    },
+    {
+      "case": "unified_058",
+      "method": "fixed_frequency",
+      "time_s": 3.4775386080145836,
+      "preprocessing_seconds": 1.9136087838560343,
+      "search_seconds": 1.5639298241585493,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_058",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_058"
+    },
+    {
+      "case": "unified_058",
+      "method": "sequential",
+      "time_s": 3.509494824334979,
+      "preprocessing_seconds": 1.9136087838560343,
+      "search_seconds": 1.5958860404789448,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_058",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_058"
+    },
+    {
+      "case": "unified_059",
+      "method": "fixed_frequency",
+      "time_s": 3.528953932225704,
+      "preprocessing_seconds": 1.9127831980586052,
+      "search_seconds": 1.616170734167099,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_059",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_059"
+    },
+    {
+      "case": "unified_059",
+      "method": "sequential",
+      "time_s": 3.55956663005054,
+      "preprocessing_seconds": 1.9127831980586052,
+      "search_seconds": 1.6467834319919348,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_059",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_059"
+    },
+    {
+      "case": "unified_060",
+      "method": "fixed_frequency",
+      "time_s": 3.435014922171831,
+      "preprocessing_seconds": 1.8974640741944313,
+      "search_seconds": 1.5375508479773998,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_060",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_060"
+    },
+    {
+      "case": "unified_060",
+      "method": "sequential",
+      "time_s": 3.4658193085342646,
+      "preprocessing_seconds": 1.8974640741944313,
+      "search_seconds": 1.5683552343398333,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_060",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_060"
+    },
+    {
+      "case": "unified_061",
+      "method": "fixed_frequency",
+      "time_s": 3.4786076825112104,
+      "preprocessing_seconds": 1.906793499365449,
+      "search_seconds": 1.5718141831457615,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_061",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_061"
+    },
+    {
+      "case": "unified_061",
+      "method": "sequential",
+      "time_s": 3.51068227365613,
+      "preprocessing_seconds": 1.906793499365449,
+      "search_seconds": 1.6038887742906809,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_061",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_061"
+    },
+    {
+      "case": "unified_062",
+      "method": "fixed_frequency",
+      "time_s": 3.55866196192801,
+      "preprocessing_seconds": 1.917187949642539,
+      "search_seconds": 1.641474012285471,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_062",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_062"
+    },
+    {
+      "case": "unified_062",
+      "method": "sequential",
+      "time_s": 3.5898868292570114,
+      "preprocessing_seconds": 1.917187949642539,
+      "search_seconds": 1.6726988796144724,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_062",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_062"
+    },
+    {
+      "case": "unified_063",
+      "method": "fixed_frequency",
+      "time_s": 3.505703367292881,
+      "preprocessing_seconds": 1.9070933889597654,
+      "search_seconds": 1.5986099783331156,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_063",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_063"
+    },
+    {
+      "case": "unified_063",
+      "method": "sequential",
+      "time_s": 3.5364137440919876,
+      "preprocessing_seconds": 1.9070933889597654,
+      "search_seconds": 1.6293203551322222,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_063",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_063"
+    },
+    {
+      "case": "unified_064",
+      "method": "fixed_frequency",
+      "time_s": 4.146020548418164,
+      "preprocessing_seconds": 2.056960329413414,
+      "search_seconds": 2.0890602190047503,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_064",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_064"
+    },
+    {
+      "case": "unified_064",
+      "method": "sequential",
+      "time_s": 4.180268589407206,
+      "preprocessing_seconds": 2.056960329413414,
+      "search_seconds": 2.1233082599937916,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_064",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_064"
+    },
+    {
+      "case": "unified_065",
+      "method": "fixed_frequency",
+      "time_s": 4.1445353012532,
+      "preprocessing_seconds": 2.0204606410115957,
+      "search_seconds": 2.124074660241604,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_065",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_065"
+    },
+    {
+      "case": "unified_065",
+      "method": "sequential",
+      "time_s": 4.177536381408572,
+      "preprocessing_seconds": 2.0204606410115957,
+      "search_seconds": 2.1570757403969765,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_065",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_065"
+    },
+    {
+      "case": "unified_066",
+      "method": "fixed_frequency",
+      "time_s": 3.8997636158019304,
+      "preprocessing_seconds": 2.0738225765526295,
+      "search_seconds": 1.825941039249301,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_066",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_066"
+    },
+    {
+      "case": "unified_066",
+      "method": "sequential",
+      "time_s": 3.934664849191904,
+      "preprocessing_seconds": 2.0738225765526295,
+      "search_seconds": 1.8608422726392746,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_066",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_066"
+    },
+    {
+      "case": "unified_067",
+      "method": "fixed_frequency",
+      "time_s": 4.004258377477527,
+      "preprocessing_seconds": 2.0028608925640583,
+      "search_seconds": 2.0013974849134684,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_067",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_067"
+    },
+    {
+      "case": "unified_067",
+      "method": "sequential",
+      "time_s": 4.038740133866668,
+      "preprocessing_seconds": 2.0028608925640583,
+      "search_seconds": 2.0358792413026094,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_067",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_067"
+    },
+    {
+      "case": "unified_068",
+      "method": "fixed_frequency",
+      "time_s": 3.8528638537973166,
+      "preprocessing_seconds": 2.0280367117375135,
+      "search_seconds": 1.824827142059803,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_068",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_068"
+    },
+    {
+      "case": "unified_068",
+      "method": "sequential",
+      "time_s": 3.8869359120726585,
+      "preprocessing_seconds": 2.0280367117375135,
+      "search_seconds": 1.858899200335145,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_068",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_068"
+    },
+    {
+      "case": "unified_069",
+      "method": "fixed_frequency",
+      "time_s": 3.764120113104582,
+      "preprocessing_seconds": 2.034235652536154,
+      "search_seconds": 1.729884460568428,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_069",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_069"
+    },
+    {
+      "case": "unified_069",
+      "method": "sequential",
+      "time_s": 3.798558957874775,
+      "preprocessing_seconds": 2.034235652536154,
+      "search_seconds": 1.7643233053386211,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_069",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_069"
+    },
+    {
+      "case": "unified_070",
+      "method": "fixed_frequency",
+      "time_s": 4.08966320566833,
+      "preprocessing_seconds": 2.048850692808628,
+      "search_seconds": 2.040812512859702,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_070",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_070"
+    },
+    {
+      "case": "unified_070",
+      "method": "sequential",
+      "time_s": 4.124490117654204,
+      "preprocessing_seconds": 2.048850692808628,
+      "search_seconds": 2.0756394248455763,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_070",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_070"
+    },
+    {
+      "case": "unified_071",
+      "method": "fixed_frequency",
+      "time_s": 3.846632482483983,
+      "preprocessing_seconds": 2.0463967341929674,
+      "search_seconds": 1.8002357482910156,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_071",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_071"
+    },
+    {
+      "case": "unified_071",
+      "method": "sequential",
+      "time_s": 3.880541380494833,
+      "preprocessing_seconds": 2.0463967341929674,
+      "search_seconds": 1.8341446463018656,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_071",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_071"
+    },
+    {
+      "case": "unified_072",
+      "method": "fixed_frequency",
+      "time_s": 3.8821479212492704,
+      "preprocessing_seconds": 2.039403134956956,
+      "search_seconds": 1.8427447862923145,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_072",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_072"
+    },
+    {
+      "case": "unified_072",
+      "method": "sequential",
+      "time_s": 3.9172069393098354,
+      "preprocessing_seconds": 2.039403134956956,
+      "search_seconds": 1.8778038043528795,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_072",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_072"
+    },
+    {
+      "case": "unified_073",
+      "method": "fixed_frequency",
+      "time_s": 3.801791399717331,
+      "preprocessing_seconds": 2.0238550174981356,
+      "search_seconds": 1.7779363822191954,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_073",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_073"
+    },
+    {
+      "case": "unified_073",
+      "method": "sequential",
+      "time_s": 3.8350791297852993,
+      "preprocessing_seconds": 2.0238550174981356,
+      "search_seconds": 1.8112241122871637,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_073",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_073"
+    },
+    {
+      "case": "unified_074",
+      "method": "fixed_frequency",
+      "time_s": 4.112087545916438,
+      "preprocessing_seconds": 2.0283523239195347,
+      "search_seconds": 2.0837352219969034,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_074",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_074"
+    },
+    {
+      "case": "unified_074",
+      "method": "sequential",
+      "time_s": 4.145190829411149,
+      "preprocessing_seconds": 2.0283523239195347,
+      "search_seconds": 2.1168385054916143,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_074",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_074"
+    },
+    {
+      "case": "unified_075",
+      "method": "fixed_frequency",
+      "time_s": 4.129116924479604,
+      "preprocessing_seconds": 2.115289444103837,
+      "search_seconds": 2.0138274803757668,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_075",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_075"
+    },
+    {
+      "case": "unified_075",
+      "method": "sequential",
+      "time_s": 4.16242797113955,
+      "preprocessing_seconds": 2.115289444103837,
+      "search_seconds": 2.047138527035713,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_075",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_075"
+    },
+    {
+      "case": "unified_076",
+      "method": "fixed_frequency",
+      "time_s": 3.7991169411689043,
+      "preprocessing_seconds": 2.034486800432205,
+      "search_seconds": 1.764630140736699,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_076",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_076"
+    },
+    {
+      "case": "unified_076",
+      "method": "sequential",
+      "time_s": 3.8332526087760925,
+      "preprocessing_seconds": 2.034486800432205,
+      "search_seconds": 1.7987658083438873,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_076",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_076"
+    },
+    {
+      "case": "unified_077",
+      "method": "fixed_frequency",
+      "time_s": 4.089054740965366,
+      "preprocessing_seconds": 2.056709885597229,
+      "search_seconds": 2.0323448553681374,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_077",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_077"
+    },
+    {
+      "case": "unified_077",
+      "method": "sequential",
+      "time_s": 4.123589197173715,
+      "preprocessing_seconds": 2.056709885597229,
+      "search_seconds": 2.0668793115764856,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_077",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_077"
+    },
+    {
+      "case": "unified_078",
+      "method": "fixed_frequency",
+      "time_s": 3.8689851984381676,
+      "preprocessing_seconds": 2.0254774428904057,
+      "search_seconds": 1.843507755547762,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_078",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_078"
+    },
+    {
+      "case": "unified_078",
+      "method": "sequential",
+      "time_s": 3.904473355039954,
+      "preprocessing_seconds": 2.0254774428904057,
+      "search_seconds": 1.8789959121495485,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_078",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_078"
+    },
+    {
+      "case": "unified_079",
+      "method": "fixed_frequency",
+      "time_s": 3.7279288209974766,
+      "preprocessing_seconds": 2.020377164706588,
+      "search_seconds": 1.7075516562908888,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_079",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_079"
+    },
+    {
+      "case": "unified_079",
+      "method": "sequential",
+      "time_s": 3.7628583945333958,
+      "preprocessing_seconds": 2.020377164706588,
+      "search_seconds": 1.742481229826808,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_079",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_079"
+    },
+    {
+      "case": "unified_080",
+      "method": "fixed_frequency",
+      "time_s": 3.6645367182791233,
+      "preprocessing_seconds": 1.9201568197458982,
+      "search_seconds": 1.744379898533225,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_080",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_080"
+    },
+    {
+      "case": "unified_080",
+      "method": "sequential",
+      "time_s": 3.695784965530038,
+      "preprocessing_seconds": 1.9201568197458982,
+      "search_seconds": 1.7756281457841396,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_080",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_080"
+    },
+    {
+      "case": "unified_081",
+      "method": "fixed_frequency",
+      "time_s": 3.970529654994607,
+      "preprocessing_seconds": 1.908093549311161,
+      "search_seconds": 2.062436105683446,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_081",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_081"
+    },
+    {
+      "case": "unified_081",
+      "method": "sequential",
+      "time_s": 4.002024302259088,
+      "preprocessing_seconds": 1.908093549311161,
+      "search_seconds": 2.0939307529479265,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_081",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_081"
+    },
+    {
+      "case": "unified_082",
+      "method": "fixed_frequency",
+      "time_s": 3.8559772558510303,
+      "preprocessing_seconds": 1.951809762045741,
+      "search_seconds": 1.9041674938052893,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_082",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_082"
+    },
+    {
+      "case": "unified_082",
+      "method": "sequential",
+      "time_s": 3.8870324604213238,
+      "preprocessing_seconds": 1.951809762045741,
+      "search_seconds": 1.9352226983755827,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_082",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_082"
+    },
+    {
+      "case": "unified_083",
+      "method": "fixed_frequency",
+      "time_s": 3.536950908601284,
+      "preprocessing_seconds": 1.9052894674241543,
+      "search_seconds": 1.6316614411771297,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_083",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_083"
+    },
+    {
+      "case": "unified_083",
+      "method": "sequential",
+      "time_s": 3.569342952221632,
+      "preprocessing_seconds": 1.9052894674241543,
+      "search_seconds": 1.6640534847974777,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_083",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_083"
+    },
+    {
+      "case": "unified_084",
+      "method": "fixed_frequency",
+      "time_s": 3.57180093228817,
+      "preprocessing_seconds": 1.909073542803526,
+      "search_seconds": 1.662727389484644,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_084",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_084"
+    },
+    {
+      "case": "unified_084",
+      "method": "sequential",
+      "time_s": 3.6042285449802876,
+      "preprocessing_seconds": 1.909073542803526,
+      "search_seconds": 1.6951550021767616,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_084",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_084"
+    },
+    {
+      "case": "unified_085",
+      "method": "fixed_frequency",
+      "time_s": 3.9879976585507393,
+      "preprocessing_seconds": 1.9025276694446802,
+      "search_seconds": 2.085469989106059,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_085",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_085"
+    },
+    {
+      "case": "unified_085",
+      "method": "sequential",
+      "time_s": 4.018827510997653,
+      "preprocessing_seconds": 1.9025276694446802,
+      "search_seconds": 2.116299841552973,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_085",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_085"
+    },
+    {
+      "case": "unified_086",
+      "method": "fixed_frequency",
+      "time_s": 3.667681908234954,
+      "preprocessing_seconds": 1.9225760139524937,
+      "search_seconds": 1.7451058942824602,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_086",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_086"
+    },
+    {
+      "case": "unified_086",
+      "method": "sequential",
+      "time_s": 3.6987488977611065,
+      "preprocessing_seconds": 1.9225760139524937,
+      "search_seconds": 1.7761728838086128,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_086",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_086"
+    },
+    {
+      "case": "unified_087",
+      "method": "fixed_frequency",
+      "time_s": 3.9370676036924124,
+      "preprocessing_seconds": 1.9057123195379972,
+      "search_seconds": 2.031355284154415,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_087",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_087"
+    },
+    {
+      "case": "unified_087",
+      "method": "sequential",
+      "time_s": 3.999248230829835,
+      "preprocessing_seconds": 1.9057123195379972,
+      "search_seconds": 2.0935359112918377,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_087",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_087"
+    },
+    {
+      "case": "unified_088",
+      "method": "fixed_frequency",
+      "time_s": 3.8215316887944937,
+      "preprocessing_seconds": 1.9303430449217558,
+      "search_seconds": 1.8911886438727379,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_088",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_088"
+    },
+    {
+      "case": "unified_088",
+      "method": "sequential",
+      "time_s": 3.8538535702973604,
+      "preprocessing_seconds": 1.9303430449217558,
+      "search_seconds": 1.9235105253756046,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_088",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_088"
+    },
+    {
+      "case": "unified_089",
+      "method": "fixed_frequency",
+      "time_s": 3.559662638232112,
+      "preprocessing_seconds": 1.9112188126891851,
+      "search_seconds": 1.6484438255429268,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_089",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_089"
+    },
+    {
+      "case": "unified_089",
+      "method": "sequential",
+      "time_s": 3.5929863434284925,
+      "preprocessing_seconds": 1.9112188126891851,
+      "search_seconds": 1.6817675307393074,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_089",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_089"
+    },
+    {
+      "case": "unified_090",
+      "method": "fixed_frequency",
+      "time_s": 3.7277420479804277,
+      "preprocessing_seconds": 1.893139336258173,
+      "search_seconds": 1.8346027117222548,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_090",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_090"
+    },
+    {
+      "case": "unified_090",
+      "method": "sequential",
+      "time_s": 3.788579421117902,
+      "preprocessing_seconds": 1.893139336258173,
+      "search_seconds": 1.8954400848597288,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_090",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_090"
+    },
+    {
+      "case": "unified_091",
+      "method": "fixed_frequency",
+      "time_s": 3.6814350076019764,
+      "preprocessing_seconds": 1.935117106884718,
+      "search_seconds": 1.7463179007172585,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_091",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_091"
+    },
+    {
+      "case": "unified_091",
+      "method": "sequential",
+      "time_s": 3.7130154203623533,
+      "preprocessing_seconds": 1.935117106884718,
+      "search_seconds": 1.7778983134776354,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_091",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_091"
+    },
+    {
+      "case": "unified_092",
+      "method": "fixed_frequency",
+      "time_s": 3.7897088639438152,
+      "preprocessing_seconds": 1.9254786875098944,
+      "search_seconds": 1.8642301764339209,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_092",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_092"
+    },
+    {
+      "case": "unified_092",
+      "method": "sequential",
+      "time_s": 3.8211923390626907,
+      "preprocessing_seconds": 1.9254786875098944,
+      "search_seconds": 1.8957136515527964,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_092",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_092"
+    },
+    {
+      "case": "unified_093",
+      "method": "fixed_frequency",
+      "time_s": 3.746510872617364,
+      "preprocessing_seconds": 1.9185623116791248,
+      "search_seconds": 1.827948560938239,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_093",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_093"
+    },
+    {
+      "case": "unified_093",
+      "method": "sequential",
+      "time_s": 3.778029778972268,
+      "preprocessing_seconds": 1.9185623116791248,
+      "search_seconds": 1.8594674672931433,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_093",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_093"
+    },
+    {
+      "case": "unified_094",
+      "method": "fixed_frequency",
+      "time_s": 3.6544586196541786,
+      "preprocessing_seconds": 1.9078288674354553,
+      "search_seconds": 1.7466297522187233,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_094",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_094"
+    },
+    {
+      "case": "unified_094",
+      "method": "sequential",
+      "time_s": 3.6858688704669476,
+      "preprocessing_seconds": 1.9078288674354553,
+      "search_seconds": 1.7780400030314922,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_094",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_094"
+    },
+    {
+      "case": "unified_095",
+      "method": "fixed_frequency",
+      "time_s": 3.6494147069752216,
+      "preprocessing_seconds": 1.9133135825395584,
+      "search_seconds": 1.7361011244356632,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_095",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_095"
+    },
+    {
+      "case": "unified_095",
+      "method": "sequential",
+      "time_s": 3.681962391361594,
+      "preprocessing_seconds": 1.9133135825395584,
+      "search_seconds": 1.7686488088220358,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_095",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_095"
+    },
+    {
+      "case": "unified_096",
+      "method": "fixed_frequency",
+      "time_s": 4.509114351123571,
+      "preprocessing_seconds": 2.045210089534521,
+      "search_seconds": 2.4639042615890503,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_096",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_096"
+    },
+    {
+      "case": "unified_096",
+      "method": "sequential",
+      "time_s": 4.576031671836972,
+      "preprocessing_seconds": 2.045210089534521,
+      "search_seconds": 2.530821582302451,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_096",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_096"
+    },
+    {
+      "case": "unified_097",
+      "method": "fixed_frequency",
+      "time_s": 4.4111989717930555,
+      "preprocessing_seconds": 2.008618015795946,
+      "search_seconds": 2.4025809559971094,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_097",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_097"
+    },
+    {
+      "case": "unified_097",
+      "method": "sequential",
+      "time_s": 4.477731490507722,
+      "preprocessing_seconds": 2.008618015795946,
+      "search_seconds": 2.469113474711776,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_097",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_097"
+    },
+    {
+      "case": "unified_098",
+      "method": "fixed_frequency",
+      "time_s": 4.550775429233909,
+      "preprocessing_seconds": 2.017578035593033,
+      "search_seconds": 2.533197393640876,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_098",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_098"
+    },
+    {
+      "case": "unified_098",
+      "method": "sequential",
+      "time_s": 4.618672827258706,
+      "preprocessing_seconds": 2.017578035593033,
+      "search_seconds": 2.6010947916656733,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_098",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_098"
+    },
+    {
+      "case": "unified_099",
+      "method": "fixed_frequency",
+      "time_s": 4.716663207858801,
+      "preprocessing_seconds": 2.019763460382819,
+      "search_seconds": 2.6968997474759817,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_099",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_099"
+    },
+    {
+      "case": "unified_099",
+      "method": "sequential",
+      "time_s": 4.787466108798981,
+      "preprocessing_seconds": 2.019763460382819,
+      "search_seconds": 2.7677026484161615,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_099",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_099"
+    },
+    {
+      "case": "unified_100",
+      "method": "fixed_frequency",
+      "time_s": 4.3787752613425255,
+      "preprocessing_seconds": 2.0217717196792364,
+      "search_seconds": 2.357003541663289,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_100",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_100"
+    },
+    {
+      "case": "unified_100",
+      "method": "sequential",
+      "time_s": 4.4135063495486975,
+      "preprocessing_seconds": 2.0217717196792364,
+      "search_seconds": 2.391734629869461,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_100",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_100"
+    },
+    {
+      "case": "unified_101",
+      "method": "fixed_frequency",
+      "time_s": 4.35245430842042,
+      "preprocessing_seconds": 2.041002120822668,
+      "search_seconds": 2.3114521875977516,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_101",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_101"
+    },
+    {
+      "case": "unified_101",
+      "method": "sequential",
+      "time_s": 4.421639485284686,
+      "preprocessing_seconds": 2.041002120822668,
+      "search_seconds": 2.380637364462018,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_101",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_101"
+    },
+    {
+      "case": "unified_102",
+      "method": "fixed_frequency",
+      "time_s": 4.4577272888273,
+      "preprocessing_seconds": 2.0421466566622257,
+      "search_seconds": 2.4155806321650743,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_102",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_102"
+    },
+    {
+      "case": "unified_102",
+      "method": "sequential",
+      "time_s": 4.525430968031287,
+      "preprocessing_seconds": 2.0421466566622257,
+      "search_seconds": 2.4832843113690615,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_102",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_102"
+    },
+    {
+      "case": "unified_103",
+      "method": "fixed_frequency",
+      "time_s": 4.406078917905688,
+      "preprocessing_seconds": 2.0293623358011246,
+      "search_seconds": 2.3767165821045637,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_103",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_103"
+    },
+    {
+      "case": "unified_103",
+      "method": "sequential",
+      "time_s": 4.441315131261945,
+      "preprocessing_seconds": 2.0293623358011246,
+      "search_seconds": 2.41195279546082,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_103",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_103"
+    },
+    {
+      "case": "unified_104",
+      "method": "fixed_frequency",
+      "time_s": 4.2452523447573185,
+      "preprocessing_seconds": 2.0311007630079985,
+      "search_seconds": 2.21415158174932,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_104",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_104"
+    },
+    {
+      "case": "unified_104",
+      "method": "sequential",
+      "time_s": 4.280334608629346,
+      "preprocessing_seconds": 2.0311007630079985,
+      "search_seconds": 2.2492338456213474,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_104",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_104"
+    },
+    {
+      "case": "unified_105",
+      "method": "fixed_frequency",
+      "time_s": 4.010580655187368,
+      "preprocessing_seconds": 2.024958323687315,
+      "search_seconds": 1.9856223315000534,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_105",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_105"
+    },
+    {
+      "case": "unified_105",
+      "method": "sequential",
+      "time_s": 4.079777771607041,
+      "preprocessing_seconds": 2.024958323687315,
+      "search_seconds": 2.0548194479197264,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_105",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_105"
+    },
+    {
+      "case": "unified_106",
+      "method": "fixed_frequency",
+      "time_s": 4.294899221509695,
+      "preprocessing_seconds": 2.028550313785672,
+      "search_seconds": 2.266348907724023,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_106",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_106"
+    },
+    {
+      "case": "unified_106",
+      "method": "sequential",
+      "time_s": 4.330745788291097,
+      "preprocessing_seconds": 2.028550313785672,
+      "search_seconds": 2.3021954745054245,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_106",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_106"
+    },
+    {
+      "case": "unified_107",
+      "method": "fixed_frequency",
+      "time_s": 3.9967652559280396,
+      "preprocessing_seconds": 2.0209201127290726,
+      "search_seconds": 1.975845143198967,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_107",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_107"
+    },
+    {
+      "case": "unified_107",
+      "method": "sequential",
+      "time_s": 4.03153470158577,
+      "preprocessing_seconds": 2.0209201127290726,
+      "search_seconds": 2.010614588856697,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_107",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_107"
+    },
+    {
+      "case": "unified_108",
+      "method": "fixed_frequency",
+      "time_s": 4.171101871877909,
+      "preprocessing_seconds": 2.0446669533848763,
+      "search_seconds": 2.1264349184930325,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_108",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_108"
+    },
+    {
+      "case": "unified_108",
+      "method": "sequential",
+      "time_s": 4.239801160991192,
+      "preprocessing_seconds": 2.0446669533848763,
+      "search_seconds": 2.1951342076063156,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_108",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_108"
+    },
+    {
+      "case": "unified_109",
+      "method": "fixed_frequency",
+      "time_s": 4.3172425627708435,
+      "preprocessing_seconds": 2.123706689104438,
+      "search_seconds": 2.1935358736664057,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_109",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_109"
+    },
+    {
+      "case": "unified_109",
+      "method": "sequential",
+      "time_s": 4.351184202358127,
+      "preprocessing_seconds": 2.123706689104438,
+      "search_seconds": 2.227477513253689,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_109",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_109"
+    },
+    {
+      "case": "unified_110",
+      "method": "fixed_frequency",
+      "time_s": 3.963707435876131,
+      "preprocessing_seconds": 2.033394753932953,
+      "search_seconds": 1.9303126819431782,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_110",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_110"
+    },
+    {
+      "case": "unified_110",
+      "method": "sequential",
+      "time_s": 3.9985760319978,
+      "preprocessing_seconds": 2.033394753932953,
+      "search_seconds": 1.965181278064847,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_110",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_110"
+    },
+    {
+      "case": "unified_111",
+      "method": "fixed_frequency",
+      "time_s": 3.9041444063186646,
+      "preprocessing_seconds": 2.0517527870833874,
+      "search_seconds": 1.8523916192352772,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_111",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_111"
+    },
+    {
+      "case": "unified_111",
+      "method": "sequential",
+      "time_s": 3.9394475240260363,
+      "preprocessing_seconds": 2.0517527870833874,
+      "search_seconds": 1.8876947369426489,
+      "target_source": "results/planning/full_timing/timing_summary.json#case=unified_111",
+      "preprocessing_source": "results/planning/full_timing/timing_summary.json#case=unified_111"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "power": 218.28416916912528,
+  "utility": 137.66758882957149,
+  "ratio": 0.6306805910551738,
+  "replicas": 7,
+  "active": 3,
+  "assignment_json": "[{\"s\": 0, \"g\": 0, \"rid\": 2, \"alternative_id\": \"fr_b1_k2_f1200__slo0.14999999999999999__interval0\", \"physical_config_id\": \"fr_b1_k2_f1200\", \"catalog_id\": \"fr_b1_k2_f1200\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 11.733633319000388, \"peak\": 41.8276742547094, \"slope\": 2.4316518091618797, \"intercept\": 0.2735177502048103, \"n\": 1, \"rate\": 11.383172174599068, \"rate_per_replica\": 11.383172174599068, \"response\": 0.11804797065968874, \"L\": 0.05873616269522382, \"utilization\": 0.6686038528349956}, {\"s\": 3, \"g\": 0, \"rid\": 61, \"alternative_id\": \"dl_b1_k2_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"dl_b1_k2_f1200\", \"catalog_id\": \"dl_b1_k2_f1200\", \"model\": \"deeplabv3_resnet50_b1\", \"arch\": \"deeplabv3_resnet50\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.664, \"u\": 1.0, \"lower\": 1.0, \"upper\": 27.01406402420264, \"peak\": 40.41667066004152, \"slope\": 1.2751649850724063, \"intercept\": 0.1678271587950455, \"n\": 1, \"rate\": 17.42978007410729, \"rate_per_replica\": 17.42978007410729, \"response\": 0.05173735078061273, \"L\": 0.031854696319485544, \"utilization\": 0.5552203511761079}, {\"s\": 2, \"g\": 1, \"rid\": 53, \"alternative_id\": \"rn_b1_k2_f1200__slo0.25__interval0\", \"physical_config_id\": \"rn_b1_k2_f1200\", \"catalog_id\": \"rn_b1_k2_f1200\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 19.849652068069357, \"peak\": 37.48482144975905, \"slope\": 1.6122210907171102, \"intercept\": 0.30176157108571644, \"n\": 1, \"rate\": 10.96978068318734, \"rate_per_replica\": 10.96978068318734, \"response\": 0.06547295857379697, \"L\": 0.044393315277255596, \"utilization\": 0.48698493239108387}, {\"s\": 4, \"g\": 1, \"rid\": 84, \"alternative_id\": \"rn_b1_k2_f1200__slo0.25__interval0\", \"physical_config_id\": \"rn_b1_k2_f1200\", \"catalog_id\": \"rn_b1_k2_f1200\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 19.849652068069357, \"peak\": 37.48482144975905, \"slope\": 1.6122210907171102, \"intercept\": 0.30176157108571644, \"n\": 1, \"rate\": 9.373818503867565, \"rate_per_replica\": 9.373818503867565, \"response\": 0.06087342188586245, \"L\": 0.04472436683940562, \"utilization\": 0.41923809745298135}, {\"s\": 1, \"g\": 2, \"rid\": 27, \"alternative_id\": \"lr_b1_k1_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 139.02263368920538, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 23.123006841823454, \"rate_per_replica\": 23.123006841823454, \"response\": 0.011766439283864519, \"L\": 0.010189232943161555, \"utilization\": 0.23560570305765757}, {\"s\": 5, \"g\": 2, \"rid\": 107, \"alternative_id\": \"lr_b1_k1_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 139.02263368920538, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 21.911075433134847, \"rate_per_replica\": 21.911075433134847, \"response\": 0.011704815077047421, \"L\": 0.010223349292185544, \"utilization\": 0.2240045775203632}, {\"s\": 6, \"g\": 2, \"rid\": 140, \"alternative_id\": \"lr_b1_k2_f1200__slo0.25__interval0\", \"physical_config_id\": \"lr_b1_k2_f1200\", \"catalog_id\": \"lr_b1_k2_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 2, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 239.53319644906009, \"peak\": 25.120659432374126, \"slope\": 0.10241156318784081, \"intercept\": 0.17570108153364217, \"n\": 1, \"rate\": 61.61642272692003, \"rate_per_replica\": 61.61642272692003, \"response\": 0.005210010881383852, \"L\": 0.00439098973798795, \"utilization\": 0.2705570798854333}]",
+  "status": "optimal",
+  "variables": 387,
+  "history": [
+    {
+      "q": 0.6306805910551738,
+      "ratio": 0.6306805910551738,
+      "residual": 0.0,
+      "status": 2
+    }
+  ],
+  "time_limit_seconds": 3600.0,
+  "q_initial": 0.6306805910551738,
+  "mip_start": true,
+  "warm_start_canonicalized": false,
+  "exact_strengthening": {
+    "count_upper": "min(fleet limit, per-GPU slice limit, exact rational ceil(lambda/h))",
+    "rate_count_dominance": "r >= h*(n-1), closed relaxation of strict paper inequality; no positive epsilon",
+    "strict_paper_inequality_implemented_literally": false,
+    "optimum_preserved": "nonnegative residency permits removal of surplus replicas without changing traffic/utility",
+    "frequency_capacity": "sum(k*n) <= 4*z[g,f]",
+    "symmetry": "all homogeneous GPUs ordered by 5*frequency_rank+occupied_slices, descending"
+  },
+  "sequential_frozen_membership": false,
+  "fixed_frequency_MHz": 1200,
+  "trial_summaries": [
+    {
+      "fixed_frequency_MHz": 900,
+      "status": "infeasible_in_calibrated_domain",
+      "ratio": null
+    },
+    {
+      "fixed_frequency_MHz": 1200,
+      "status": "optimal",
+      "ratio": 0.6306805910551738
+    },
+    {
+      "fixed_frequency_MHz": 1440,
+      "status": "infeasible_in_calibrated_domain",
+      "ratio": null
+    }
+  ]
+}

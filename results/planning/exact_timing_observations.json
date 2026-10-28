@@ -1,0 +1,458 @@
+{
+  "schema": "planning-exact-timing-v1",
+  "source": {
+    "archive": "experimental_evaluation_20261027_means_sources.zip",
+    "member": "reproduce/cases_audit.json",
+    "sha256": "c4fc414854442d4840c8b6c53718c09d5f6a209f5a1d207a3c9533617d4b65ca"
+  },
+  "rows": [
+    {
+      "case": "unified_000",
+      "exact_total_seconds": 3.6115214275196195
+    },
+    {
+      "case": "unified_001",
+      "exact_total_seconds": 3.3389257742092013
+    },
+    {
+      "case": "unified_002",
+      "exact_total_seconds": 3.563953544013202
+    },
+    {
+      "case": "unified_003",
+      "exact_total_seconds": 3.593160130083561
+    },
+    {
+      "case": "unified_004",
+      "exact_total_seconds": 4.177004408091307
+    },
+    {
+      "case": "unified_005",
+      "exact_total_seconds": 5.541266173124313
+    },
+    {
+      "case": "unified_006",
+      "exact_total_seconds": 3.3407169859856367
+    },
+    {
+      "case": "unified_007",
+      "exact_total_seconds": 3.5150462118908763
+    },
+    {
+      "case": "unified_008",
+      "exact_total_seconds": 4.897491668350995
+    },
+    {
+      "case": "unified_009",
+      "exact_total_seconds": 3.394415673799813
+    },
+    {
+      "case": "unified_010",
+      "exact_total_seconds": 3.409959283657372
+    },
+    {
+      "case": "unified_011",
+      "exact_total_seconds": 4.7446191012859344
+    },
+    {
+      "case": "unified_012",
+      "exact_total_seconds": 4.99660590197891
+    },
+    {
+      "case": "unified_013",
+      "exact_total_seconds": 5.32202048972249
+    },
+    {
+      "case": "unified_014",
+      "exact_total_seconds": 4.658341129310429
+    },
+    {
+      "case": "unified_015",
+      "exact_total_seconds": 5.959549652412534
+    },
+    {
+      "case": "unified_016",
+      "exact_total_seconds": 4.951076291501522
+    },
+    {
+      "case": "unified_017",
+      "exact_total_seconds": 5.128478115424514
+    },
+    {
+      "case": "unified_018",
+      "exact_total_seconds": 4.404903628863394
+    },
+    {
+      "case": "unified_019",
+      "exact_total_seconds": 4.411040119826794
+    },
+    {
+      "case": "unified_020",
+      "exact_total_seconds": 5.92158867418766
+    },
+    {
+      "case": "unified_021",
+      "exact_total_seconds": 5.402980093844235
+    },
+    {
+      "case": "unified_022",
+      "exact_total_seconds": 4.4411172633990645
+    },
+    {
+      "case": "unified_023",
+      "exact_total_seconds": 5.228885148651898
+    },
+    {
+      "case": "unified_024",
+      "exact_total_seconds": 4.708190208300948
+    },
+    {
+      "case": "unified_025",
+      "exact_total_seconds": 5.397831400856376
+    },
+    {
+      "case": "unified_026",
+      "exact_total_seconds": 4.395265041850507
+    },
+    {
+      "case": "unified_027",
+      "exact_total_seconds": 5.062621523626149
+    },
+    {
+      "case": "unified_028",
+      "exact_total_seconds": 4.156138267368078
+    },
+    {
+      "case": "unified_029",
+      "exact_total_seconds": 4.064102318137884
+    },
+    {
+      "case": "unified_030",
+      "exact_total_seconds": 4.87879603356123
+    },
+    {
+      "case": "unified_031",
+      "exact_total_seconds": 3.7404692815616727
+    },
+    {
+      "case": "unified_032",
+      "exact_total_seconds": 4.00563701055944
+    },
+    {
+      "case": "unified_033",
+      "exact_total_seconds": 3.84473221283406
+    },
+    {
+      "case": "unified_034",
+      "exact_total_seconds": 4.089242051355541
+    },
+    {
+      "case": "unified_035",
+      "exact_total_seconds": 3.8405615529045463
+    },
+    {
+      "case": "unified_036",
+      "exact_total_seconds": 4.4891724940389395
+    },
+    {
+      "case": "unified_037",
+      "exact_total_seconds": 4.997895502485335
+    },
+    {
+      "case": "unified_038",
+      "exact_total_seconds": 5.825362882576883
+    },
+    {
+      "case": "unified_039",
+      "exact_total_seconds": 5.8192196395248175
+    },
+    {
+      "case": "unified_040",
+      "exact_total_seconds": 5.958592585287988
+    },
+    {
+      "case": "unified_041",
+      "exact_total_seconds": 5.618917530402541
+    },
+    {
+      "case": "unified_042",
+      "exact_total_seconds": 4.684243799187243
+    },
+    {
+      "case": "unified_043",
+      "exact_total_seconds": 5.568981759250164
+    },
+    {
+      "case": "unified_044",
+      "exact_total_seconds": 5.718294499441981
+    },
+    {
+      "case": "unified_045",
+      "exact_total_seconds": 5.451624425128102
+    },
+    {
+      "case": "unified_046",
+      "exact_total_seconds": 5.458262152969837
+    },
+    {
+      "case": "unified_047",
+      "exact_total_seconds": 4.499631689861417
+    },
+    {
+      "case": "unified_048",
+      "exact_total_seconds": 4.070431266911328
+    },
+    {
+      "case": "unified_049",
+      "exact_total_seconds": 3.3722592778503895
+    },
+    {
+      "case": "unified_050",
+      "exact_total_seconds": 3.6727636577561498
+    },
+    {
+      "case": "unified_051",
+      "exact_total_seconds": 3.462661669589579
+    },
+    {
+      "case": "unified_052",
+      "exact_total_seconds": 4.489554261788726
+    },
+    {
+      "case": "unified_053",
+      "exact_total_seconds": 4.55697076767683
+    },
+    {
+      "case": "unified_054",
+      "exact_total_seconds": 3.7095822412520647
+    },
+    {
+      "case": "unified_055",
+      "exact_total_seconds": 3.8233849070966244
+    },
+    {
+      "case": "unified_056",
+      "exact_total_seconds": 4.253728843294084
+    },
+    {
+      "case": "unified_057",
+      "exact_total_seconds": 3.5138746285811067
+    },
+    {
+      "case": "unified_058",
+      "exact_total_seconds": 3.403420834802091
+    },
+    {
+      "case": "unified_059",
+      "exact_total_seconds": 3.7289482885971665
+    },
+    {
+      "case": "unified_060",
+      "exact_total_seconds": 3.654913584701717
+    },
+    {
+      "case": "unified_061",
+      "exact_total_seconds": 3.750008244998753
+    },
+    {
+      "case": "unified_062",
+      "exact_total_seconds": 3.749256535433233
+    },
+    {
+      "case": "unified_063",
+      "exact_total_seconds": 4.036188279278576
+    },
+    {
+      "case": "unified_064",
+      "exact_total_seconds": 5.50580957531929
+    },
+    {
+      "case": "unified_065",
+      "exact_total_seconds": 6.723773240111768
+    },
+    {
+      "case": "unified_066",
+      "exact_total_seconds": 5.105239279568195
+    },
+    {
+      "case": "unified_067",
+      "exact_total_seconds": 6.530166509561241
+    },
+    {
+      "case": "unified_068",
+      "exact_total_seconds": 5.009432501159608
+    },
+    {
+      "case": "unified_069",
+      "exact_total_seconds": 4.3710402166470885
+    },
+    {
+      "case": "unified_070",
+      "exact_total_seconds": 4.718339202925563
+    },
+    {
+      "case": "unified_071",
+      "exact_total_seconds": 4.645342626608908
+    },
+    {
+      "case": "unified_072",
+      "exact_total_seconds": 4.485448001883924
+    },
+    {
+      "case": "unified_073",
+      "exact_total_seconds": 4.531571405008435
+    },
+    {
+      "case": "unified_074",
+      "exact_total_seconds": 6.269703044556081
+    },
+    {
+      "case": "unified_075",
+      "exact_total_seconds": 5.1927420469000936
+    },
+    {
+      "case": "unified_076",
+      "exact_total_seconds": 4.623949613422155
+    },
+    {
+      "case": "unified_077",
+      "exact_total_seconds": 5.005443525500596
+    },
+    {
+      "case": "unified_078",
+      "exact_total_seconds": 4.661350815556943
+    },
+    {
+      "case": "unified_079",
+      "exact_total_seconds": 4.600073372013867
+    },
+    {
+      "case": "unified_080",
+      "exact_total_seconds": 4.059066261164844
+    },
+    {
+      "case": "unified_081",
+      "exact_total_seconds": 4.94017496984452
+    },
+    {
+      "case": "unified_082",
+      "exact_total_seconds": 4.408895532600582
+    },
+    {
+      "case": "unified_083",
+      "exact_total_seconds": 3.4456260427832603
+    },
+    {
+      "case": "unified_084",
+      "exact_total_seconds": 3.669447506777942
+    },
+    {
+      "case": "unified_085",
+      "exact_total_seconds": 4.792527480982244
+    },
+    {
+      "case": "unified_086",
+      "exact_total_seconds": 3.846246804110706
+    },
+    {
+      "case": "unified_087",
+      "exact_total_seconds": 5.3828866966068745
+    },
+    {
+      "case": "unified_088",
+      "exact_total_seconds": 4.549519717693329
+    },
+    {
+      "case": "unified_089",
+      "exact_total_seconds": 3.557889986783266
+    },
+    {
+      "case": "unified_090",
+      "exact_total_seconds": 4.479364443570375
+    },
+    {
+      "case": "unified_091",
+      "exact_total_seconds": 4.092667366378009
+    },
+    {
+      "case": "unified_092",
+      "exact_total_seconds": 4.4817102095112205
+    },
+    {
+      "case": "unified_093",
+      "exact_total_seconds": 4.428292686119676
+    },
+    {
+      "case": "unified_094",
+      "exact_total_seconds": 3.8861358100548387
+    },
+    {
+      "case": "unified_095",
+      "exact_total_seconds": 3.647541021928191
+    },
+    {
+      "case": "unified_096",
+      "exact_total_seconds": 5.392862878739834
+    },
+    {
+      "case": "unified_097",
+      "exact_total_seconds": 7.6692927507683635
+    },
+    {
+      "case": "unified_098",
+      "exact_total_seconds": 7.065159437246621
+    },
+    {
+      "case": "unified_099",
+      "exact_total_seconds": 6.870162294246256
+    },
+    {
+      "case": "unified_100",
+      "exact_total_seconds": 5.8464150400832295
+    },
+    {
+      "case": "unified_101",
+      "exact_total_seconds": 5.650196796283126
+    },
+    {
+      "case": "unified_102",
+      "exact_total_seconds": 6.405949428677559
+    },
+    {
+      "case": "unified_103",
+      "exact_total_seconds": 6.0870263036340475
+    },
+    {
+      "case": "unified_104",
+      "exact_total_seconds": 5.755468215793371
+    },
+    {
+      "case": "unified_105",
+      "exact_total_seconds": 5.124614119529724
+    },
+    {
+      "case": "unified_106",
+      "exact_total_seconds": 5.14479479752481
+    },
+    {
+      "case": "unified_107",
+      "exact_total_seconds": 5.220140884630382
+    },
+    {
+      "case": "unified_108",
+      "exact_total_seconds": 5.340058298781514
+    },
+    {
+      "case": "unified_109",
+      "exact_total_seconds": 6.571898114867508
+    },
+    {
+      "case": "unified_110",
+      "exact_total_seconds": 4.701371012255549
+    },
+    {
+      "case": "unified_111",
+      "exact_total_seconds": 4.179928533732891
+    }
+  ]
+}

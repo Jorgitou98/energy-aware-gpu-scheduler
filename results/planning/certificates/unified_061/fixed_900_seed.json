@@ -1,0 +1,11 @@
+{
+  "status": "construction_failed",
+  "beam_finished": false,
+  "algorithm": "manuscript_beam",
+  "beam_expanded": 0,
+  "beam_width": 512,
+  "per_signature": 2,
+  "beam_levels": [],
+  "beam_timed_out": false,
+  "time_limit_seconds": 10.0
+}

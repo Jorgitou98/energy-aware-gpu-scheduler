@@ -1,0 +1,79 @@
+{
+  "schema": "figure7-raw-archive-v1",
+  "archive": {
+    "name": "figure7_raw_completo.zip",
+    "bytes": 524047553,
+    "sha256": "87a86f078f9cf5bec70fd3116fa03fff84e4b9f76944fbe3c71726f400578e7e"
+  },
+  "parts": [
+    {
+      "name": "figure7_raw_completo.zip.part01",
+      "bytes": 50331648,
+      "sha256": "fb97907634ad2a70f71044527fd6c6c627ff476cb17709b3f34995847e4081f6"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part02",
+      "bytes": 50331648,
+      "sha256": "65c77a944683f1da150044d4611229b8294f090d279521c06bd14086b8d07eb0"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part03",
+      "bytes": 50331648,
+      "sha256": "26cf620200b1d0d94238cdcadee7d490ba35f850277b1af396ba0fc2e5e08c41"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part04",
+      "bytes": 50331648,
+      "sha256": "e0afa2532c297957c14244eb6f5663c1269807bc0a654cb567a382da9ceb5330"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part05",
+      "bytes": 50331648,
+      "sha256": "d9c22b417277119a82dcb12c14b341af26dc97271cf57b31b3759d4679167894"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part06",
+      "bytes": 50331648,
+      "sha256": "ed3b6ebcece1c29a829349f0968cb4c4c770639f84f025d3b7ea0aebc6413380"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part07",
+      "bytes": 50331648,
+      "sha256": "ce88bc909bbf23e0dbee3e8eeca2f091317829e9c6d0c8bbd3c64c80da7df5d8"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part08",
+      "bytes": 50331648,
+      "sha256": "c4c0a304150bfa3f4969f77ca5a600480418c831c5bbfd62bca897368c5d45d6"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part09",
+      "bytes": 50331648,
+      "sha256": "e6354b1742033bf060e99b10cba43f340767b64556019bfb77e5be199e6f82c9"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part10",
+      "bytes": 50331648,
+      "sha256": "3b073bdb26f14bc0b2b4df3cfe41b151785cd81c495a291e6f5cbb2d7630ab7a"
+    },
+    {
+      "name": "figure7_raw_completo.zip.part11",
+      "bytes": 20731073,
+      "sha256": "54feac2a4942e5bef7c536eb032f71e4866da8d8f63dcaf5072f6c5a6e11cfe1"
+    }
+  ],
+  "upstream_tar_archives": {
+    "marbore_raw.tar.gz": {
+      "bytes": 348495481,
+      "sha256": "f26dcfb3d02138a646a6480f204b74895da7c41d45c1a7a2bde16a4670eebe68"
+    },
+    "lane0_raw.tar.gz": {
+      "bytes": 175336550,
+      "sha256": "9d928d7b3d38660343f889c97578f0e25e58f6849901383824eae48cdd76aaa5"
+    }
+  },
+  "figure_summary": {
+    "path": "evidence/admission/physical_blocks_r2.json",
+    "sha256": "70c2d2c3a2c5eb57ab94ab5b2225273dfd5796b9ccb7bc7978526409321cc2c6"
+  }
+}

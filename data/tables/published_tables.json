@@ -1,0 +1,193 @@
+{
+  "schema": "published-tables-v1",
+  "precision": "Values retain the decimal precision printed in Tables 6 and 7.",
+  "data_scope": "Reference statistics for Tables 6 and 7. Table 6 uses author-supplied power pairs, archived Paired MIG and Full GPU response errors, and Figure 4 response pairs for Batched MIG. Table 7 contains modeled losses and five physical comparisons against Exact. The measured occupancy rows are manuscript summaries.",
+  "missing_value": "null means an unreported quantity, not zero. Residency response is not reported in Table 6.",
+  "table6": {
+    "Paired MIG": {
+      "power": {
+        "mean": 1.59,
+        "median": 1.29,
+        "maximum": 3.47
+      },
+      "response": {
+        "mean": 8.15,
+        "median": 5.26,
+        "maximum": 44.86
+      }
+    },
+    "Full GPU": {
+      "power": {
+        "mean": 1.72,
+        "median": 1.41,
+        "maximum": 4.27
+      },
+      "response": {
+        "mean": 8.19,
+        "median": 5.32,
+        "maximum": 38.76
+      }
+    },
+    "Batched MIG": {
+      "power": {
+        "mean": 1.91,
+        "median": 1.46,
+        "maximum": 4.9
+      },
+      "response": {
+        "mean": 5.19,
+        "median": 3.48,
+        "maximum": 58.49
+      }
+    },
+    "Residency": {
+      "power": {
+        "mean": 0.77,
+        "median": 0.77,
+        "maximum": 0.93
+      },
+      "response": null
+    }
+  },
+  "table7": {
+    "Fixed-frequency": {
+      "reference": "Exact",
+      "attempts": 112,
+      "predicted": {
+        "mean": 11.63,
+        "median": 11.71,
+        "maximum": 12.77
+      },
+      "measured": {
+        "mean": 10.86,
+        "median": 10.91,
+        "maximum": 14.04
+      },
+      "predicted_pairs_n": 112,
+      "measured_pairs_n": 112
+    },
+    "Sequential": {
+      "reference": "Exact",
+      "attempts": 112,
+      "predicted": {
+        "mean": 4.26,
+        "median": 2.02,
+        "maximum": 9.32
+      },
+      "measured": {
+        "mean": 4.1,
+        "median": 2.47,
+        "maximum": 9.49
+      },
+      "predicted_pairs_n": 112,
+      "measured_pairs_n": 112
+    },
+    "Greedy-C": {
+      "reference": "Exact",
+      "attempts": 112,
+      "predicted": {
+        "mean": 4.7,
+        "median": 2.71,
+        "maximum": 19.21
+      },
+      "measured": {
+        "mean": 4.45,
+        "median": 3.24,
+        "maximum": 20.12
+      },
+      "predicted_pairs_n": 97,
+      "measured_pairs_n": 97
+    },
+    "Greedy": {
+      "reference": "Exact",
+      "attempts": 112,
+      "predicted": {
+        "mean": 4.27,
+        "median": 2.3,
+        "maximum": 18.41
+      },
+      "measured": {
+        "mean": 4.01,
+        "median": 3.24,
+        "maximum": 19.31
+      },
+      "predicted_pairs_n": 97,
+      "measured_pairs_n": 97
+    },
+    "Greedy+Beam": {
+      "reference": "Exact",
+      "attempts": 112,
+      "predicted": {
+        "mean": 0.042,
+        "median": 0.0,
+        "maximum": 1.05
+      },
+      "measured": {
+        "mean": 0.023,
+        "median": 0.0,
+        "maximum": 1.12
+      },
+      "predicted_pairs_n": 112,
+      "measured_pairs_n": 112
+    },
+    "LeastAllocated": {
+      "reference": "Greedy-C",
+      "attempts": 112,
+      "predicted": {
+        "mean": 12.05,
+        "median": 13.23,
+        "maximum": 34.49
+      },
+      "measured": {
+        "mean": 12.04,
+        "median": 13.88,
+        "maximum": 31.2
+      },
+      "predicted_pairs_n": 97,
+      "measured_pairs_n": null
+    },
+    "MostAllocated": {
+      "reference": "Greedy-C",
+      "attempts": 112,
+      "predicted": {
+        "mean": 13.12,
+        "median": 12.37,
+        "maximum": 29.09
+      },
+      "measured": {
+        "mean": 13.33,
+        "median": 13.02,
+        "maximum": 30.01
+      },
+      "predicted_pairs_n": 97,
+      "measured_pairs_n": null
+    }
+  },
+  "manuscript_reference": {
+    "filename": "JVE_SUSCOM_SI_2026 (10).pdf",
+    "sha256": "9bd0b7ebe57fad071d0955ed9d3933b2465e3117f4a98ab43bb5437f6623003a",
+    "pages": [
+      18,
+      21
+    ],
+    "scope": "Printed numerical cells; some groups have publication summaries only. The Paired MIG power row is updated in the repository after excluding one throttled run. The Batched MIG response row uses the 69 Figure 4 observations in the repository."
+  },
+  "table6_power_source": {
+    "path": "data/tables/power_holdout_original.csv",
+    "sha256": "e5ad50ca1231b0d3041fc71417c0d08a39f3dd04126052ff9b66f5cb1468915e",
+    "kind": "author_supplied_power_comparison",
+    "target_counts": {
+      "Paired MIG": 53,
+      "Full GPU": 42,
+      "Batched MIG": 69,
+      "Residency": 2
+    },
+    "excluded_targets": [
+      {
+        "group": "Paired MIG",
+        "target_id": "device_A_partitioned:f1440_pair2_r1_rho0.7_loadAB",
+        "reason": "Throttling"
+      }
+    ]
+  }
+}

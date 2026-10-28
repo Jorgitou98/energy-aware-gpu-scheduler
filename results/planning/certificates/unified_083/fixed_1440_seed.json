@@ -1,0 +1,72 @@
+{
+  "status": "construction_failed",
+  "beam_finished": false,
+  "algorithm": "manuscript_beam",
+  "beam_expanded": 764,
+  "beam_width": 512,
+  "per_signature": 2,
+  "beam_levels": [
+    {
+      "event": "level_complete",
+      "level": 1,
+      "service": 3,
+      "candidates": 10,
+      "retained": 9,
+      "peak_retained_state_slots": 15,
+      "exact_duplicate_hits_while_retained": 1,
+      "expanded": 10,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 2,
+      "service": 0,
+      "candidates": 19,
+      "retained": 19,
+      "peak_retained_state_slots": 25,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 29,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 3,
+      "service": 2,
+      "candidates": 165,
+      "retained": 127,
+      "peak_retained_state_slots": 136,
+      "exact_duplicate_hits_while_retained": 38,
+      "expanded": 194,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 4,
+      "service": 4,
+      "candidates": 524,
+      "retained": 324,
+      "peak_retained_state_slots": 328,
+      "exact_duplicate_hits_while_retained": 200,
+      "expanded": 718,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 5,
+      "service": 5,
+      "candidates": 46,
+      "retained": 46,
+      "peak_retained_state_slots": 50,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 764,
+      "best_ratio": null,
+      "beam_finished": false
+    }
+  ],
+  "beam_timed_out": false,
+  "time_limit_seconds": 10.0
+}

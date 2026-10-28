@@ -1,0 +1,41 @@
+{
+  "result": {
+    "power": 195.47928443998103,
+    "utility": 132.88326617852968,
+    "ratio": 0.6797818324290494,
+    "replicas": 8,
+    "active": 3,
+    "assignment_json": "[{\"s\": 0, \"g\": 1, \"rid\": 4, \"alternative_id\": \"fr_b1_k2_f900__slo0.14999999999999999__interval0\", \"physical_config_id\": \"fr_b1_k2_f900\", \"catalog_id\": \"fr_b1_k2_f900\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 8.126071286088193, \"peak\": 26.744031320663716, \"slope\": 1.9600797126773193, \"intercept\": 0.08168987884915069, \"n\": 1, \"rate\": 5.8094661213135375, \"rate_per_replica\": 5.8094661213135375, \"response\": 0.1022163635513667, \"L\": 0.07413961574522775, \"utilization\": 0.4307115859191043}, {\"s\": 0, \"g\": 1, \"rid\": 4, \"alternative_id\": \"fr_b1_k2_f900__slo0.14999999999999999__interval0\", \"physical_config_id\": \"fr_b1_k2_f900\", \"catalog_id\": \"fr_b1_k2_f900\", \"model\": \"fasterrcnn_resnet50_fpn_v2_b1\", \"arch\": \"fasterrcnn_resnet50_fpn_v2\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.467, \"u\": 1.0, \"lower\": 1.0, \"upper\": 8.126071286088193, \"peak\": 26.744031320663716, \"slope\": 1.9600797126773193, \"intercept\": 0.08168987884915069, \"n\": 1, \"rate\": 5.8094661213135375, \"rate_per_replica\": 5.8094661213135375, \"response\": 0.1022163635513667, \"L\": 0.07413961574522775, \"utilization\": 0.4307115859191043}, {\"s\": 3, \"g\": 2, \"rid\": 62, \"alternative_id\": \"dl_b1_k2_f900__slo0.17999999999999999__interval0\", \"physical_config_id\": \"dl_b1_k2_f900\", \"catalog_id\": \"dl_b1_k2_f900\", \"model\": \"deeplabv3_resnet50_b1\", \"arch\": \"deeplabv3_resnet50\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.664, \"u\": 1.0, \"lower\": 1.0, \"upper\": 21.24225546828801, \"peak\": 26.951240124401615, \"slope\": 1.0387290016317428, \"intercept\": 0.08392427082457132, \"n\": 1, \"rate\": 19.607806522506554, \"rate_per_replica\": 19.607806522506554, \"response\": 0.10150938416203914, \"L\": 0.03890850262927883, \"utilization\": 0.7629103916353368}, {\"s\": 4, \"g\": 0, \"rid\": 80, \"alternative_id\": \"rn_b1_k1_f1200__slo0.25__interval0\", \"physical_config_id\": \"rn_b1_k1_f1200\", \"catalog_id\": \"rn_b1_k1_f1200\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 9.332386846600734, \"peak\": 21.303588497799538, \"slope\": 1.668671540601186, \"intercept\": 0.17792435323075395, \"n\": 1, \"rate\": 8.660180881804097, \"rate_per_replica\": 8.660180881804097, \"response\": 0.16498805036501402, \"L\": 0.07907713995930958, \"utilization\": 0.6848223356633596}, {\"s\": 2, \"g\": 2, \"rid\": 54, \"alternative_id\": \"rn_b1_k2_f900__slo0.25__interval0\", \"physical_config_id\": \"rn_b1_k2_f900\", \"catalog_id\": \"rn_b1_k2_f900\", \"model\": \"retinanet_resnet50_fpn_b1\", \"arch\": \"retinanet_resnet50_fpn\", \"k\": 2, \"f\": 900, \"B\": 1, \"quality\": 0.364, \"u\": 0.779443254817987, \"lower\": 1.0, \"upper\": 15.692670043537298, \"peak\": 24.97044151014915, \"slope\": 1.3222663019879992, \"intercept\": 0.09829671723183431, \"n\": 1, \"rate\": 12.73648875649444, \"rate_per_replica\": 12.73648875649444, \"response\": 0.10989868961513652, \"L\": 0.05334690438090577, \"utilization\": 0.6794522478411904}, {\"s\": 1, \"g\": 0, \"rid\": 27, \"alternative_id\": \"lr_b1_k1_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 139.02263368920538, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 19.724018605931462, \"rate_per_replica\": 19.724018605931462, \"response\": 0.011597845757159735, \"L\": 0.010284915807845785, \"utilization\": 0.20285987075438888}, {\"s\": 5, \"g\": 0, \"rid\": 106, \"alternative_id\": \"lr_b1_k1_f1200__slo0.17999999999999999__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 139.02263368920538, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 22.67729525169429, \"rate_per_replica\": 22.67729525169429, \"response\": 0.011743576378543336, \"L\": 0.010201779900905095, \"utilization\": 0.23134877490562533}, {\"s\": 6, \"g\": 0, \"rid\": 136, \"alternative_id\": \"lr_b1_k1_f1200__slo0.25__interval0\", \"physical_config_id\": \"lr_b1_k1_f1200\", \"catalog_id\": \"lr_b1_k1_f1200\", \"model\": \"lraspp_mobilenet_v3_large_b1\", \"arch\": \"lraspp_mobilenet_v3_large\", \"k\": 1, \"f\": 1200, \"B\": 1, \"quality\": 0.579, \"u\": 0.8719879518072288, \"lower\": 1.0, \"upper\": 140.3707361646221, \"peak\": 17.55386757375468, \"slope\": 0.12066406489463799, \"intercept\": 0.09792854489095149, \"n\": 1, \"rate\": 55.05305740075356, \"rate_per_replica\": 55.05305740075356, \"response\": 0.013403685164703853, \"L\": 0.008976054138105007, \"utilization\": 0.4941592236973665}]",
+    "status": "optimal",
+    "seconds": 0.8737710630521178,
+    "variables": 950,
+    "history": [
+      {
+        "q": 0.6797818324290494,
+        "ratio": 0.6797818324290494,
+        "residual": 0.0,
+        "status": 2,
+        "seconds": 0.8728012647479773
+      }
+    ],
+    "time_limit_seconds": 3600.0,
+    "q_initial": 0.6797818324290494,
+    "mip_start": true,
+    "warm_start_canonicalized": true,
+    "first_solver_incumbent_seconds": 0.031780634075403214,
+    "time_to_first": 0.0,
+    "mip_construction_seconds": 0.03073875419795513,
+    "exact_strengthening": {
+      "count_upper": "min(fleet limit, per-GPU slice limit, exact rational ceil(lambda/h))",
+      "rate_count_dominance": "r >= h*(n-1), closed relaxation of strict paper inequality; no positive epsilon",
+      "strict_paper_inequality_implemented_literally": false,
+      "optimum_preserved": "nonnegative residency permits removal of surplus replicas without changing traffic/utility",
+      "frequency_capacity": "sum(k*n) <= 4*z[g,f]",
+      "symmetry": "all homogeneous GPUs ordered by 5*frequency_rank+occupied_slices, descending"
+    },
+    "sequential_frozen_membership": false,
+    "timing_scope": "solve entry includes MIP construction/validation; excludes option compilation and seed generation"
+  },
+  "attempts": 1,
+  "total_seconds": 0.8737710630521178
+}

@@ -1,0 +1,84 @@
+{
+  "status": "construction_failed",
+  "beam_finished": false,
+  "algorithm": "manuscript_beam",
+  "beam_expanded": 2867,
+  "beam_width": 512,
+  "per_signature": 2,
+  "beam_levels": [
+    {
+      "event": "level_complete",
+      "level": 1,
+      "service": 3,
+      "candidates": 9,
+      "retained": 9,
+      "peak_retained_state_slots": 16,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 9,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 2,
+      "service": 0,
+      "candidates": 161,
+      "retained": 121,
+      "peak_retained_state_slots": 137,
+      "exact_duplicate_hits_while_retained": 40,
+      "expanded": 170,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 3,
+      "service": 4,
+      "candidates": 1326,
+      "retained": 512,
+      "peak_retained_state_slots": 524,
+      "exact_duplicate_hits_while_retained": 119,
+      "expanded": 1496,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 4,
+      "service": 2,
+      "candidates": 995,
+      "retained": 512,
+      "peak_retained_state_slots": 520,
+      "exact_duplicate_hits_while_retained": 60,
+      "expanded": 2491,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 5,
+      "service": 5,
+      "candidates": 317,
+      "retained": 311,
+      "peak_retained_state_slots": 317,
+      "exact_duplicate_hits_while_retained": 6,
+      "expanded": 2808,
+      "best_ratio": null,
+      "beam_finished": false
+    },
+    {
+      "event": "level_complete",
+      "level": 6,
+      "service": 1,
+      "candidates": 59,
+      "retained": 59,
+      "peak_retained_state_slots": 63,
+      "exact_duplicate_hits_while_retained": 0,
+      "expanded": 2867,
+      "best_ratio": null,
+      "beam_finished": false
+    }
+  ],
+  "beam_timed_out": false,
+  "time_limit_seconds": 10.0
+}

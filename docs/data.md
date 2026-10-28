@@ -117,10 +117,11 @@ means, medians, extrema, sample standard deviations (`n-1`) and quartiles
 not ten timing repetitions. The figure shows means, interquartile bands and
 all individual observations.
 
-The scaling records contain per-case total planning times, objective ratios
-and losses for rendering and arithmetic checks. The frozen inputs contain
-service roles, reference profiles, rates and constraints and can be selected
-explicitly with the public planning CLI.
+The four [method exports](../results/scaling/source/) contain per-case timing,
+objectives and selected plans. The [scaling audit](../results/scaling/#verification-and-reproduction)
+checks their hashes and matches each record to the published observations.
+The frozen workload inputs contain service roles, reference profiles, rates
+and constraints and can be selected explicitly with the public planning CLI.
 
 ## Verification
 

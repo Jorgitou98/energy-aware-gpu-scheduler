@@ -1,0 +1,31 @@
+{
+  "schema": "shared-admission-preprocessing-v1",
+  "shared_mc_wall_seconds": 140.39887195685878,
+  "shared_policies": [
+    "p95_full",
+    "p99_full"
+  ],
+  "timer": "time.perf_counter",
+  "metric": "Elapsed wall time for shared P95/P99 grid preparation, counted once",
+  "includes": [
+    "Per-node parameter recomputation and exact checks",
+    "Sample simulation plus compressed NPZ write, or saved-array loading on resume",
+    "P95 and P99 quantile extraction at prefixes 256, 512 and 1024",
+    "P95 equality checks and P99 ordering checks",
+    "Per-node file hashing and progress output",
+    "P95 adapter copy/check and P99 adapter construction",
+    "Matched grid, P99 adapter, reconstruction audit and sample manifest writes"
+  ],
+  "excludes": [
+    "Initial imports, source freezing and protocol preparation before the timer",
+    "Summary output hashes and q99/q95 summary statistics computed after elapsed_seconds is sampled",
+    "completion.json write and final printed summary",
+    "Solver runtime",
+    "GPU profiling and physical execution"
+  ],
+  "process_cpu_seconds": null,
+  "source": {
+    "file": "simulation_costs.json",
+    "sha256": "2890ff96dbc6931bc5a2bd3650afb6691d668c7e24020c41d78e378c2b2bc2a3"
+  }
+}

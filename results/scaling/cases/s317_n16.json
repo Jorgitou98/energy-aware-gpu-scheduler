@@ -1,0 +1,35 @@
+{
+  "schema": "scaling_case_summary_v1",
+  "case": "s317_n16",
+  "services": 16,
+  "source": {
+    "path": "results/scaling/summary.json",
+    "sha256": "898855b5f0f0f2784942f59603e99f61fa63a8a07ddb4559e234fe455c5ac27f"
+  },
+  "methods": {
+    "exact_cold": {
+      "time_s": 8.583950645290315,
+      "ratio": 0.33483347182584167,
+      "exact_ratio": 0.33483347182584167,
+      "loss_percent": 0.0
+    },
+    "exact_initialized": {
+      "time_s": 16.753495105542243,
+      "ratio": 0.33483347182584167,
+      "exact_ratio": 0.33483347182584167,
+      "loss_percent": 0.0
+    },
+    "greedy_beam": {
+      "time_s": 7.128409882713735,
+      "ratio": 0.33483347182584167,
+      "exact_ratio": 0.33483347182584167,
+      "loss_percent": 0.0
+    },
+    "greedy": {
+      "time_s": 3.3451609071344137,
+      "ratio": 0.3340544470337716,
+      "exact_ratio": 0.33483347182584167,
+      "loss_percent": 0.23266036929404654
+    }
+  }
+}

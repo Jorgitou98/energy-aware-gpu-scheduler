@@ -1,0 +1,14 @@
+{
+  "catalog_sha256": "2a28ef15dc6c1914733f3a934d5fd7d4331abfa5644e0a9697f77448794ac094",
+  "cases_sha256": "a05c7433e6171367c12880bf50f28e0356ab7b3a9f75f69a38eed5d5de2c4a36",
+  "code_sha256": {
+    "run_unified_case.py": "110a4dd6373fe4764575b498e3d05c92f23ee52cc783a215e511c00f8fcec831",
+    "adapter.py": "7bed1bd0ec8b31e7557b72dfe5918ce52200b16c6bd6b03b3a77b37798e768bd",
+    "nominal_adapter.py": "4ba3994732b32c2e6512c72714b1ed1fdad6e47ea88a579897a6987d287daab2",
+    "heuristics.py": "b185fbc9599fbb728faecc33a8d85c1b604f5643439ef273996828f6039cb5e9",
+    "model_adapter.py": "f3ca7400d00d1eb74803c0fbaa3f3bdca2ffc56d4dae62259102c16a643365a5",
+    "guard_intervals.py": "d77b4a888372ef198513afa6b116f6fd1b9731b6b3ce93d5e6199ea5dd0c0106"
+  },
+  "host": "montblanc",
+  "policy": "guarded"
+}

@@ -1,0 +1,2914 @@
+[
+  {
+    "case": "unified_000",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6584425058560136,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5937823652732868
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6584425058560142
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6584425058560136
+    }
+  },
+  {
+    "case": "unified_001",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7647794206193236,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6769734331011338
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7539092600205854
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7647794206193236
+    }
+  },
+  {
+    "case": "unified_002",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.678995309237373,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6001558246389963
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6666179305417662
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.678995309237373
+    }
+  },
+  {
+    "case": "unified_003",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6799395022390057,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6035943225598664
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6689744297404322
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6340580033245078
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6414628356239254
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6799395022390057
+    }
+  },
+  {
+    "case": "unified_004",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6705201109287704,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.590492629234163
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6570299912748916
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6602728173292677
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6700341280845424
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6705201109287704
+    }
+  },
+  {
+    "case": "unified_005",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6789329860480742,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5987694952931888
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6670922056355921
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6685591717071965
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6783703181135602
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6783703181135602
+    }
+  },
+  {
+    "case": "unified_006",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8525059642636125,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7556852497981865
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8413500832527405
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8525059642636125
+    }
+  },
+  {
+    "case": "unified_007",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7910149770620151,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7007535940125185
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7794115148919545
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7910149770620151
+    }
+  },
+  {
+    "case": "unified_008",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7180309508473472,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.636775803547532
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6616922202408615
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6663464534271024
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6663464534271024
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7180309508473472
+    }
+  },
+  {
+    "case": "unified_009",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.813244074313174,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7209287906484366
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8024605905308443
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.813244074313174
+    }
+  },
+  {
+    "case": "unified_010",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6694788084859814,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6030105435116399
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6694788084859818
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6694788084859814
+    }
+  },
+  {
+    "case": "unified_011",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6963036964788297,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6177475734198448
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6415908309642171
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6466001370509745
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6466001370509745
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6963036964788297
+    }
+  },
+  {
+    "case": "unified_012",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6827840552834974,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6050351956755313
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6702905287873775
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.634019137492323
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.642401771977987
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6827840552834974
+    }
+  },
+  {
+    "case": "unified_013",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6852767016208016,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6022876662101543
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6261526221031356
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6335755919042149
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6335755919042149
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6852767016208016
+    }
+  },
+  {
+    "case": "unified_014",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7029735422138037,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.620102447633931
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.64436441039446
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6516552825081849
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6516552825081849
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7029735422138037
+    }
+  },
+  {
+    "case": "unified_015",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7160157811446185,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6251594792199456
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6498020779130907
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6966169890589524
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.708912037392666
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.708912037392666
+    }
+  },
+  {
+    "case": "unified_016",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6775331187990954,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5981951292514257
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6202187762638461
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6279386112208702
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6279386112208702
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6775331187990954
+    }
+  },
+  {
+    "case": "unified_017",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7837627507227986,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6859272248067873
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7129700371939757
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7776164781798078
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7776164781798078
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7837627507227986
+    }
+  },
+  {
+    "case": "unified_018",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7694213161963633,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6782352726780898
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.761515026818147
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7694213161963633
+    }
+  },
+  {
+    "case": "unified_019",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8079110065798606,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7161500587918733
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7939576984794536
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.757918095159127
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.757918095159127
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8079110065798606
+    }
+  },
+  {
+    "case": "unified_020",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.797923138714934,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7028511780540355
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7306357317641766
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7947433133535325
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7947433133535325
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7956298376368328
+    }
+  },
+  {
+    "case": "unified_021",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6766590828964958,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5966168894638461
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6600090203328216
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6256115194304395
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6256115194304395
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6766590828964958
+    }
+  },
+  {
+    "case": "unified_022",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8520722093848261,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.757072842274037
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8387741206178609
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8002721708165617
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8002721708165617
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8520722093848261
+    }
+  },
+  {
+    "case": "unified_023",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8007216508707083,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7078028258860242
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7864027817358613
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7502419672271855
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7502419672271855
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8007216508707083
+    }
+  },
+  {
+    "case": "unified_024",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7325755106146596,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6488289835258483
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.674055640940249
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6792147794008427
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6865828271444913
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7325755106146596
+    }
+  },
+  {
+    "case": "unified_025",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6745572054372542,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5984921363540577
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6219947870818585
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6272378862445421
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6272378862445421
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6745572054372542
+    }
+  },
+  {
+    "case": "unified_026",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6946480327640381,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6125956859079726
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.683252769945649
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6940350167277417
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6940350167277417
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6946480327640381
+    }
+  },
+  {
+    "case": "unified_027",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6796087682940883,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6004180027107934
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6239433479308573
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.629413312589053
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6361790078967146
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6796087682940883
+    }
+  },
+  {
+    "case": "unified_028",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7437918336176875,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6601438321262448
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7313820012018314
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6975407209230855
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6975407209230855
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7437918336176875
+    }
+  },
+  {
+    "case": "unified_029",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6947618885440765,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6104817881174472
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.680380613006236
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6943144948976439
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6943144948976439
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6947618885440765
+    }
+  },
+  {
+    "case": "unified_030",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7065253263509732,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6276076318712545
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6517491373611999
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.693288617295213
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.693288617295213
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7065253263509732
+    }
+  },
+  {
+    "case": "unified_031",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.751906838492115,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6669988371483482
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7409519842352125
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6074510655190427
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6134647045328072
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.751906838492115
+    }
+  },
+  {
+    "case": "unified_032",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8230259233248404,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7234086589822106
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8090117139155525
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.822095795336736
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.822095795336736
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8230259233248404
+    }
+  },
+  {
+    "case": "unified_033",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6993073240500646,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6144184087450644
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6866122929779035
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6993073240500646
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6993073240500646
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6993073240500646
+    }
+  },
+  {
+    "case": "unified_034",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8559661050090623,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7536786343159679
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8397420157077389
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8559661050090623
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8559661050090623
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8559661050090623
+    }
+  },
+  {
+    "case": "unified_035",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7175180283074659,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6367195318694432
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7058796154907796
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6663395036112951
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6747870735588012
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7175180283074659
+    }
+  },
+  {
+    "case": "unified_036",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7419889528727553,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6545240021308875
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7297044285854224
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7419164937045449
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7419164937045449
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7419889528727553
+    }
+  },
+  {
+    "case": "unified_037",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7014182842341493,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6172245390371629
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6414954536762006
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6491803384535328
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6491803384535328
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7014182842341493
+    }
+  },
+  {
+    "case": "unified_038",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7948801290220147,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6977719627418691
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7249924247134163
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7766290206050711
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7766290206050711
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7948801290220147
+    }
+  },
+  {
+    "case": "unified_039",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7671525669153896,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6773866368272207
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7043412794805695
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7543282024683743
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7543282024683743
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7644167988471612
+    }
+  },
+  {
+    "case": "unified_040",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7624528989155447,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6715664423998451
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6986526495234061
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7484000043039621
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7484000043039621
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7603819155269542
+    }
+  },
+  {
+    "case": "unified_041",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7029463266295477,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6138599197840027
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6382781765682063
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.685469871508554
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6956414074567889
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7029463266295477
+    }
+  },
+  {
+    "case": "unified_042",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6565052393793888,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5824705848496307
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6043446585827179
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.614150295832191
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.614150295832191
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6565052393793888
+    }
+  },
+  {
+    "case": "unified_043",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8028975734661997,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7091611275757221
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7359078047561401
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7877552774422772
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7877552774422772
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8028975734661997
+    }
+  },
+  {
+    "case": "unified_044",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7426974379420562,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6543578481189125
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7271888560610014
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7307985415025768
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7422261884849075
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7426974379420562
+    }
+  },
+  {
+    "case": "unified_045",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.763549439748986,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6761101058483334
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7020756357927205
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7528434662824924
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7528434662824924
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.763549439748986
+    }
+  },
+  {
+    "case": "unified_046",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6599686745637247,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5820879994280838
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6466053093816819
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6502530064939523
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6599112132099803
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6599686745637247
+    }
+  },
+  {
+    "case": "unified_047",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7717974688016047,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.680594982655193
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7641410494916309
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.63209138723298
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.63209138723298
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7717974688016047
+    }
+  },
+  {
+    "case": "unified_048",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6762209308027003,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6009401304923468
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6241024861923666
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6304801798727703
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6304801798727703
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6762209308027003
+    }
+  },
+  {
+    "case": "unified_049",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7053153652656603,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6265876649103834
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6955801635267705
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7053153652656603
+    }
+  },
+  {
+    "case": "unified_050",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6295380095532939,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.556057630588811
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6181867030660634
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5929238857584397
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5929238857584397
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6295380095532939
+    }
+  },
+  {
+    "case": "unified_051",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6564622837220401,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5827165256077911
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6471405852503131
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6564622837220401
+    }
+  },
+  {
+    "case": "unified_052",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7793128808992085,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6867218602620182
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7641588308871283
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7671362731971196
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7793128808992085
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7793128808992085
+    }
+  },
+  {
+    "case": "unified_053",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7667382480738464,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6765917322923403
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7530512312251144
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.75479321047349
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7667382480738464
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7667382480738464
+    }
+  },
+  {
+    "case": "unified_054",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6148202982254676,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5462496734317599
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.56734962905554
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5764427315767467
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5764427315767467
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6148202982254676
+    }
+  },
+  {
+    "case": "unified_055",
+    "stratum": "cap145_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6183161476673513,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5483860991158223
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.5702114550484956
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5775031310395841
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5775031310395841
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6183161476673513
+    }
+  },
+  {
+    "case": "unified_056",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7452508406993319,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6572042490205493
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7319413566392955
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7336761456700958
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7452508406993319
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7452508406993319
+    }
+  },
+  {
+    "case": "unified_057",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8568463103942925,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7615310214603145
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.844811748035939
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8046471371235406
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8046471371235406
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8568463103942925
+    }
+  },
+  {
+    "case": "unified_058",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.875539454446381,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7759634929742794
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8642574076737611
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.875539454446381
+    }
+  },
+  {
+    "case": "unified_059",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7389262112085037,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6497012873980437
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7249159576833643
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7383692013862009
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7383692013862009
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7389262112085037
+    }
+  },
+  {
+    "case": "unified_060",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6485094501314825,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5732152411853012
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.636954846068677
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6112681194464541
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6112681194464541
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6485094501314825
+    }
+  },
+  {
+    "case": "unified_061",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6772570242564896,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6110543785135469
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6772570242564901
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6772570242564896
+    }
+  },
+  {
+    "case": "unified_062",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7868906320005224,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6955468661745342
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7735848099025912
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7374250328017351
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7374250328017351
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7868906320005224
+    }
+  },
+  {
+    "case": "unified_063",
+    "stratum": "cap145_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.873345169305524,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7765643059932502
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8611917448860729
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8110539652405557
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8230857360376219
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.873345169305524
+    }
+  },
+  {
+    "case": "unified_064",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7067118534772641,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6219368247657547
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6457546420586033
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6949683012951353
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7038739042344834
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7067118534772641
+    }
+  },
+  {
+    "case": "unified_065",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6457589126806608,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5697692842808049
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6287727675889395
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5984041992740227
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5984041992740227
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6454474545743987
+    }
+  },
+  {
+    "case": "unified_066",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6913912622124502,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6077419933879158
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6318008357796707
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6391872832256201
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6391872832256201
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6913912622124502
+    }
+  },
+  {
+    "case": "unified_067",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7281546107166876,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6418562138017491
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6677230221809072
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.674918386366599
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.674918386366599
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7265825407538009
+    }
+  },
+  {
+    "case": "unified_068",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7270339513063148,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6449174703670936
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7140356219681117
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.673295962327752
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6830615021661456
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7270339513063148
+    }
+  },
+  {
+    "case": "unified_069",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7252662711501866,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.639298843435419
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.717399947111942
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7252662711501866
+    }
+  },
+  {
+    "case": "unified_070",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7714608266888356,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6792543389489811
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7053195398360899
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7561856198549611
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7561856198549611
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7714608266888356
+    }
+  },
+  {
+    "case": "unified_071",
+    "stratum": "cap145_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6542584555714192,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5766372133630872
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6405033283227305
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6542584555714192
+    }
+  },
+  {
+    "case": "unified_072",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7485034912853213,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.653959458674939
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.728836185304885
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.729524802060689
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7422491456613719
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7485034912853213
+    }
+  },
+  {
+    "case": "unified_073",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6233664499700308,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.549430799207664
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6101126500528231
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6145056796507458
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6233664499700308
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6233664499700308
+    }
+  },
+  {
+    "case": "unified_074",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6879848392154816,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.605833492098384
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.670272618408803
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6354725729313359
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6354725729313359
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6875420529408748
+    }
+  },
+  {
+    "case": "unified_075",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6797818324290494,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5976505847782074
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6635468379308125
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.668646393785897
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6776841159834337
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6797818324290494
+    }
+  },
+  {
+    "case": "unified_076",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6557693558567105,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5767027083535526
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6414747432815683
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6557056263930627
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6557056263930627
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6557693558567105
+    }
+  },
+  {
+    "case": "unified_077",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8620839112844425,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7612749559041426
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7905073178685036
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7945469450584189
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7945469450584189
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8620839112844425
+    }
+  },
+  {
+    "case": "unified_078",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8455096975782196,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7478602004337561
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7779307723825472
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7840623498264414
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7840623498264414
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8455096975782196
+    }
+  },
+  {
+    "case": "unified_079",
+    "stratum": "cap145_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6835477396129596,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6074871776972116
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6307861564688333
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6407944055402138
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6407944055402138
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6835477396129596
+    }
+  },
+  {
+    "case": "unified_080",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6466220071499262,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5691434550150695
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6343361116269746
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6462608868128116
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6462608868128116
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6466220071499262
+    }
+  },
+  {
+    "case": "unified_081",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8389585410945954,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7397201189116811
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7696578341431494
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8268374567422782
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8389585410945954
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8389585410945954
+    }
+  },
+  {
+    "case": "unified_082",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.637367461024327,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5622303048562782
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6264296451323221
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.637367461024327
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.637367461024327
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.637367461024327
+    }
+  },
+  {
+    "case": "unified_083",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6462942981347378,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5724293470284952
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6367278554190212
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5294269804463914
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5294269804463914
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6462942981347378
+    }
+  },
+  {
+    "case": "unified_084",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7687297996453648,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6817814456958966
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7089478677834855
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.717825468948666
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.717825468948666
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7687297996453648
+    }
+  },
+  {
+    "case": "unified_085",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7750221196684215,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6869981307025026
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7616342490405338
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7167926895211358
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7167926895211358
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7750221196684215
+    }
+  },
+  {
+    "case": "unified_086",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7823620936855832,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6894074937654764
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7686598057820472
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7823620936855832
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7823620936855832
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7823620936855832
+    }
+  },
+  {
+    "case": "unified_087",
+    "stratum": "cap165_tight_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7259129862888749,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.640899066148354
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6665130187627831
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7140775313696962
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7252615815406345
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7258856857345523
+    }
+  },
+  {
+    "case": "unified_088",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8146202822284434,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7184822833120512
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8010392899455946
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8146202822284434
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8146202822284434
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8146202822284434
+    }
+  },
+  {
+    "case": "unified_089",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8097666717251503,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7279540222779088
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8097666717251507
+    },
+    "greedy_construction": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "greedy": {
+      "status": "construction_failed",
+      "ratio": null
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8097666717251503
+    }
+  },
+  {
+    "case": "unified_090",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8358661149441137,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7426437053307212
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.8231915358613942
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7724389222572855
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7831267873988975
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8358661149441137
+    }
+  },
+  {
+    "case": "unified_091",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8599672484938594,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7584555731008017
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.846404549079418
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8599087053093007
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8599087053093007
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8599672484938594
+    }
+  },
+  {
+    "case": "unified_092",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8521398733195671,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7506191065947995
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.836299580488477
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8379417932039236
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8521398733195671
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8521398733195671
+    }
+  },
+  {
+    "case": "unified_093",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7867029898025902,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6927636884918182
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7717784605422608
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7867029898025902
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7867029898025902
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7867029898025902
+    }
+  },
+  {
+    "case": "unified_094",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7558686816632965,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6651872917369667
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7410776919283423
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7558686816632965
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7558686816632965
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7558686816632965
+    }
+  },
+  {
+    "case": "unified_095",
+    "stratum": "cap165_tight_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.779536439221012,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6904771088533544
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7678421946238482
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6419088466446246
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6419088466446246
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.779536439221012
+    }
+  },
+  {
+    "case": "unified_096",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7394484409266965,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6552789794312933
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6803988324023434
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7309066594636111
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7309066594636111
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7394484409266965
+    }
+  },
+  {
+    "case": "unified_097",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6354507197948988,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5644814958827835
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.622416496134379
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.5942650760753724
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.5942650760753724
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6345792141703234
+    }
+  },
+  {
+    "case": "unified_098",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7479539745296739,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6588895099378388
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6851664961007765
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7449270846394298
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7449270846394298
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7459844846150387
+    }
+  },
+  {
+    "case": "unified_099",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7157199925768495,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6268942962721867
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6517893105677001
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6992070280760877
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7091723418900683
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7091723418900683
+    }
+  },
+  {
+    "case": "unified_100",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8120786258312406,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7169436039680185
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7446205547204481
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7498486093476889
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7498486093476889
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8120786258312406
+    }
+  },
+  {
+    "case": "unified_101",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6921185939411391,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6100876157841747
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6331075379353792
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6432399126601072
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6432399126601072
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6921185939411391
+    }
+  },
+  {
+    "case": "unified_102",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7049521856808836,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6149169981416155
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6392435873247567
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.688470040240735
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6975519089620041
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6975519089620041
+    }
+  },
+  {
+    "case": "unified_103",
+    "stratum": "cap165_relaxed_moderate_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6281877762025763,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5522981424750304
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.5733864261324099
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6181174356812653
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6256361769452107
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6281877762025763
+    }
+  },
+  {
+    "case": "unified_104",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6691757303533646,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5913565486729396
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.6131430046762958
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6207218496348282
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.628068073971268
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6691757303533646
+    }
+  },
+  {
+    "case": "unified_105",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.6596384855440394,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5854794901186317
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.607616945057795
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6167370621383467
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6167370621383467
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.6596384855440394
+    }
+  },
+  {
+    "case": "unified_106",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7656244741049439,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6791269932338121
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7046727833477943
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7548214553113295
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7548214553113295
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7656244741049439
+    }
+  },
+  {
+    "case": "unified_107",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.661752703313996,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.5827907788764172
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.649963643858871
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6616104345644
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6616104345644
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.661752703313996
+    }
+  },
+  {
+    "case": "unified_108",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.8300843847153714,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.7373510964822326
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7669211108594695
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.8202098200819317
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.8202098200819317
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.8300843847153714
+    }
+  },
+  {
+    "case": "unified_109",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7141682097466618,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6306805910551738
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7010780558694947
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.7031261630190864
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.7141478877221689
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7141478877221689
+    }
+  },
+  {
+    "case": "unified_110",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7382646911628052,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.6512529095004393
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7278748613713317
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6000366279243748
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6062797586306652
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7382646911628052
+    }
+  },
+  {
+    "case": "unified_111",
+    "stratum": "cap165_relaxed_high",
+    "exact_status": "optimal",
+    "exact_ratio": 0.7535324261944357,
+    "fixed_frequency": {
+      "status": "optimal",
+      "ratio": 0.664465777445558
+    },
+    "sequential": {
+      "status": "optimal",
+      "ratio": 0.7386797206115301
+    },
+    "greedy_construction": {
+      "status": "feasible",
+      "ratio": 0.6174896988849964
+    },
+    "greedy": {
+      "status": "feasible",
+      "ratio": 0.6174896988849964
+    },
+    "full": {
+      "status": "feasible",
+      "ratio": 0.7535324261944357
+    }
+  }
+]
