@@ -1,0 +1,14 @@
+{
+  "schema": "planning_full_timing_plot_input_manifest_v1",
+  "cases": 112,
+  "fingerprint": "4b80aaf1bc1b5248b3cf74ff664379cd71c147aaa934ce8ee25d777c7c86d2db",
+  "files": {
+    "audit.json": "60a938c472ec20b37785335fe219b6ec9b41343cf1ca4dbe241428f7cf11f4f4",
+    "audit_summary.py": "997d5160ee8cffd70fa2097945d169623d372e413b481e58577534fcb273d673",
+    "freeze.json": "4b80aaf1bc1b5248b3cf74ff664379cd71c147aaa934ce8ee25d777c7c86d2db",
+    "protocol.json": "0e521503ea5e567cb0da67c024e703c35d478d9e847963174847bb73b7047560",
+    "timing_summary.json": "f4cdf904ce5a3d92f975c2d4a1592b5587482aef998efdad3c4650e76fc83cf3"
+  },
+  "raw_required_to_plot": false,
+  "verification": "python3 audit_summary.py --verify-compact ."
+}

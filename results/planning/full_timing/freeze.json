@@ -1,0 +1,24 @@
+{
+  "schema": "planning_full_timing_freeze_v1",
+  "files": {
+    "run_timing.py": "d15ac131494f75cb6ada81dc230d4b5bde5efa39a6a0254c577a7c2714e4ec6f",
+    "protocol.json": "0e521503ea5e567cb0da67c024e703c35d478d9e847963174847bb73b7047560",
+    "references.json": "25ffca04be60cda6cc855861ca79f89f6b3919d83fb02ad0860f20cbc2da87de",
+    "runtime/additional_cases.json": "a05c7433e6171367c12880bf50f28e0356ab7b3a9f75f69a38eed5d5de2c4a36",
+    "runtime/catalog_unified.json": "c37cab84d398798bfdb707c0dffe6b9b9cc52964759d3def4b143ae94be35b28",
+    "runtime/grid_nodes_unified.csv": "cedc4dafe9a846be607a1bf684c3787b3c67134bb8554d794e2760fc514ab5f4",
+    "runtime/planning/adapter.py": "7bed1bd0ec8b31e7557b72dfe5918ce52200b16c6bd6b03b3a77b37798e768bd",
+    "runtime/planning/guard_intervals.py": "d77b4a888372ef198513afa6b116f6fd1b9731b6b3ce93d5e6199ea5dd0c0106",
+    "runtime/planning/nominal_adapter.py": "4ba3994732b32c2e6512c72714b1ed1fdad6e47ea88a579897a6987d287daab2",
+    "runtime/planning/parallel_cases.py": "92efc045bfd9254609cbcd8f041bdda677979dee6b6dd606ba48e7c87caaf200",
+    "runtime/planning/run_case.py": "b135c39fb39e7d3e69daadc5c4cfe5a1e6b7021efbc1619a1562f4b5df57a5aa",
+    "runtime/planning/run_nominal_reference.py": "50838c2ddbb4eacdc2c7763899bb5cf1431460579c85c22ddb0c4bdc3d7e9240",
+    "runtime/planning/run_quality_check.py": "a4ba9363d65e8c63a758fe935e77ac182f7045684a37ee9c7b3c72664ee56161",
+    "runtime/planning/run_unified_case.py": "110a4dd6373fe4764575b498e3d05c92f23ee52cc783a215e511c00f8fcec831",
+    "runtime/planning/run_unified_scaling.py": "1a65f0b4ead5c9e42f62914ae10bb2369a6de493a09f27fab81cace5be14dad8",
+    "runtime/planning/vendor/heuristics.py": "b185fbc9599fbb728faecc33a8d85c1b604f5643439ef273996828f6039cb5e9",
+    "runtime/planning/vendor/model_adapter.py": "f3ca7400d00d1eb74803c0fbaa3f3bdca2ffc56d4dae62259102c16a643365a5",
+    "runtime/planning/vendor/rate_intervals.py": "9e310a3b87ba7a0db7c382c860117e3b4933dcbfe31aac8fd2e12d76d61bba5d",
+    "runtime/unified_cases.json": "c828fe5f1de50d9b8d204a956397c3f65795400a37ec8f560bd7b10460cbce2e"
+  }
+}
