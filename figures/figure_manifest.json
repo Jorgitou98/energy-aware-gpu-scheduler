@@ -1,0 +1,69 @@
+{
+  "source": "Figure entry points and reference outputs.",
+  "figure_count": 8,
+  "figures": [
+    {
+      "figure": 1,
+      "name": "replica_power_aggregation",
+      "reference": "reference/replica_power_aggregation.pdf",
+      "reference_sha256": "7a628a7c44dda4de3830667408aa9dce43a7a91acf83ce258afb2e4e1c5df9da",
+      "mode": "render",
+      "script": "replica_power_aggregation.py"
+    },
+    {
+      "figure": 2,
+      "name": "feasible_rates_admission",
+      "reference": "reference/feasible_rates_admission.pdf",
+      "reference_sha256": "674f593d4b38682089a127cb7193d22c95f6fc70137a0d45f02d8c68a10eb668",
+      "mode": "provided_pdf"
+    },
+    {
+      "figure": 3,
+      "name": "heuristic",
+      "reference": "reference/heuristic.pdf",
+      "reference_sha256": "07b469a841545e4093ae67bebb3c1ccc0c5b9b1990fe9a4e214ef8924ecf1764",
+      "mode": "render",
+      "script": "create_heuristic_diagram.py"
+    },
+    {
+      "figure": 4,
+      "name": "response_time_errors",
+      "reference": "reference/response_time_errors.pdf",
+      "reference_sha256": "454fb9e87d97bc3295ba51e3c26fa3731be14638a2951d228e9167e996051e5f",
+      "mode": "render",
+      "script": "response_time_errors.py"
+    },
+    {
+      "figure": 5,
+      "name": "solution_methods",
+      "reference": "reference/solution_methods.pdf",
+      "reference_sha256": "3a60077a59a8df0cd89c920a3616ff44e990a8096106836e9c7e68db2d2b097b",
+      "mode": "render",
+      "script": "solution_method_comparison.py"
+    },
+    {
+      "figure": 6,
+      "name": "kubernetes_policies",
+      "reference": "reference/kubernetes_policies.pdf",
+      "reference_sha256": "c88e7f37f91b9d607cc9c88c6601c324199d4d71cf463494204445d1eaa29f24",
+      "mode": "render",
+      "script": "kubernetes_policies.py"
+    },
+    {
+      "figure": 7,
+      "name": "SLO_compliance",
+      "reference": "reference/SLO_compliance.pdf",
+      "reference_sha256": "ecfadaf0b6b3120da39cd6e2b3c19780d7a3d7902df6c2d18ac28b51c567a7cd",
+      "mode": "render",
+      "script": "SLO_compliance.py"
+    },
+    {
+      "figure": 8,
+      "name": "scalability",
+      "reference": "reference/scalability.pdf",
+      "reference_sha256": "b7bedd9b71a30c5a68bc0353f9938119ede695aad65c3ff5cea3c1a2246d2253",
+      "mode": "render",
+      "script": "scalability.py"
+    }
+  ]
+}
