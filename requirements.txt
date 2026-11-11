@@ -1,0 +1,3 @@
+# Saved-result analysis and figure reproduction; no solver required.
+numpy>=1.24,<3
+matplotlib>=3.7,<4

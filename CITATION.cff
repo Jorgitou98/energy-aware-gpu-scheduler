@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying paper when using these experiments."
+title: "Energy-Aware GPU Scheduler: planning code and publication results"
+type: software
+authors:
+  - family-names: Villarrubia
+    given-names: Jorge
+  - family-names: Costero
+    given-names: Luis
+  - family-names: Igual
+    given-names: Francisco D.
+  - family-names: Olcoz
+    given-names: Katzalin
+license: MIT
+abstract: "Measured-catalog GPU inference planning and supplied publication data for Energy-aware resource management for latency-sensitive DNN inference on partitioned GPUs."
+preferred-citation:
+  type: article
+  title: "Energy-aware resource management for latency-sensitive DNN inference on partitioned GPUs"
+  authors:
+    - family-names: Villarrubia
+      given-names: Jorge
+    - family-names: Costero
+      given-names: Luis
+    - family-names: Igual
+      given-names: Francisco D.
+    - family-names: Olcoz
+      given-names: Katzalin

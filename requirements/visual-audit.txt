@@ -1,0 +1,4 @@
+# Optional PDF raster/text comparison; pdftoppm (Poppler) must also be on PATH.
+numpy>=1.24,<3
+Pillow>=9
+pypdf>=5
