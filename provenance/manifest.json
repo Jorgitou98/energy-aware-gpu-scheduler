@@ -7537,6 +7537,10 @@
       "sha256": "b185fbc9599fbb728faecc33a8d85c1b604f5643439ef273996828f6039cb5e9",
       "bytes": 24181
     },
+    "scientific/planning/heuristics_bounded.py": {
+      "sha256": "26f27a6d138f646b3db02e96807515de7dc4242f30dfc527a5289e8bd7ed3b19",
+      "bytes": 9972
+    },
     "scientific/planning/model_adapter.py": {
       "sha256": "7de82859404ba5069184dfce2ec1a71eedb4fb3c4eb2156ffad7a80ad89c5483",
       "bytes": 35887
@@ -7629,9 +7633,17 @@
       "sha256": "db92ebf4523ddbf6472260333e0526c0328935b637d5d1f7fc04752b56fe29f8",
       "bytes": 2880
     },
+    "tests/test_bounded_beam.py": {
+      "sha256": "f4ffe41225cffcdcc8a074ae9486191b70948a873b70bf03971770d7f47b84ce",
+      "bytes": 11966
+    },
     "tests/test_figure_results.py": {
       "sha256": "4616e4d660491685f73194b1bbb00ef2d2d04b14be7451dde0cfe1afe13c94f9",
       "bytes": 18295
+    },
+    "tests/test_hardware_protocols.py": {
+      "sha256": "0c909c81f210d287533242e36c2e2974869d10f53e36a351457e60d258232e47",
+      "bytes": 7203
     },
     "tests/test_independent_audit.py": {
       "sha256": "2badb5ee11a493b67ab1f001e499de45b49ebcf0e24524cc892b63b444885b55",
@@ -7640,6 +7652,14 @@
     "tests/test_planning.py": {
       "sha256": "1d580a06c0401784799724739396ef8b0db9e67334c6d6401ec1d9530170be34",
       "bytes": 18698
+    },
+    "tests/test_planning_cli.py": {
+      "sha256": "e35a3d85c5cc134dfc97e9d0e7ccb4bd7fdaed0e848db09c4990f2bf1b48425a",
+      "bytes": 5404
+    },
+    "tests/test_replay_validation.py": {
+      "sha256": "6c482d8a25ddd50e1d0b5b4a2c0c43e21ecadccb425b09fe2ce233efd87db73e",
+      "bytes": 9471
     },
     "tests/test_results.py": {
       "sha256": "056e6f98a7a3514ccf13b8c2e51ff61a1efec8563b31c60c2fb4ff43c5e53121",
