@@ -25,6 +25,7 @@ entry point renders the P95 figure included in the manuscript.
 | Use the scheduler with your workloads | [Planning guide](docs/planning.md) |
 | Check the archive and rebuild tables/figures | [Reproduction guide](docs/reproducibility.md) |
 | Find a paper result and its inputs | [Figure guide](docs/figures.md), [data guide](docs/data.md) |
+| Verify the physical occupancy results for Table 7 | [Acquisition archive and recovery](evidence/table7/) |
 | Run a new workload through the planner | [Planning guide](docs/planning.md) |
 | Collect new physical measurements | [Hardware guide](docs/hardware.md) |
 

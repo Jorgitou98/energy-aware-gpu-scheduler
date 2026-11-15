@@ -19,6 +19,10 @@ verify the observed power means in Figure 1 and the archived Residency
 comparison. The Table 6 input records, including the author-supplied power
 CSV, are under `data/tables/`.
 
+The [Table 7 acquisition records](table7/) cover the physical occupancy
+measurements, with links to the raw ZIP and instructions for using the
+certified recovery exactly once.
+
 ## Response time
 
 `response_time/` contains the supplied numerical inputs for both panels of

@@ -1,7 +1,7 @@
 {
   "schema": "published-tables-v1",
   "precision": "Values retain the decimal precision printed in Tables 6 and 7.",
-  "data_scope": "Reference statistics for Tables 6 and 7. Table 6 uses author-supplied power pairs, archived Paired MIG and Full GPU response errors, and Figure 4 response pairs for Batched MIG. Table 7 contains modeled losses and five physical comparisons against Exact. The measured occupancy rows are manuscript summaries.",
+  "data_scope": "Reference statistics for Tables 6 and 7. Table 6 uses author-supplied power pairs, archived Paired MIG and Full GPU response errors, and Figure 4 response pairs for Batched MIG. Table 7 contains modeled and measured losses against Exact and against the archived Greedy-C reference for occupancy policies.",
   "missing_value": "null means an unreported quantity, not zero. Residency response is not reported in Table 6.",
   "table6": {
     "Paired MIG": {
@@ -139,12 +139,12 @@
         "maximum": 34.49
       },
       "measured": {
-        "mean": 12.04,
-        "median": 13.88,
-        "maximum": 31.2
+        "mean": 13.51,
+        "median": 14.8,
+        "maximum": 36.01
       },
       "predicted_pairs_n": 97,
-      "measured_pairs_n": null
+      "measured_pairs_n": 97
     },
     "MostAllocated": {
       "reference": "Greedy-C",
@@ -155,12 +155,12 @@
         "maximum": 29.09
       },
       "measured": {
-        "mean": 13.33,
-        "median": 13.02,
-        "maximum": 30.01
+        "mean": 14.54,
+        "median": 13.33,
+        "maximum": 31.5
       },
       "predicted_pairs_n": 97,
-      "measured_pairs_n": null
+      "measured_pairs_n": 97
     }
   },
   "manuscript_reference": {
@@ -170,7 +170,7 @@
       18,
       21
     ],
-    "scope": "Printed numerical cells; some groups have publication summaries only. The Paired MIG power row is updated in the repository after excluding one throttled run. The Batched MIG response row uses the 69 Figure 4 observations in the repository."
+    "scope": "Printed numerical cells; some groups have publication summaries only. The Paired MIG power row is updated in the repository after excluding one throttled run. The Batched MIG response row uses the 69 Figure 4 observations in the repository. The measured occupancy rows use the 15 November 2026 acquisition and the archived October Greedy-C reference."
   },
   "table6_power_source": {
     "path": "data/tables/power_holdout_original.csv",

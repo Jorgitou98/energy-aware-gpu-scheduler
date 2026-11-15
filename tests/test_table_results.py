@@ -44,19 +44,19 @@ class TableResultsTests(unittest.TestCase):
         self.assertEqual(result["table6"], published["table6"])
         self.assertEqual(result["table7"], published["table7"])
         self.assertEqual(result["audit"]["counts"]["table6_errors"], 183)
-        self.assertEqual(result["audit"]["counts"]["table7_losses"], 530)
+        self.assertEqual(result["audit"]["counts"]["table7_losses"], 724)
         self.assertTrue(all(c["passed"] for c in result["audit"]["checks"]))
         self.assertIsNone(result["table6"]["Residency"]["response"])
         self.assertEqual([row["measured_pairs_n"] for row in result["table7"].values()],
-                         [112, 112, 97, 97, 112, None, None])
+                         [112, 112, 97, 97, 112, 97, 97])
         for group, count in (("Paired MIG", 53), ("Full GPU", 42), ("Batched MIG", 69), ("Residency", 2)):
             power = result["audit"]["table6_full_precision"][group]["power"]
             self.assertEqual(power["source"], "data/tables/power_holdout_original.csv")
             self.assertEqual(power["records_n"], count)
         for name in ("LeastAllocated", "MostAllocated"):
             occupancy = result["audit"]["table7_full_precision"][name]
-            self.assertEqual(occupancy["data_representation"], "publication summary only")
-            self.assertEqual(occupancy["records_n"], 0)
+            self.assertEqual(occupancy["reference"], "Greedy-C")
+            self.assertEqual(occupancy["records_n"], 97)
             self.assertEqual(occupancy["predicted_pairs_n"], 97)
 
     def test_power_comparison_recalculates_each_supplied_error(self):
@@ -128,9 +128,17 @@ class TableResultsTests(unittest.TestCase):
 
     def test_measured_cohort_is_not_inferred_from_predicted_records(self):
         def corrupt(data):
-            data["table7"]["MostAllocated"]["measured_pairs_n"] = 97
+            data["table7"]["MostAllocated"]["measured_pairs_n"] = 96
         self.change("data/tables/published_tables.json", corrupt)
-        with self.assertRaisesRegex(ValueError, "measured cohort size remains unreported"):
+        with self.assertRaisesRegex(ValueError, "MostAllocated/measured_pairs_n"):
+            recompute_tables(self.root)
+
+    def test_occupancy_loss_is_checked_against_archived_greedy_c(self):
+        def corrupt(data):
+            method = next(m for m in data["methods"] if m["method"] == "LeastAllocated")
+            method["records"][0]["repetitions"][0]["method"]["energy_through_drain_J"] *= 1.01
+        self.change("data/tables/measured_efficiency_pairs.json", corrupt)
+        with self.assertRaisesRegex(ValueError, "LeastAllocated/maximum_loss_formula_difference"):
             recompute_tables(self.root)
 
     def test_inconsistent_archived_exact_reference_is_rejected(self):

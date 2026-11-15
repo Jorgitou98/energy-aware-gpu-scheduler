@@ -36,16 +36,15 @@ observed responses from the 45 s windows in Figure 4.
 `data/tables/validation_errors.json` records target IDs and source digests.
 
 Table 7 recomputes predicted losses from `predicted_efficiency_pairs.json`
-and the occupancy results. Measured losses for the five Exact-relative
-methods use completed utility and energy through drain from two archived
-repetitions per workload in `measured_efficiency_pairs.json`. Efficiency
-is the mean of the two utility-per-joule values. Loss is
+and the occupancy results. Measured losses use completed utility and energy
+through drain from two repetitions per workload in `measured_efficiency_pairs.json`.
+Efficiency is the mean of the two utility-per-joule values. Loss is
 `100 * (1 - method_efficiency / reference_efficiency)`. A negative value
 indicates higher measured efficiency than the reference. The paired counts
 are 112 each for Fixed-frequency, Sequential and Greedy+Beam, and 97 each
-for Greedy-C and Greedy. The two measured occupancy rows are manuscript
-summaries only. The archived GPU runs used different deployments from
-the seed-0 occupancy experiment used for Figure 6 and the predicted columns.
+for Greedy-C, Greedy, LeastAllocated and MostAllocated. The occupancy rows
+use the 15 November 2026 GPU campaign and the archived October 2026 Greedy-C
+reference. See the [Table 7 acquisition records](../evidence/table7/).
 
 ## Response and admission processing
 

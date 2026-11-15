@@ -142,32 +142,49 @@ def run_audit(root=ROOT, outdir=None):
     t7 = read(root,'data/tables/measured_efficiency_pairs.json')
     pred = read(root,'data/tables/predicted_efficiency_pairs.json')['pairs']
     mapping = {'Fixed-frequency':'fixed_frequency','Sequential':'sequential','Greedy-C':'greedy_construction','Greedy':'greedy','Greedy+Beam':'full'}
+    occupancy_methods = {'LeastAllocated', 'MostAllocated'}
+    occupancy = read(root, 'results/occupancy/publication_data.json')['rows']
     summaries['table7_measured'] = {}
-    summaries['table7_reported_occupancy'] = {
-        name: pub['table7'][name]['measured'] for name in ('LeastAllocated', 'MostAllocated')}
-    test('t7/archived-methods', sorted(m['method'] for m in t7['methods']), sorted(mapping))
+    test('t7/archived-methods', sorted(m['method'] for m in t7['methods']), sorted(set(mapping) | occupancy_methods))
     exact_repetitions = {}
-    for m in t7['methods']:
+    greedy_c_efficiencies = {}
+    for m in sorted(t7['methods'], key=lambda method: method['method'] in occupancy_methods):
         name = m['method']
         rows = m['records']
+        is_occupancy = name in occupancy_methods
         unique('t7/'+name+'/ids',[r['id'] for r in rows])
         unique('t7/'+name+'/cases',[r['case'] for r in rows])
         test('t7/'+name+'/count',len(rows),m['n'],0)
-        expected_cases = {r['case'] for r in pred if r['method']==mapping[name]}
+        test('t7/'+name+'/reference',m['reference'],'Greedy-C' if is_occupancy else 'Exact')
+        test('t7/'+name+'/published-count',len(rows),pub['table7'][name]['measured_pairs_n'],0)
+        if is_occupancy:
+            expected_cases = {r['case'] for r in occupancy if r['results'][name]['status'] == 'feasible'}
+        else:
+            expected_cases = {r['case'] for r in pred if r['method']==mapping[name]}
         test('t7/'+name+'/cohort',sorted(r['case'] for r in rows),sorted(expected_cases),0)
         values = []
         for r in rows:
             runs = r['repetitions']
             test('t7/'+r['id']+'/repetitions',sorted(run['repetition'] for run in runs),[0,1])
-            exact = {run['repetition']: run['exact'] for run in runs}
-            test('t7/'+r['id']+'/reference',exact,exact_repetitions.setdefault(r['case'],exact))
+            case = r['case']
+            sides = ('method',) if is_occupancy else ('method', 'exact')
+            if not is_occupancy:
+                exact = {run['repetition']: run['exact'] for run in runs}
+                test('t7/'+r['id']+'/reference',exact,exact_repetitions.setdefault(case,exact))
             means = {}
-            for side in ('method','exact'):
+            for side in sides:
                 parts = [run[side] for run in runs]
                 test('t7/'+r['id']+'/'+side+'/positive',
                      all(np.isfinite(x) and x>0 for part in parts for x in part.values()),True)
                 means[side] = np.mean([part['completed_utility']/part['energy_through_drain_J'] for part in parts])
-            val = 100*(1-means['method']/means['exact'])
+            if name == 'Greedy-C':
+                greedy_c_efficiencies[case] = means['method']
+            if is_occupancy:
+                test('t7/'+r['id']+'/reference',case in greedy_c_efficiencies,True)
+                reference = greedy_c_efficiencies.get(case, float('nan'))
+            else:
+                reference = means['exact']
+            val = 100*(1-means['method']/reference)
             test('t7/'+r['id']+'/formula',val,r['loss_percent'])
             values.append(val)
         st = stats(values)

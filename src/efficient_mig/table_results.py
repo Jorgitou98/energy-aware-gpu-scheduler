@@ -25,7 +25,7 @@ METHOD_KEYS = {"fixed_frequency": "Fixed-frequency", "sequential": "Sequential",
                "greedy_construction": "Greedy-C", "greedy": "Greedy", "full": "Greedy+Beam"}
 STATS = ("mean", "median", "maximum")
 SCOPE = ("Table 6 power is recomputed from author-supplied comparison values. "
-         "The two Table 7 measured occupancy rows are publication summaries.")
+         "Table 7 measures occupancy losses against the archived October Greedy-C reference.")
 
 
 def _read(root, name):
@@ -66,6 +66,12 @@ def _unique(rows, field, context):
 def _summary(values):
     _require(bool(values), "Cannot summarize empty observations")
     return {"mean": mean(values), "median": median(values), "maximum": max(values)}
+
+
+def _mean_efficiency(runs, context):
+    return mean(_number(run["completed_utility"], context + " completed utility", positive=True)
+                / _number(run["energy_through_drain_J"], context + " energy", positive=True)
+                for run in runs)
 
 
 def summarize_supplied_power(path):
@@ -236,16 +242,16 @@ def recompute_tables(root=ROOT):
     observations7 = _read(root, "data/tables/measured_efficiency_pairs.json")
     _require(observations7["schema"] == "table7-efficiency-v1", "Unexpected Table 7 observations schema")
     methods = observations7["methods"]
-    archived_methods = METHODS[:-len(OCCUPANCY_METHODS)]
-    _require(len(methods) == len(archived_methods) and {m["method"] for m in methods} == set(archived_methods),
+    _require(len(methods) == len(METHODS) and {m["method"] for m in methods} == set(METHODS),
              "Table 7: missing, duplicated or unknown method")
     by_name = {m["method"]: m for m in methods}
     exact_repetitions = {}
+    greedy_c_efficiencies = {}
     all_ids = set()
-    for name in archived_methods:
+    for name in METHODS:
         method, source = by_name[name], published["table7"][name]
         context = "Table 7/" + name
-        reference_name = "Exact"
+        reference_name = "Greedy-C" if name in OCCUPANCY_METHODS else "Exact"
         _require(source["reference"] == method["reference"] == reference_name, context + ": wrong reference")
         _require(source["attempts"] == method["attempts"] == 112, context + ": wrong attempt count")
         records = method["records"]
@@ -266,17 +272,18 @@ def recompute_tables(root=ROOT):
             repetitions = row["repetitions"]
             _require(len(repetitions) == 2 and {r["repetition"] for r in repetitions} == {0, 1},
                      context + ": expected complete repetitions 0 and 1")
-            ratios = {}
-            for side in ("method", "exact"):
-                ratios[side] = mean(
-                    _number(r[side]["completed_utility"], context + " completed utility", positive=True)
-                    / _number(r[side]["energy_through_drain_J"], context + " energy", positive=True)
-                    for r in repetitions
-                )
-            baseline = {r["repetition"]: r["exact"] for r in repetitions}
-            _require(exact_repetitions.setdefault(row["case"], baseline) == baseline,
-                     context + ": inconsistent Exact observations for workload")
-            value, reference = ratios["method"], ratios["exact"]
+            case = row["case"]
+            value = _mean_efficiency((r["method"] for r in repetitions), context)
+            if reference_name == "Exact":
+                baseline = {r["repetition"]: r["exact"] for r in repetitions}
+                _require(exact_repetitions.setdefault(case, baseline) == baseline,
+                         context + ": inconsistent Exact observations for workload")
+                reference = _mean_efficiency(baseline.values(), context)
+                if name == "Greedy-C":
+                    greedy_c_efficiencies[case] = value
+            else:
+                _require(case in greedy_c_efficiencies, context + ": missing Greedy-C observations for workload")
+                reference = greedy_c_efficiencies[case]
             loss = 100 * (1 - value / reference)
             stated_loss = _number(row["loss_percent"], context + " loss")
             formula_difference = max(formula_difference, abs(loss - stated_loss))
@@ -295,22 +302,6 @@ def recompute_tables(root=ROOT):
                           "measured_pairs_n": source["measured_pairs_n"], "excluded_cases": sorted(excluded),
                           "reference": reference_name,
                           "data_representation": "completed utility and energy through drain for two repetitions"}
-    for name in OCCUPANCY_METHODS:
-        source = published["table7"][name]
-        context = "Table 7/" + name
-        _require(source["reference"] == "Greedy-C" and source["attempts"] == 112,
-                 context + ": unexpected prediction reference or attempt count")
-        _require(source["measured_pairs_n"] is None, context + ": measured cohort size remains unreported")
-        _check(checks, context, "predicted_n", len(predicted[name]), source["predicted_pairs_n"], 0)
-        prediction_summary = _summary(list(predicted[name].values()))
-        table7[name]["predicted"] = _compare_summary(checks, context + "/predicted", prediction_summary,
-                                                     source["predicted"])
-        for stat in STATS:
-            _number(source["measured"][stat], context + "/reported/" + stat)
-        details7[name] = {"predicted_statistics": prediction_summary, "statistics": source["measured"],
-                          "predicted_pairs_n": len(predicted[name]), "records_n": 0,
-                          "measured_pairs_n": None, "reference": source["reference"],
-                          "data_representation": "publication summary only"}
     return {"table6": table6, "table7": table7, "audit": {
         "scope": SCOPE, "passed": True, "checks": checks,
         "counts": {"table6_errors": sum(g["n"] for g in groups),

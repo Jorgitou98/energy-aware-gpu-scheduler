@@ -93,8 +93,8 @@ and numerical agreement with the supplied reference.
 
 Run each figure with `python figures/plot_figureN.py --outdir build/figures`,
 replacing `N` with its number. Use `python reproduce.py tables` to generate
-the LaTeX for Tables 6 and 7. The statistics report identifies the cells copied
-from manuscript summaries and those computed from records.
+the LaTeX for Tables 6 and 7. The statistics report names the record sources
+and the cohorts used to compute the table entries.
 
 | Result | Calculation and source coverage |
 | --- | --- |
@@ -111,7 +111,7 @@ from manuscript summaries and those computed from records.
 | Table 4 | Inspect the 112 frozen cases in `results/planning/inputs.json`. They contain 14 distinct arrival-rate vectors in each load, SLO and power-cap condition. |
 | Table 5 | The [planning guide](planning.md) maps methods to the implementation. The public planner uses the same occupancy ranking and tie-breaking as the Figure 6 replay, which supplies the original admission grid and workload seeds. |
 | Table 6 | Recompute the four power rows from the 166 pairs in `data/tables/power_holdout_original.csv`. The response rows use archived Paired MIG and Full GPU errors and the 69 Figure 4 observations for Batched MIG. Run `python scripts/check_residency_power.py` to check the separate archived Residency comparison from NVML samples, calibration records and processing coefficients. |
-| Table 7 | Recompute all predicted rows and the five measured rows relative to Exact. The two measured occupancy rows are manuscript summaries. |
+| Table 7 | Recompute all predicted and measured rows. The first five methods use Exact as the reference. LeastAllocated and MostAllocated each use 97 complete pairs relative to the archived Greedy-C measurements. See the [Table 7 archive and recovery instructions](../evidence/table7/). |
 
 ## Figure 7 raw acquisition archive
 

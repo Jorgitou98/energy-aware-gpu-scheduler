@@ -62,18 +62,16 @@ class PublishedTableTests(unittest.TestCase):
             "Greedy-C": ((4.70, 2.71, 19.21), (4.45, 3.24, 20.12)),
             "Greedy": ((4.27, 2.30, 18.41), (4.01, 3.24, 19.31)),
             "Greedy+Beam": ((0.042, 0.00, 1.05), (0.023, 0.00, 1.12)),
-            "LeastAllocated": ((12.05, 13.23, 34.49), (12.04, 13.88, 31.20)),
-            "MostAllocated": ((13.12, 12.37, 29.09), (13.33, 13.02, 30.01)),
+            "LeastAllocated": ((12.05, 13.23, 34.49), (13.51, 14.80, 36.01)),
+            "MostAllocated": ((13.12, 12.37, 29.09), (14.54, 13.33, 31.50)),
         }
         self.assertEqual(set(t7), set(expected))
         for name, values in expected.items():
             for field, triplet in zip(("predicted", "measured"), values):
                 self.assertEqual(tuple(t7[name][field][key] for key in ("mean", "median", "maximum")), triplet)
             self.assertEqual(t7[name]["reference"], "Greedy-C" if name in ("LeastAllocated", "MostAllocated") else "Exact")
-            if name in ("LeastAllocated", "MostAllocated"):
-                self.assertIsNone(t7[name]["measured_pairs_n"])
-            else:
-                self.assertEqual(t7[name]["measured_pairs_n"], 97 if name in ("Greedy-C", "Greedy") else 112)
+            full_cohort = name in ("Fixed-frequency", "Sequential", "Greedy+Beam")
+            self.assertEqual(t7[name]["measured_pairs_n"], 112 if full_cohort else 97)
 
     def test_archived_residency_targets_have_recalculable_errors(self):
         rows = read_json("evidence/validation/residency/archive_power_targets.json")["targets"]

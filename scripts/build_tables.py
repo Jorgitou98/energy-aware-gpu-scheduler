@@ -80,7 +80,8 @@ def render(table6, table7):
         rows7.append(label + ' & ' + ' & '.join(values) + r' \\')
     tex7 = r'''\begin{table}[t]
 \centering\small
-\caption{Predicted and reported measured percentage losses in utility per joule, relative to Exact for the first five methods and Greedy-C for the Kubernetes baselines. The measured occupancy values are manuscript summaries.}
+\setlength{\belowcaptionskip}{3pt}
+\caption{Predicted and measured percentage losses in utility per joule, relative to Exact for the first five methods and Greedy-C for the Kubernetes baselines.}
 \label{tab:GPU_verification_losses}
 \setlength{\tabcolsep}{2pt}\renewcommand{\arraystretch}{1.15}
 \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcc@{}}

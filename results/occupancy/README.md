@@ -16,6 +16,6 @@ Use `python experiments/occupancy/verify_seed0.py` to replay these outcomes
 using the [archived experiment inputs and code](../../experiments/occupancy/).
 
 Predicted losses relative to Greedy-C are 12.05% (LeastAllocated) and 13.12%
-(MostAllocated) on average. The reported measured columns for these two rows
-are preserved as publication summaries in `data/tables/published_tables.json`.
-The per-workload records support the predicted columns of Table 7.
+(MostAllocated) on average. The measured mean losses are 13.51% and 14.54%
+over 97 pairs per policy. The [Table 7 acquisition records](../../evidence/table7/)
+document the physical replay and the archived Greedy-C reference.

@@ -26,8 +26,8 @@
       "bytes": 931267
     },
     "data/tables/measured_efficiency_pairs.json": {
-      "sha256": "763897188f253ace7eadd95287e0d5424bf4ea1b69dc58e20d07a5cdac0d6e1b",
-      "bytes": 514010
+      "sha256": "56145497f13193647c1b00f6c012e890412a8c445269210be54f3d441531e9fe",
+      "bytes": 642190
     },
     "data/tables/power_holdout_original.csv": {
       "sha256": "e5ad50ca1231b0d3041fc71417c0d08a39f3dd04126052ff9b66f5cb1468915e",
@@ -38,8 +38,8 @@
       "bytes": 136978
     },
     "data/tables/published_tables.json": {
-      "sha256": "52745de5c01a264e7bf349df26fe15c1ae14d64c5d8eee39aecd1b994ba677fe",
-      "bytes": 4980
+      "sha256": "ecc8d1ac851ef1de2842d1a7e3f985c4db681c227891038abbc478eb8ab05511",
+      "bytes": 5081
     },
     "data/tables/response_group_statistics.json": {
       "sha256": "e68bd5bf601f292a787c111f25d85f73ee057c4ac47e3fb3309fd2fe3723465f",

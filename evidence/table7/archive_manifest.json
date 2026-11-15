@@ -1,0 +1,21 @@
+{
+  "schema": "table7-raw-acquisition-archive-v1",
+  "filename": "table7_trazas_registros.zip",
+  "release_url": "https://github.com/Jorgitou98/energy-aware-gpu-scheduler/releases/tag/table7-traces-20261115",
+  "sha256": "aecf4b3921066a22a210ee07b379186819d2b7edf173fcacd7bdf70fdff80d58",
+  "bytes": 1493227256,
+  "root": "table7_raw",
+  "members": 10842,
+  "origin_index_members": 10746,
+  "final_lanes": {
+    "results/lane0": 388,
+    "results/recovery_01/lane1": 388,
+    "results/lane2": 388
+  },
+  "failed_lane": "results/lane1",
+  "retained_failed_lane_certificates": 202,
+  "new_recovery_certificates": 186,
+  "logical_blocks": 1164,
+  "physical_blocks": 1134,
+  "aliases": 30
+}
