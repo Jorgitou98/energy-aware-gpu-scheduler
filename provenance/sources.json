@@ -52,7 +52,7 @@
         "evidence/table7/archive_manifest.json"
       ],
       "contents": "Predicted objective pairs and measured comparison records for Table 7",
-      "record_scope": "The measured rows use completed utility and energy through drain for two repetitions per workload. The two measured occupancy rows use the 15 November 2026 acquisition and the archived October 2026 Greedy-C reference. The release archive includes the failed lane and its recovery."
+      "record_scope": "The measured rows use completed utility and energy through drain for two repetitions per workload. The two measured occupancy rows use the 15 November 2026 acquisition and the archived October 2026 Greedy-C reference. The archive parts under evidence/table7/parts/ preserve the failed lane and its recovery."
     },
     {
       "paths": [

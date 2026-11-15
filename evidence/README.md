@@ -20,8 +20,8 @@ comparison. The Table 6 input records, including the author-supplied power
 CSV, are under `data/tables/`.
 
 The [Table 7 acquisition records](table7/) cover the physical occupancy
-measurements, with links to the raw ZIP and instructions for using the
-certified recovery exactly once.
+measurements and describe how to reconstruct the ZIP from the versioned
+parts and use the certified recovery exactly once.
 
 ## Response time
 

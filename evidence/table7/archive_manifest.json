@@ -1,7 +1,6 @@
 {
   "schema": "table7-raw-acquisition-archive-v1",
   "filename": "table7_trazas_registros.zip",
-  "release_url": "https://github.com/Jorgitou98/energy-aware-gpu-scheduler/releases/tag/table7-traces-20261115",
   "sha256": "aecf4b3921066a22a210ee07b379186819d2b7edf173fcacd7bdf70fdff80d58",
   "bytes": 1493227256,
   "root": "table7_raw",
@@ -17,5 +16,157 @@
   "new_recovery_certificates": 186,
   "logical_blocks": 1164,
   "physical_blocks": 1134,
-  "aliases": 30
+  "aliases": 30,
+  "parts": [
+    {
+      "name": "table7_trazas_registros.zip.part01",
+      "bytes": 50331648,
+      "sha256": "b9dd8b18a35a0156b8912a7de442a4a8c754a521d6c446b766590a752e807027"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part02",
+      "bytes": 50331648,
+      "sha256": "c3c592bdf28c5664d3a5f06f5ed64d6e238153b034f38227831a61b1845a51ee"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part03",
+      "bytes": 50331648,
+      "sha256": "3974fd4db08bfeb06398be5e8288cba09ce0ef07b2733135de718cb988417353"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part04",
+      "bytes": 50331648,
+      "sha256": "94a2bafa827d0fa1d0640d4b55abd33993de823f7f830f3c72305c02a7f27cd8"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part05",
+      "bytes": 50331648,
+      "sha256": "b3277bcd6679c9e3756fa7be436c9cb0e3d94f66d10715460bd923378438de69"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part06",
+      "bytes": 50331648,
+      "sha256": "0c52be3b124f0ddf0389a1753e1952771fc3c7bcae12d3610d16695fdc2ca98e"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part07",
+      "bytes": 50331648,
+      "sha256": "399290c147bb5d435744a63e2a04ddba8360146d3d2e7fb9faa67b8c27a36533"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part08",
+      "bytes": 50331648,
+      "sha256": "ee905b68218acc99324b42d2240ce011b5994aed40bff35009cedee5193189dc"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part09",
+      "bytes": 50331648,
+      "sha256": "b76918b2ac04fc56e63c41747af62c6553a4708ae02ede8d97ab77da9b785582"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part10",
+      "bytes": 50331648,
+      "sha256": "0504a1a38e5ca7595081906347d556d39a637b91a6087683b512d9473c72ee29"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part11",
+      "bytes": 50331648,
+      "sha256": "38611effd8983679d2c67876385f1c2be57837c2eb209f47ae2f2b67da730dc5"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part12",
+      "bytes": 50331648,
+      "sha256": "fd8c13993e81adc0d113be0eaf85efddb68e535dae7f4744257e9c1a4b2557be"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part13",
+      "bytes": 50331648,
+      "sha256": "ee85745f4f583d504486c9e93ee4436b9af3234d87720a433b6ffc7874cb947f"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part14",
+      "bytes": 50331648,
+      "sha256": "b06c90275b88cc6e940bb1560bb2440d05c2bedcf86803530045d42bd2c4bad0"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part15",
+      "bytes": 50331648,
+      "sha256": "93c35412a0b7ea5fd758a31ffd55414f2758de679e5c73ce5494a1c25f7ffe0a"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part16",
+      "bytes": 50331648,
+      "sha256": "156a1994619c21b0d8e09d2e763c9af19fd823192e4525d211682013f9532d6e"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part17",
+      "bytes": 50331648,
+      "sha256": "c5eb5aabbaae4b93cc865c053164d06296da94a20fecdb2ba2607140dd462c98"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part18",
+      "bytes": 50331648,
+      "sha256": "d4b28a386d5e527d09e7099825d0ffa5c359dcfda54db2ca47a3efaa78ded012"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part19",
+      "bytes": 50331648,
+      "sha256": "5e010753654848a0d6da46e3edee5b6190d43c904ad62a460a43372012d9c200"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part20",
+      "bytes": 50331648,
+      "sha256": "961971ac0ba94a447114ac4e7c3caf42541430236c764d04672e42095fda9d1b"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part21",
+      "bytes": 50331648,
+      "sha256": "cb71ad4457ad1b3a0fba859bc4d2fb9591356a6663e6edf04104df388972ab4c"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part22",
+      "bytes": 50331648,
+      "sha256": "d0dbc85ac4d253b98d369052f933182de195639e718c490d81d8aba4d20cf2f5"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part23",
+      "bytes": 50331648,
+      "sha256": "04c01d52eed6cb2d557a7a0edb0de7b3d09a01dc5700f4d022c4ce71ee29bb34"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part24",
+      "bytes": 50331648,
+      "sha256": "2608f239efafe8f76f75d4dbcb2f945604e83f5fd91c38ad0d85c90b2b93bcfd"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part25",
+      "bytes": 50331648,
+      "sha256": "c22f027f047fb14d94cb5ad70a41fb871b113776bb7177d4137c7da5c37f811a"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part26",
+      "bytes": 50331648,
+      "sha256": "59b2860af89126b615ee9ced7ea700fd2146b202df16742d819d65370f29bf7f"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part27",
+      "bytes": 50331648,
+      "sha256": "42e56683b83f558325c114bc39ea4b66fffed35bebc61c0d81e56a0e1fa4cc4a"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part28",
+      "bytes": 50331648,
+      "sha256": "a8de8c4c5641c8ee314596e657e97b427ee604aeb15289685aa3d1ce3ac70995"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part29",
+      "bytes": 50331648,
+      "sha256": "d788016dbcca037d2c5dd5b52be63f92e36d5597037a3feea9aab69ef6f2ae65"
+    },
+    {
+      "name": "table7_trazas_registros.zip.part30",
+      "bytes": 33609464,
+      "sha256": "ae2203a58d689b1d689d35eba680ebd1a5a969d2dace124d7ed50b0c343a8318"
+    }
+  ]
 }

@@ -56,6 +56,12 @@ platform, optional PDF comparison and troubleshooting.
 
 The outputs appear under `build/`: audit reports, `tables/table6.tex`,
 `tables/table7.tex`, and `figures/figure1.pdf` through `figure8.pdf`.
+
+For the Table 7 acquisition records, run `python scripts/restore_table7_raw.py`
+to restore the original ZIP from the parts tracked in Git. The
+[Table 7 guide](evidence/table7/) describes integrity checks, extraction and
+analysis of the three final lanes.
+
 Figures 1 and 3-8 are rendered from code. Figure 2 is exported from its supplied
 PDF to preserve its annotations. The audit recomputes both Figure 2 intervals.
 Use `python scripts/check_feasible_rate_example.py --resimulate` to rerun the

@@ -111,7 +111,7 @@ and the cohorts used to compute the table entries.
 | Table 4 | Inspect the 112 frozen cases in `results/planning/inputs.json`. They contain 14 distinct arrival-rate vectors in each load, SLO and power-cap condition. |
 | Table 5 | The [planning guide](planning.md) maps methods to the implementation. The public planner uses the same occupancy ranking and tie-breaking as the Figure 6 replay, which supplies the original admission grid and workload seeds. |
 | Table 6 | Recompute the four power rows from the 166 pairs in `data/tables/power_holdout_original.csv`. The response rows use archived Paired MIG and Full GPU errors and the 69 Figure 4 observations for Batched MIG. Run `python scripts/check_residency_power.py` to check the separate archived Residency comparison from NVML samples, calibration records and processing coefficients. |
-| Table 7 | Recompute all predicted and measured rows. The first five methods use Exact as the reference. LeastAllocated and MostAllocated each use 97 complete pairs relative to the archived Greedy-C measurements. See the [Table 7 archive and recovery instructions](../evidence/table7/). |
+| Table 7 | Recompute all predicted and measured rows. The first five methods use Exact as the reference. LeastAllocated and MostAllocated each use 97 complete pairs relative to the archived Greedy-C measurements. [Restore the raw ZIP from the Git parts](#table-7-raw-acquisition-archive) for analysis of the certified runs. |
 
 ## Figure 7 raw acquisition archive
 
@@ -138,6 +138,23 @@ differences to calculate elapsed times within a run. The default audit computes
 the published results from the compact summaries and checks the input hashes.
 Rerunning the GPU experiment is a separate procedure that also requires the
 models, images and execution environment.
+
+## Table 7 raw acquisition archive
+
+The 30 parts tracked under [`evidence/table7/parts/`](../evidence/table7/parts/)
+contain the original 1.49 GB ZIP. From the repository root:
+
+```sh
+python scripts/restore_table7_raw.py
+python scripts/verify_table7_raw.py build/table7/table7_trazas_registros.zip --full
+python reproduce.py tables
+```
+
+Use `--verify-only` to check the SHA-256 of each part and of the combined byte
+stream in place. The restore command performs those checks while reconstructing
+the ZIP. The full archive check verifies the ZIP members, certificates and
+the repetitions used by the table builder. See the
+[extraction, analysis and recovery commands](../evidence/table7/) for the raw traces.
 
 ## Additional checks
 

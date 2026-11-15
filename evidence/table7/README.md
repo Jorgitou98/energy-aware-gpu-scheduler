@@ -1,9 +1,10 @@
 # Table 7 GPU acquisition records
 
-Download `table7_trazas_registros.zip` and its `.sha256` file from the
-[Table 7 acquisition release](https://github.com/Jorgitou98/energy-aware-gpu-scheduler/releases/tag/table7-traces-20261115).
-The [archive manifest](archive_manifest.json) records the published size,
-digest and final certificate counts. The ZIP expands to approximately 8.6 GB.
+The repository stores `table7_trazas_registros.zip` in 30 binary parts of up
+to 48 MiB under [`parts/`](parts/). Together they occupy 1.49 GB. The
+[archive manifest](archive_manifest.json) records their order, sizes and
+SHA-256 digests, the digest of the original ZIP and the final certificate
+counts. The ZIP expands to approximately 8.6 GB.
 
 The ZIP preserves the original inputs, per-request arrival, start, completion
 and response times, NVML telemetry, runner and restoration logs, `COMPLETE`
@@ -15,13 +16,18 @@ certified October 2026 summary. The occupancy measurements were acquired on
 
 ## Verify and reproduce
 
-From the repository root, verify the downloaded file and regenerate the table
+From the repository root, reconstruct the archive and regenerate the table
 from the repository's compact inputs.
 
 ```sh
-python scripts/verify_table7_raw.py /path/to/table7_trazas_registros.zip --full
+python scripts/restore_table7_raw.py
+python scripts/verify_table7_raw.py build/table7/table7_trazas_registros.zip --full
 python reproduce.py tables
 ```
+
+The restore command verifies each part and the complete ZIP before publishing
+`build/table7/table7_trazas_registros.zip`. Use `--verify-only` to check the
+parts without writing the ZIP or `--output PATH` to choose its destination.
 
 The verifier checks the ZIP digest, both hash inventories, the final certificate
 counts, the certificate hashes carried into the recovery, and the 388
@@ -32,10 +38,12 @@ divided by energy through drain for each repetition, averages the two
 efficiencies per workload, and calculates `100 * (1 - method / reference)`.
 Each occupancy policy has 97 measured pairs among 112 attempted workloads.
 
-For the archived analysis, extract the verified ZIP and run the following
-command from the extracted `table7_raw` directory.
+To reproduce the archived analysis, extract the verified ZIP and run the
+analysis script from the extracted `table7_raw` directory.
 
 ```sh
+python -m zipfile -e build/table7/table7_trazas_registros.zip build/table7
+cd build/table7/table7_raw
 python -X utf8 analysis/reproduce.py
 ```
 

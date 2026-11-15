@@ -9,3 +9,4 @@
 *.pdf binary
 *.png binary
 evidence/admission/raw_r2/*.zip.part[0-9][0-9] binary
+evidence/table7/parts/*.zip.part[0-9][0-9] binary
